@@ -1,0 +1,2002 @@
+[
+  {
+    "domain": "Cloud Computing",
+    "topic": "Cloud Service Models",
+    "question_text": "Which cloud service model provides the highest level of control over the infrastructure?",
+    "option_a": "SaaS",
+    "option_b": "PaaS",
+    "option_c": "IaaS",
+    "option_d": "DaaS",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Cloud Service Models",
+    "question_text": "What does SaaS stand for in cloud computing?",
+    "option_a": "Storage as a Service",
+    "option_b": "Software as a Service",
+    "option_c": "Security as a Service",
+    "option_d": "Software as a System",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Cloud Service Models",
+    "question_text": "In which model does the cloud provider manage everything except for the application and data?",
+    "option_a": "IaaS",
+    "option_b": "PaaS",
+    "option_c": "SaaS",
+    "option_d": "FaaS",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Deployment Models",
+    "question_text": "Which deployment model is shared between several organizations with common concerns?",
+    "option_a": "Public Cloud",
+    "option_b": "Private Cloud",
+    "option_c": "Hybrid Cloud",
+    "option_d": "Community Cloud",
+    "correct_option": "D"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Deployment Models",
+    "question_text": "A company uses its own on-premises servers for core data and a public cloud for development. What is this called?",
+    "option_a": "Private Cloud",
+    "option_b": "Public Cloud",
+    "option_c": "Hybrid Cloud",
+    "option_d": "Multi Cloud",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Virtualization",
+    "question_text": "What software piece creates and runs virtual machines on a host machine?",
+    "option_a": "Hypervisor",
+    "option_b": "Container Engine",
+    "option_c": "Operating System",
+    "option_d": "Kernel",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Virtualization",
+    "question_text": "Which type of hypervisor runs directly on the host's hardware?",
+    "option_a": "Type 1",
+    "option_b": "Type 2",
+    "option_c": "Type 3",
+    "option_d": "Embedded",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Storage",
+    "question_text": "Which type of storage is best suited for storing petabytes of unstructured data like photos and videos?",
+    "option_a": "Block Storage",
+    "option_b": "File Storage",
+    "option_c": "Object Storage",
+    "option_d": "RAM",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Storage",
+    "question_text": "Which cloud storage type is typically accessed via RESTful APIs?",
+    "option_a": "Block Storage",
+    "option_b": "Object Storage",
+    "option_c": "Local SSD",
+    "option_d": "Tape Storage",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Benefits",
+    "question_text": "What term describes the ability of a system to increase its capacity by adding more instances of the same component?",
+    "option_a": "Vertical Scaling",
+    "option_b": "Horizontal Scaling",
+    "option_c": "Elasticity",
+    "option_d": "High Availability",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Benefits",
+    "question_text": "What is the ability of the cloud to automatically match resource supply to demand?",
+    "option_a": "Scalability",
+    "option_b": "Elasticity",
+    "option_c": "Agility",
+    "option_d": "Fault Tolerance",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "AWS",
+    "question_text": "Which AWS service is used for scalable computing capacity (virtual servers)?",
+    "option_a": "S3",
+    "option_b": "EC2",
+    "option_c": "Lambda",
+    "option_d": "RDS",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "AWS",
+    "question_text": "What is the name of AWS's object storage service?",
+    "option_a": "EBS",
+    "option_b": "S3",
+    "option_c": "Glacier",
+    "option_d": "VPC",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "AWS",
+    "question_text": "Which AWS service provides serverless compute?",
+    "option_a": "LightSail",
+    "option_b": "Batch",
+    "option_c": "Lambda",
+    "option_d": "Redshift",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Azure",
+    "question_text": "What is the Microsoft Azure primary service for object storage?",
+    "option_a": "Azure Files",
+    "option_b": "Blob Storage",
+    "option_c": "Table Storage",
+    "option_d": "Queue Storage",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Azure",
+    "question_text": "Which Azure service is used for deploying containerized applications?",
+    "option_a": "AKS (Azure Kubernetes Service)",
+    "option_b": "VM Scale Sets",
+    "option_c": "App Service",
+    "option_d": "Cosmos DB",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Azure",
+    "question_text": "Azure Active Directory (now Entra ID) is used for what purpose?",
+    "option_a": "Storage",
+    "option_b": "Network security",
+    "option_c": "Identity and access management",
+    "option_d": "Database hosting",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "GCP",
+    "question_text": "What is the name of Google's serverless compute platform?",
+    "option_a": "App Engine",
+    "option_b": "Compute Engine",
+    "option_c": "Google Cloud Storage",
+    "option_d": "Bigtable",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "GCP",
+    "question_text": "Google Cloud Platform's service for managed relational databases is called?",
+    "option_a": "Cloud SQL",
+    "option_b": "Firestore",
+    "option_c": "Spanner",
+    "option_d": "BigQuery",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Networking",
+    "question_text": "Which service distributes incoming network traffic across multiple servers?",
+    "option_a": "DNS",
+    "option_b": "Load Balancer",
+    "option_c": "VPN",
+    "option_d": "CDN",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Networking",
+    "question_text": "What does CDN stand for?",
+    "option_a": "Cloud Data Network",
+    "option_b": "Content Delivery Network",
+    "option_c": "Centralized Device Network",
+    "option_d": "Core Domain Node",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Networking",
+    "question_text": "A private network connection between on-premises and cloud is called?",
+    "option_a": "Internet Gateway",
+    "option_b": "NAT Gateway",
+    "option_c": "Direct Connect / ExpressRoute / Cloud Interconnect",
+    "option_d": "VPC Peering",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Security",
+    "question_text": "What is the 'Shared Responsibility Model'?",
+    "option_a": "Cloud provider is responsible for everything",
+    "option_b": "Customer is responsible for everything",
+    "option_c": "Responsibility is split between provider and customer",
+    "option_d": "Provider pays for all security breaches",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Security",
+    "question_text": "What does IAM stand for?",
+    "option_a": "Identity and Access Management",
+    "option_b": "Internal Account Manager",
+    "option_c": "Infrastructure and Asset Model",
+    "option_d": "Integrated Audit Method",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Security",
+    "question_text": "Which attack type aims to overwhelm a cloud service with traffic?",
+    "option_a": "Phishing",
+    "option_b": "DDoS",
+    "option_c": "SQL Injection",
+    "option_d": "Backdoor",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Cloud Native",
+    "question_text": "Which technology allows packaging an application with all its dependencies?",
+    "option_a": "VMs",
+    "option_b": "Containers",
+    "option_c": "Snapshots",
+    "option_d": "ISO files",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Cloud Native",
+    "question_text": "What is the most popular open-source tool for container orchestration?",
+    "option_a": "Docker Compose",
+    "option_b": "Kubernetes",
+    "option_c": "Jenkins",
+    "option_d": "Terraform",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Concepts",
+    "question_text": "What is 'Serverless' computing?",
+    "option_a": "Computing without any servers",
+    "option_b": "Developer doesn't manage or provision servers",
+    "option_c": "Using physical servers exclusively",
+    "option_d": "Running code without hardware",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Concepts",
+    "question_text": "The time it takes for a request to travel from sender to receiver is called?",
+    "option_a": "Bandwidth",
+    "option_b": "Latency",
+    "option_c": "Throughput",
+    "option_d": "Jitter",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Disaster Recovery",
+    "question_text": "What does RPO stand for in disaster recovery?",
+    "option_a": "Recovery Process Objective",
+    "option_b": "Recovery Point Objective",
+    "option_c": "Return Phase Operation",
+    "option_d": "Random Point Operation",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Disaster Recovery",
+    "question_text": "What is RTO?",
+    "option_a": "Recovery Time Objective",
+    "option_b": "Return to Original",
+    "option_c": "Real Time Operation",
+    "option_d": "Remote Time Out",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Disaster Recovery",
+    "question_text": "Having a backup site that is already running and ready for immediate takeover is called?",
+    "option_a": "Cold Site",
+    "option_b": "Warm Site",
+    "option_c": "Hot Site",
+    "option_d": "Mirror Site",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Economics",
+    "question_text": "Cloud computing shifts IT costs from CapEx to what?",
+    "option_a": "Direct costs",
+    "option_b": "OpEx (Operating Expenses)",
+    "option_c": "Internal costs",
+    "option_d": "Asset costs",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Economics",
+    "question_text": "What is the pricing model usually used in cloud computing?",
+    "option_a": "Fixed pricing",
+    "option_b": "Pay-as-you-go / Consumption-based",
+    "option_c": "Annual subscription only",
+    "option_d": "Free",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Economics",
+    "question_text": "What is a 'Reserved Instance'?",
+    "option_a": "An free instance",
+    "option_b": "A discount applied when you commit to using a specific amount of resources for a term",
+    "option_c": "An instance that can't be deleted",
+    "option_d": "None",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Virtualization",
+    "question_text": "What is the main advantage of containers over VMs?",
+    "option_a": "Better security",
+    "option_b": "Lightweight and faster startup",
+    "option_c": "Supports any OS",
+    "option_d": "Requires no hardware",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Networking",
+    "question_text": "What is 'VPC' peering?",
+    "option_a": "Connecting two different clouds",
+    "option_b": "Connecting two virtual private clouds within the same provider network",
+    "option_c": "Sharing internet between VMs",
+    "option_d": "None",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Storage",
+    "question_text": "Which type of storage is usually attached to a single VM and acts like a local hard drive?",
+    "option_a": "Object Storage",
+    "option_b": "Block Storage",
+    "option_c": "Tape Storage",
+    "option_d": "CDN",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Security",
+    "question_text": "What is 'Encryption at Rest'?",
+    "option_a": "Encrypting data while it's moving across the network",
+    "option_b": "Encrypting data while it's stored on disk",
+    "option_c": "Encrypting data while it's in memory",
+    "option_d": "None",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Security",
+    "question_text": "What is 'Encryption in Transit'?",
+    "option_a": "Encrypting data while it's moving between systems",
+    "option_b": "Encrypting data on a USB drive",
+    "option_c": "Encrypting data in a database",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "AWS",
+    "question_text": "Which AWS database is a NoSQL service?",
+    "option_a": "RDS",
+    "option_b": "DynamoDB",
+    "option_c": "Aurora",
+    "option_d": "Redshift",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Azure",
+    "question_text": "What is Azure SQL Database?",
+    "option_a": "A managed relational database service",
+    "option_b": "A hosting platform for websites",
+    "option_c": "A data warehouse",
+    "option_d": "A NoSQL database",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "GCP",
+    "question_text": "Google's BigQuery is primarily used for?",
+    "option_a": "Real-time transactions",
+    "option_b": "Data warehousing and big data analytics",
+    "option_c": "Storing user profiles",
+    "option_d": "Hosting websites",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Cloud Service Models",
+    "question_text": "Which of these is a SaaS example?",
+    "option_a": "Gmail / Google Workspace",
+    "option_b": "AWS EC2",
+    "option_c": "Azure Functions",
+    "option_d": "Docker",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Cloud Service Models",
+    "question_text": "Heroku and AWS Elastic Beanstalk are examples of?",
+    "option_a": "IaaS",
+    "option_b": "PaaS",
+    "option_c": "SaaS",
+    "option_d": "Metal-as-a-service",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Deployment Models",
+    "question_text": "Cloud managed by a single organization specifically for its needs is?",
+    "option_a": "Public Cloud",
+    "option_b": "Private Cloud",
+    "option_c": "Hybrid Cloud",
+    "option_d": "VPC",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Virtualization",
+    "question_text": "What is 'Cold Migration' in virtualization?",
+    "option_a": "Moving a VM while it's powered off",
+    "option_b": "Moving a VM while it's running",
+    "option_c": "Deleting a VM",
+    "option_d": "Creating a VM",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Virtualization",
+    "question_text": "What is 'Live Migration'?",
+    "option_a": "Moving a running VM without downtime",
+    "option_b": "Installing a 새로운 OS",
+    "option_c": "Backing up a VM",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Disaster Recovery",
+    "question_text": "What is 'Multi-Region' deployment used for?",
+    "option_a": "Saving costs",
+    "option_b": "High availability and disaster recovery across geographical areas",
+    "option_c": "Playing games",
+    "option_d": "Faster development",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Benefits",
+    "question_text": "What is 'Agility' in a cloud context?",
+    "option_a": "The speed at which you can provision resources",
+    "option_b": "The total cost",
+    "option_c": "Network speed",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "AWS",
+    "question_text": "What does AWS IAM 'Principal' refer to?",
+    "option_a": "An entity that is allowed or denied access to a resource",
+    "option_b": "The main server",
+    "option_c": "The billing account",
+    "option_d": "The database admin",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "AWS",
+    "question_text": "Which AWS S3 storage class is best for data accessed once or twice a year?",
+    "option_a": "Standard",
+    "option_b": "Intelligent-Tiering",
+    "option_c": "Glacier Deep Archive",
+    "option_d": "Standard-IA",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "AWS",
+    "question_text": "AWS Route 53 is a managed service for what?",
+    "option_a": "DNS (Domain Name System)",
+    "option_b": "Deep Learning",
+    "option_c": "Storage",
+    "option_d": "Monitoring",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Azure",
+    "question_text": "What is an Azure 'Resource Group'?",
+    "option_a": "A container that holds related resources for an Azure solution",
+    "option_b": "A backup of all servers",
+    "option_c": "A billing limit",
+    "option_d": "A physical data center",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Azure",
+    "question_text": "Azure 'Virtual Machine Scale Sets' (VMSS) are used for?",
+    "option_a": "Automatically scaling the number of identical VM instances",
+    "option_b": "Changing the size of a single VM",
+    "option_c": "Deleting VMs",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "GCP",
+    "question_text": "Google Cloud's service for managed NoSQL databases with global scale is?",
+    "option_a": "Bigtable",
+    "option_b": "Cloud Spanner",
+    "option_c": "Cloud SQL",
+    "option_d": "BigQuery",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Networking",
+    "question_text": "What is 'Anycast' in the context of CDNs?",
+    "option_a": "Routing traffic to the nearest node based on network topology",
+    "option_b": "Broadcasting to everyone",
+    "option_c": "Routing to a random node",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Storage",
+    "question_text": "What is 'EFS' in AWS?",
+    "option_a": "Elastic File System",
+    "option_b": "Enhanced Fast Storage",
+    "option_c": "External File Server",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Security",
+    "question_text": "What is a 'Web Application Firewall' (WAF)?",
+    "option_a": "Protets web apps by filtering and monitoring HTTP traffic",
+    "option_b": "Speeds up websites",
+    "option_c": "Hosts web apps",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Security",
+    "question_text": "What does 'Least Privilege' principle mean?",
+    "option_a": "Granting only the minimum permissions required to perform a task",
+    "option_b": "Granting everyone admin access",
+    "option_c": "Giving users zero access",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Infrastructure as Code",
+    "question_text": "Which tool is commonly used to provision infrastructure using declarative configuration files?",
+    "option_a": "Terraform",
+    "option_b": "Notepad",
+    "option_c": "Chrome",
+    "option_d": "Docker",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Infrastructure as Code",
+    "question_text": "What is AWS's native Infrastructure as Code service?",
+    "option_a": "CloudFormation",
+    "option_b": "Boto3",
+    "option_c": "CDK",
+    "option_d": "CloudTrail",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Infrastructure as Code",
+    "question_text": "Azure's native declarative language for IaC is?",
+    "option_a": "Bicep / ARM Templates",
+    "option_b": "PowerShell",
+    "option_c": "Azure CLI",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Cloud Native",
+    "question_text": "In Kubernetes, what is a 'Pod'?",
+    "option_a": "The smallest deployable unit",
+    "option_b": "A physical server",
+    "option_c": "A database",
+    "option_d": "A user",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Cloud Native",
+    "question_text": "What is 'Helm' in the Kubernetes ecosystem?",
+    "option_a": "A package manager",
+    "option_b": "A server",
+    "option_c": "A network driver",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Concepts",
+    "question_text": "What does it mean if a service is 'Highly Available'?",
+    "option_a": "It remains accessible despite component failures",
+    "option_b": "It is always free",
+    "option_c": "It is very fast",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Concepts",
+    "question_text": "What is 'Multi-Tenancy'?",
+    "option_a": "Multiple customers sharing the same physical resources and software instances",
+    "option_b": "One customer having many servers",
+    "option_c": "Renting an office in the cloud",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Cost Management",
+    "question_text": "What is 'Over-provisioning'?",
+    "option_a": "Allocating more resources than are actually needed",
+    "option_b": "Not having enough resources",
+    "option_c": "Buying servers in bulk",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Cost Management",
+    "question_text": "What is a 'Spot Instance' in AWS?",
+    "option_a": "Spare compute capacity available at high discounts with no guarantees of availability",
+    "option_b": "A high-performance instance",
+    "option_c": "An instance with a fixed IP",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Monitoring",
+    "question_text": "Which AWS service is used for monitoring logs, metrics, and events?",
+    "option_a": "CloudWatch",
+    "option_b": "Inspector",
+    "option_c": "GuardDuty",
+    "option_d": "X-Ray",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Monitoring",
+    "question_text": "What does Azure Monitor track?",
+    "option_a": "Performance and availability of applications and services",
+    "option_b": "User emails",
+    "option_c": "Credit card transactions",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Networking",
+    "question_text": "What is 'VPC Flow Logs' used for?",
+    "option_a": "Capturing info about IP traffic going to/from network interfaces in a VPC",
+    "option_b": "Speeding up the network",
+    "option_c": "Connecting to the internet",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Networking",
+    "question_text": "A 'Security Group' in AWS acts as what?",
+    "option_a": "A virtual firewall for an EC2 instance",
+    "option_b": "A routing table",
+    "option_c": "A gateway",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Storage",
+    "question_text": "What is 'IOPS'?",
+    "option_a": "Input/Output Operations Per Second",
+    "option_b": "Internet Output Protocol System",
+    "option_c": "Internal Office Process Setup",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Storage",
+    "question_text": "Which AWS S3 class is designed for frequently accessed data?",
+    "option_a": "S3 Standard",
+    "option_b": "S3 Glacier",
+    "option_c": "S3 One Zone-IA",
+    "option_d": "S3 Outposts",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Compliance",
+    "question_text": "Which standard relates to the security of credit card transactions?",
+    "option_a": "PCI DSS",
+    "option_b": "HIPAA",
+    "option_c": "GDPR",
+    "option_d": "ISO 27001",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Compliance",
+    "question_text": "What is GDPR?",
+    "option_a": "General Data Protection Regulation (EU privacy law)",
+    "option_b": "Global Discovery and Recovery",
+    "option_c": "Government Data Protection Role",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Strategy",
+    "question_text": "What is 'Lift and Shift' migration?",
+    "option_a": "Moving an application to the cloud without making any design changes",
+    "option_b": "Rewriting an app from scratch",
+    "option_c": "Using a different database",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Strategy",
+    "question_text": "What is 'Refactoring' in cloud migration?",
+    "option_a": "Changing the application code to better take advantage of cloud-native features",
+    "option_b": "Moving the same VMs",
+    "option_c": "Deleting the app",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Networking",
+    "question_text": "What is an 'Edge Location'?",
+    "option_a": "A location where content is cached to reduce latency for users",
+    "option_b": "The main data center",
+    "option_c": "The customer's office",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Azure",
+    "question_text": "What is Azure 'Availability Zones'?",
+    "option_a": "Physically separate data centers within an Azure region",
+    "option_b": "Different parts of the world",
+    "option_c": "Software features",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "AWS",
+    "question_text": "What is a 'Region' in AWS?",
+    "option_a": "A physical location in the world where AWS clusters data centers",
+    "option_b": "A logical group of users",
+    "option_c": "A software version",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Virtualization",
+    "question_text": "What is 'Bare Metal' cloud?",
+    "option_a": "Renting a physical server dedicated to a single customer with no hypervisor layer pre-installed",
+    "option_b": "Renting a shared VM",
+    "option_c": "Cloud on a laptop",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "AWS",
+    "question_text": "Which AWS service is used for data warehousing?",
+    "option_a": "Redshift",
+    "option_b": "S3",
+    "option_c": "Aurora",
+    "option_d": "ElastiCache",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Storage",
+    "question_text": "In AWS S3, what is a 'Bucket'?",
+    "option_a": "A container for objects",
+    "option_b": "A type of server",
+    "option_c": "A billing tag",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "GCP",
+    "question_text": "What is 'Google Cloud Identity'?",
+    "option_a": "An Identity-as-a-Service (IDaaS) for managing users and devices",
+    "option_b": "A Gmail account",
+    "option_c": "A database",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Azure",
+    "question_text": "Which Azure service is a globally distributed NoSQL database?",
+    "option_a": "Cosmos DB",
+    "option_b": "SQL Server",
+    "option_c": "Storage Accounts",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Networking",
+    "question_text": "What does 'DHCP' do in a cloud network?",
+    "option_a": "Dynamically assigns IP addresses to devices",
+    "option_b": "Routes traffic",
+    "option_c": "Filters packets",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Reliability",
+    "question_text": "What is 'Failover'?",
+    "option_a": "Automatically switching to a redundant or standby system upon failure",
+    "option_b": "The system crashing",
+    "option_c": "A manual restart",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Serverless",
+    "question_text": "What is an 'Event-driven' architecture?",
+    "option_a": "Systems that respond to events (like a file upload or HTTP request)",
+    "option_b": "A system that runs on a timer",
+    "option_c": "A legacy system",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Governance",
+    "question_text": "What is a 'Cloud Policy'?",
+    "option_a": "Rules that govern how cloud resources are provisioned and used",
+    "option_b": "The user manual",
+    "option_c": "A legal contract",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Security",
+    "question_text": "What is 'Multi-Factor Authentication' (MFA)?",
+    "option_a": "Requiring more than one method to verify user identity",
+    "option_b": "Having many passwords",
+    "option_c": "Sharing accounts",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Architecture",
+    "question_text": "In cloud architecture, what is 'Loose Coupling'?",
+    "option_a": "Components have little or no knowledge of the definitions of other components",
+    "option_b": "Components are all on the same server",
+    "option_c": "Components are highly dependent on each other",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Networking",
+    "question_text": "What is a 'Subnet'?",
+    "option_a": "A logical subdivision of an IP network",
+    "option_b": "A small server",
+    "option_c": "A type of storage",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "DevOps",
+    "question_text": "What is CI/CD?",
+    "option_a": "Continuous Integration and Continuous Deployment",
+    "option_b": "Cloud Input / Cloud Data",
+    "option_c": "Core Interface / Core Design",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Big Data",
+    "question_text": "Which AWS service is used for processing big data using Hadoop and Spark?",
+    "option_a": "EMR (Elastic MapReduce)",
+    "option_b": "EC2",
+    "option_c": "Glue",
+    "option_d": "Athena",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Big Data",
+    "question_text": "What is AWS 'Glue' used for?",
+    "option_a": "Managed ETL (Extract, Transform, Load) service",
+    "option_b": "Connecting physical servers",
+    "option_c": "Storage",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "GCP",
+    "question_text": "Google Cloud's service for interactive data analysis is called?",
+    "option_a": "BigQuery",
+    "option_b": "Cloud Vision",
+    "option_c": "Datalab",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Virtualization",
+    "question_text": "What is 'VPC Flow Logs'?",
+    "option_a": "A feature to capture information about the IP traffic",
+    "option_b": "A way to speed up the internet",
+    "option_c": "A backup tool",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Networking",
+    "question_text": "What does an 'Elastic IP' address provide in AWS?",
+    "option_a": "A static, public IPv4 address that can be remapped between instances",
+    "option_b": "A free IP address",
+    "option_c": "A temporary IP",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "AWS",
+    "question_text": "Which AWS service helps protect your applications from common web exploits (WAF)?",
+    "option_a": "AWS Shield",
+    "option_b": "AWS WAF",
+    "option_c": "Amazon Inspector",
+    "option_d": "AWS Artifact",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "AWS",
+    "question_text": "What does 'S3 Select' allow you to do?",
+    "option_a": "Retrieve a subset of data from an object using SQL",
+    "option_b": "Select which bucket to use",
+    "option_c": "Choose the best storage class automatically",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Azure",
+    "question_text": "What is 'Azure DevOps'?",
+    "option_a": "A set of tools for collaboration, planning, and CI/CD",
+    "option_b": "A server for hosting Git only",
+    "option_c": "A cloud monitoring tool",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Azure",
+    "question_text": "What is an 'App Service Plan' in Azure?",
+    "option_a": "A set of compute resources for a web app to run",
+    "option_b": "A billing agreement",
+    "option_c": "A project schedule",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "GCP",
+    "question_text": "What is Google 'Cloud Run'?",
+    "option_a": "A managed platform to run containerized apps in a serverless way",
+    "option_b": "A tool to track running costs",
+    "option_c": "A network testing tool",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "GCP",
+    "question_text": "Google Cloud's service for migrating large amounts of data physically is?",
+    "option_a": "Transfer Appliance",
+    "option_b": "Storage Gateway",
+    "option_c": "Cloud Migration",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Networking",
+    "question_text": "What is 'Latentcy-based routing' in a DNS service?",
+    "option_a": "Directing traffic to the region that provides the lowest latency for the user",
+    "option_b": "Delaying traffic on purpose",
+    "option_c": "Blocking slow users",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Networking",
+    "question_text": "What is a 'Bastion Host' used for?",
+    "option_a": "A secure server used to access other servers in a private network",
+    "option_b": "A main database server",
+    "option_c": "A backup server",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Storage",
+    "question_text": "What is 'Life-cycle Policy' in cloud storage?",
+    "option_a": "Rules to automatically move or delete objects after a specified time",
+    "option_b": "A legal contract",
+    "option_c": "A way to monitor storage",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Security",
+    "question_text": "What does a 'Penetration Test' involve in a cloud environment?",
+    "option_a": "Authorized simulated cyberattack to check for vulnerabilities",
+    "option_b": "Deleting unused accounts",
+    "option_c": "Increasing firewall rules",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Security",
+    "question_text": "What is 'Single Sign-On' (SSO)?",
+    "option_a": "Ability to login once and access multiple related systems with the same credentials",
+    "option_b": "Having only one password for everything in the world",
+    "option_c": "One user account per server",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Cloud Native",
+    "question_text": "What is a 'Microservices' architecture?",
+    "option_a": "Developing an app as a collection of small, independent services",
+    "option_b": "Building a single large app",
+    "option_c": "Using only one database",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Cloud Native",
+    "question_text": "What is 'Sidecar container' pattern?",
+    "option_a": "Attaching a helper container to a primary application container within a pod",
+    "option_b": "Running a container on a literal sidecar",
+    "option_c": "Deleting containers",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Concepts",
+    "question_text": "What is 'Vendor Lock-in'?",
+    "option_a": "Being dependent on a single cloud provider's proprietary services",
+    "option_b": "Locking the physical server room",
+    "option_c": "Encryption of data",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Concepts",
+    "question_text": "What is 'Multi-Cloud' strategy?",
+    "option_a": "Using services from multiple cloud providers (e.g., AWS and Azure)",
+    "option_b": "Using many servers in one cloud",
+    "option_c": "Cloud with many users",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Economics",
+    "question_text": "What is 'Total Cost of Ownership' (TCO)?",
+    "option_a": "Estimation of all direct and indirect costs associated with a solution over its lifetime",
+    "option_b": "The monthly bill",
+    "option_c": "The cost of hardware only",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Governance",
+    "question_text": "What do 'Tags' help with in the cloud?",
+    "option_a": "Organizing, managing, and tracking costs of resources",
+    "option_b": "Speeding up servers",
+    "option_c": "Encrypting data",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Security",
+    "question_text": "What is the function of a 'Key Management Service' (KMS)?",
+    "option_a": "Managing cryptographic keys used to encrypt data",
+    "option_b": "Managing office keys",
+    "option_c": "Managing user passwords",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Security",
+    "question_text": "What is 'Cloud Security Posture Management' (CSPM)?",
+    "option_a": "Monitoring for misconfigurations and compliance issues across cloud environments",
+    "option_b": "Physically guarding servers",
+    "option_c": "Updating antivirus software",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Networking",
+    "question_text": "What does 'Egress' traffic refer to?",
+    "option_a": "Data leaving the cloud network",
+    "option_b": "Data entering the cloud network",
+    "option_c": "Internal traffic",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Networking",
+    "question_text": "What is 'Ingress' traffic?",
+    "option_a": "Data entering the cloud network",
+    "option_b": "Data leaving the cloud network",
+    "option_c": "Data moving between regions",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Strategy",
+    "question_text": "Which migration strategy involves retirement of certain legacy apps?",
+    "option_a": "Retire",
+    "option_b": "Rehost",
+    "option_c": "Replatform",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Edge Computing",
+    "question_text": "What is the primary goal of Edge Computing?",
+    "option_a": "Processing data closer to the source to reduce latency and bandwidth use",
+    "option_b": "Processing all data in a central data center",
+    "option_c": "Deleting data",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Reliability",
+    "question_text": "What is an 'SLA' (Service Level Agreement)?",
+    "option_a": "Contractual commitment from provider about service uptime and performance",
+    "option_b": "A list of features",
+    "option_c": "A marketing document",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Storage",
+    "question_text": "What is 'Data Durability'?",
+    "option_a": "Ability of the service to protect against data loss over time",
+    "option_b": "How fast you can access data",
+    "option_c": "The size of the data",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Compliance",
+    "question_text": "What is HIPAA specifically concerned with?",
+    "option_a": "Protection of healthcare information",
+    "option_b": "Financial data",
+    "option_c": "User passwords",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Virtualization",
+    "question_text": "What is a 'Snapshot' in the context of VMs/Storage?",
+    "option_a": "A point-in-time copy of a virtual disk or server",
+    "option_b": "A photo of the server",
+    "option_c": "A short summary",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Networking",
+    "question_text": "What does 'Direct Connect' (AWS) / 'ExpressRoute' (Azure) provide?",
+    "option_a": "Dedicated private network connection from on-premises to cloud",
+    "option_b": "Free wifi",
+    "option_c": "A faster browser",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "AWS",
+    "question_text": "Which AWS service is used for orchestration of microservices using containers?",
+    "option_a": "ECS (Elastic Container Service)",
+    "option_b": "EC2",
+    "option_c": "CloudFormation",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Azure",
+    "question_text": "What is Azure 'Blob' primary used for?",
+    "option_a": "Unstructured data like text or binary data",
+    "option_b": "Relational databases",
+    "option_c": "Structured logs",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "GCP",
+    "question_text": "Which GCP service is a globally scalable relational database?",
+    "option_a": "Cloud Spanner",
+    "option_b": "Cloud SQL",
+    "option_c": "BigQuery",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Storage",
+    "question_text": "What is 'Tiered Storage'?",
+    "option_a": "Moving data between different storage types based on access patterns to optimize cost",
+    "option_b": "Storing data on multiple floors",
+    "option_c": "Encrypting data layers",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "History",
+    "question_text": "Which company is often credited with launching the first major modern Public Cloud (AWS EC2) in 2006?",
+    "option_a": "Amazon",
+    "option_b": "Microsoft",
+    "option_c": "Google",
+    "option_d": "IBM",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Cloud Native",
+    "question_text": "What is 'Infrastructure as Code' (IaC)?",
+    "option_a": "Managing and provisioning infrastructure through machine-readable definition files",
+    "option_b": "Writing code on a server",
+    "option_c": "Building physical servers",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Architecture",
+    "question_text": "What is a 'Stateless' application?",
+    "option_a": "An application that does not store any client data on the server between requests",
+    "option_b": "An application with no country",
+    "option_c": "An application that is always off",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Networking",
+    "question_text": "What is a 'Private IP' address?",
+    "option_a": "An address used for communication within a private network",
+    "option_b": "A secret address",
+    "option_c": "The address of the company's CEO",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "AWS",
+    "question_text": "Which AWS service is used to distribute content globally with low latency?",
+    "option_a": "CloudFront",
+    "option_b": "S3",
+    "option_c": "Direct Connect",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Azure",
+    "question_text": "What is 'Azure Functions'?",
+    "option_a": "A serverless compute service that runs code in response to events",
+    "option_b": "A list of math formulas",
+    "option_c": "A billing tool",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "GCP",
+    "question_text": "Which GCP service provides managed Hadoop and Spark clusters?",
+    "option_a": "Cloud Dataproc",
+    "option_b": "BigQuery",
+    "option_c": "Compute Engine",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "DevOps",
+    "question_text": "What does 'Immutable Infrastructure' mean?",
+    "option_a": "Instead of patching servers, you replace them with new versions",
+    "option_b": "Servers that never break",
+    "option_c": "Physical servers only",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Strategy",
+    "question_text": "What is 'Cloud First' strategy?",
+    "option_a": "Prioritizing cloud-based solutions for all new IT projects",
+    "option_b": "Buying the cheapest cloud first",
+    "option_c": "Moving to the cloud immediately",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Security",
+    "question_text": "What is 'Identity Federation'?",
+    "option_a": "Linking a person's electronic identity and attributes across multiple identity management systems",
+    "option_b": "Having one identity for the whole country",
+    "option_c": "Deleting user accounts",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Security",
+    "question_text": "What is 'Cold Standby'?",
+    "option_a": "Redundant system that is not running and requires manual intervention to start",
+    "option_b": "A server in a fridge",
+    "option_c": "A running backup",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Reliability",
+    "question_text": "What is a 'Region' failure in cloud terms?",
+    "option_a": "When all data centers in a specific geographical area go offline",
+    "option_b": "When a single server fails",
+    "option_c": "When a network cable is unplugged",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Storage",
+    "question_text": "What is 'Block Level Storage' commonly used for?",
+    "option_a": "Database storage and boot volumes",
+    "option_b": "Storing large photos",
+    "option_c": "Shared file storage",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Cloud Service Models",
+    "question_text": "Which provider is responsible for patching the OS in an IaaS model?",
+    "option_a": "The Customer",
+    "option_b": "The Cloud Provider",
+    "option_c": "The OS Vendor",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Cloud Service Models",
+    "question_text": "Which provider is responsible for patching the OS in a SaaS model?",
+    "option_a": "The Cloud Provider",
+    "option_b": "The Customer",
+    "option_c": "The User",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Virtualization",
+    "question_text": "What is 'VPC Flow Logs'?",
+    "option_a": "A feature to capture information about the IP traffic",
+    "option_b": "A way to speed up the internet",
+    "option_c": "A backup tool",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Networking",
+    "question_text": "What is a 'VPN Gateway'?",
+    "option_a": "The anchor on the cloud side of a VPN connection",
+    "option_b": "A browser feature",
+    "option_c": "A physical router",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Storage",
+    "question_text": "What is 'File Storage' (NFS/SMB)?",
+    "option_a": "Storage accessed as a hierarchical folder structure over a network",
+    "option_b": "Storage on a USB",
+    "option_c": "Object storage",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Storage",
+    "question_text": "What is 'Object Versioning' in cloud storage?",
+    "option_a": "Keeping multiple variants of an object in the same bucket",
+    "option_b": "Renaming objects",
+    "option_c": "Deleting old objects",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Security",
+    "question_text": "What is a 'Cloud Access Security Broker' (CASB)?",
+    "option_a": "On-premises or cloud-based software that sits between cloud service consumers and providers",
+    "option_b": "A firewall for a home office",
+    "option_c": "A physical guard at a data center",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Security",
+    "question_text": "What does 'Secrets Management' involve?",
+    "option_a": "Managing sensitive info like API keys, passwords, and certificates",
+    "option_b": "Keeping the cloud location secret",
+    "option_c": "Hiding user data from administrators",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "DevOps",
+    "question_text": "What is 'Canary Deployment'?",
+    "option_a": "Releasing a new version to a small subset of users before rolling it out to everyone",
+    "option_b": "Moving servers to a mine",
+    "option_c": "Testing for hardware failures",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "DevOps",
+    "question_text": "What is 'Blue-Green Deployment'?",
+    "option_a": "Running two identical production environments and switching traffic between them",
+    "option_b": "Changing the color of the UI",
+    "option_c": "A type of database replication",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Cloud Native",
+    "question_text": "What is 'Serverless Framework'?",
+    "option_a": "A tool for developing and deploying serverless applications",
+    "option_b": "A type of server",
+    "option_c": "A networking protocol",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Concepts",
+    "question_text": "What is 'Cloud Bursting'?",
+    "option_a": "Configuration where an application runs in a private cloud and bursts into a public cloud during peak demand",
+    "option_b": "A server explosion",
+    "option_c": "Deleting all cloud resources",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Economics",
+    "question_text": "What is a 'Cost Allocation Tag'?",
+    "option_a": "A label assigned to a resource to track its cost in a billing report",
+    "option_b": "A price tag on a physical server",
+    "option_c": "A discount code",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Governance",
+    "question_text": "What is a 'Service Catalog'?",
+    "option_a": "A list of approved cloud services that users can provision",
+    "option_b": "A marketing brochure",
+    "option_c": "A technical manual",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Security",
+    "question_text": "What is 'Identity-Aware Proxy' (IAP)?",
+    "option_a": "Controlling access to cloud applications based on user identity and context",
+    "option_b": "A proxy that hides your IP",
+    "option_c": "A tool to track user locations",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Networking",
+    "question_text": "What is 'Cloud Interconnect' (GCP)?",
+    "option_a": "Provides direct physical connections between your on-premises network and Googles network",
+    "option_b": "A way to connect to Gmail",
+    "option_c": "A type of ethernet cable",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Storage",
+    "question_text": "What is 'Data Sovereignty'?",
+    "option_a": "Idea that data is subject to the laws of the country in which it is located",
+    "option_b": "Owning all the data in the world",
+    "option_c": "Encryption of federal data",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Reliability",
+    "question_text": "What is the '99.999% availability' often called?",
+    "option_a": "Five Nines",
+    "option_b": "The Gold Standard",
+    "option_c": "Absolute Uptime",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "AWS",
+    "question_text": "Which AWS service provides a managed GraphQL service?",
+    "option_a": "AWS AppSync",
+    "option_b": "AWS Amplify",
+    "option_c": "Amazon SNS",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Azure",
+    "question_text": "What is 'Azure Arc'?",
+    "option_a": "A way to manage on-premises and multi-cloud resources from Azure",
+    "option_b": "A type of storage",
+    "option_c": "A networking cable",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "GCP",
+    "question_text": "What is 'Anthos' in Google Cloud?",
+    "option_a": "A platform for application management and modernization across clouds",
+    "option_b": "A physical server",
+    "option_c": "A billing tool",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Storage",
+    "question_text": "What is 'Deduplication' in cloud storage?",
+    "option_a": "Eliminating redundant copies of data to save space",
+    "option_b": "Creating backups",
+    "option_c": "Encrypting data twice",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Big Data",
+    "question_text": "Which AWS service is an interactive query service to analyze data in S3 using standard SQL?",
+    "option_a": "Amazon Athena",
+    "option_b": "Amazon Redshift",
+    "option_c": "Amazon Kinesis",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Big Data",
+    "question_text": "What is 'Amazon Kinesis' primarily used for?",
+    "option_a": "Real-time streaming data processing",
+    "option_b": "Storing static files",
+    "option_c": "Batch processing only",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "IoT",
+    "question_text": "AWS IoT Core allows you to connect what to the cloud?",
+    "option_a": "Internet of Things (IoT) devices",
+    "option_b": "Other cloud providers",
+    "option_c": "Physical servers only",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Strategy",
+    "question_text": "What is the '6 Rs' framework used for?",
+    "option_a": "Cloud migration strategies (Rehost, Replatform, Refactor, Retire, Retain, Repurchase)",
+    "option_b": "Reducing cloud costs",
+    "option_c": "Renaming cloud resources",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Security",
+    "question_text": "What is 'Zero Trust' architecture?",
+    "option_a": "Security model that requires strict identity verification for every person and device",
+    "option_b": "Trusting no one, including the provider",
+    "option_c": "System with no security",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Reliability",
+    "question_text": "What is the 'Blast Radius'?",
+    "option_a": "The maximum extent of damage that can be caused by a single component failure",
+    "option_b": "The size of a data center",
+    "option_c": "The speed of light",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Cloud Native",
+    "question_text": "What is 'Service Mesh' (e.g., Istio)?",
+    "option_a": "A dedicated infrastructure layer for handling service-to-service communication",
+    "option_b": "A type of internet connection",
+    "option_c": "A database tool",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Architecture",
+    "question_text": "What is 'Infrastructure as a Code' primarily helping with?",
+    "option_a": "Consistency and reproducibility of infrastructure",
+    "option_b": "Writing faster code",
+    "option_c": "Deleting servers",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Networking",
+    "question_text": "What is a 'NAT Gateway'?",
+    "option_a": "Used to enable instances in a private subnet to connect to the internet",
+    "option_b": "Used to host websites",
+    "option_c": "A type of firewall",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Cloud Service Models",
+    "question_text": "Function-as-a-Service (FaaS) is a type of?",
+    "option_a": "Serverless computing",
+    "option_b": "IaaS",
+    "option_c": "Storage as a service",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "AWS",
+    "question_text": "Which AWS service provides a managed Redis or Memcached service?",
+    "option_a": "ElastiCache",
+    "option_b": "DynamoDB",
+    "option_c": "S3",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Azure",
+    "question_text": "What is use of 'Azure ExpressRoute'?",
+    "option_a": "Establishing a dedicated private network connection to Azure",
+    "option_b": "Buying Azure credits",
+    "option_c": "A fast login tool",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "GCP",
+    "question_text": "Which GCP service provides durable and highly available object storage?",
+    "option_a": "Google Cloud Storage",
+    "option_b": "Compute Engine",
+    "option_c": "BigQuery",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Storage",
+    "question_text": "What is 'WORM' storage (Write Once, Read Many)?",
+    "option_a": "Storage where data cannot be modified or deleted after it is written",
+    "option_b": "A type of virus",
+    "option_c": "Storage on a worm drive",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Networking",
+    "question_text": "What is 'Traffic Mirroring'?",
+    "option_a": "The ability to copy network traffic from a source and send it to a security or monitoring appliance",
+    "option_b": "Blocking all incoming traffic",
+    "option_c": "Redirecting users to a mirror site",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Security",
+    "question_text": "What is 'Security Group' stateful nature?",
+    "option_a": "Return traffic is automatically allowed regardless of outbound rules",
+    "option_b": "It only works in one state",
+    "option_c": "It is always on",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Compliance",
+    "question_text": "What is 'Soc 2' compliance concerned with?",
+    "option_a": "Security, availability, processing integrity, confidentiality, and privacy of service providers",
+    "option_b": "Financial reporting",
+    "option_c": "Energy consumption",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Strategy",
+    "question_text": "What is 'Repurchasing' (Drop and Shop) in cloud migration?",
+    "option_a": "Abandoning a legacy app for a new SaaS version (e.g., moving to Salesforce)",
+    "option_b": "Buying more servers",
+    "option_c": "Using a different cloud provider",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Machine Learning",
+    "question_text": "Amazon SageMaker is used for what?",
+    "option_a": "Building, training, and deploying machine learning models",
+    "option_b": "Storing images",
+    "option_c": "Managing users",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "DevOps",
+    "question_text": "What is a 'Deployment Pipeline'?",
+    "option_a": "An automated manifestation of your process for getting software from version control to users",
+    "option_b": "A physical pipe in a data center",
+    "option_c": "A list of developers",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Monitoring",
+    "question_text": "What is 'Distributed Tracing'?",
+    "option_a": "Profiling and monitoring applications, especially those built using a microservices architecture",
+    "option_b": "Tracing cables in a data center",
+    "option_c": "Tracing user mouse movements",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Concepts",
+    "question_text": "What is 'Cloud Economics'?",
+    "option_a": "Study of using cloud computing in the most cost-effective and beneficial way",
+    "option_b": "The stock price of Amazon",
+    "option_c": "Renting vs Buying math",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Storage",
+    "question_text": "What is 'Replication' in storage?",
+    "option_a": "Storing copies of data in multiple locations for higher availability",
+    "option_b": "Deleting duplicates",
+    "option_c": "Changing the file format",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Networking",
+    "question_text": "A 'Load Balancer' works at which OSI layer typically?",
+    "option_a": "Layer 4 (Transport) or Layer 7 (Application)",
+    "option_b": "Layer 1 (Physical)",
+    "option_c": "Layer 2 (Data Link)",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "AWS",
+    "question_text": "What is 'AWS Snowball'?",
+    "option_a": "A petabyte-scale data transport solution that uses physical devices",
+    "option_b": "A type of instance",
+    "option_c": "A cooling system",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Azure",
+    "question_text": "What is 'Azure Advisor'?",
+    "option_a": "A personalized cloud consultant that helps you follow best practices",
+    "option_b": "A chat bot",
+    "option_c": "A person on a helpline",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "GCP",
+    "question_text": "Which GCP service allows you to run your own custom code in the cloud without managing servers?",
+    "option_a": "Cloud Functions",
+    "option_b": "Compute Engine",
+    "option_c": "Google Cloud Storage",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Concepts",
+    "question_text": "What does 'Provisioning' mean?",
+    "option_a": "The process of setting up IT infrastructure",
+    "option_b": "Deleting servers",
+    "option_c": "Fixing bugs",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Storage",
+    "question_text": "What is 'Cold Storage'?",
+    "option_a": "Storage class for data that is seldom accessed",
+    "option_b": "Storage in a cold climate",
+    "option_c": "Fast storage",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Networking",
+    "question_text": "What is 'Public Facing' subnet?",
+    "option_a": "A subnet that is connected to an Internet Gateway",
+    "option_b": "A subnet with many users",
+    "option_c": "A secret subnet",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Security",
+    "question_text": "What is 'Endpoint Security'?",
+    "option_a": "Securing the devices used to access the cloud (laptops, phones)",
+    "option_b": "Securing the data center door",
+    "option_c": "Securing the API endpoint",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Compliance",
+    "question_text": "What is 'FedRAMP'?",
+    "option_a": "US government-wide program for security assessment of cloud products",
+    "option_b": "A fast network",
+    "option_c": "A cloud billing plan",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cloud Computing",
+    "topic": "Cloud Native",
+    "question_text": "What is a 'Cloud-Native Container'?",
+    "option_a": "A container designed to take full advantage of cloud-native features and infrastructure",
+    "option_b": "A physical shipping container",
+    "option_c": "A database container",
+    "option_d": "None",
+    "correct_option": "A"
+  }
+]

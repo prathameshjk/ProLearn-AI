@@ -1,0 +1,2502 @@
+[
+  {
+    "domain": "Data Science",
+    "topic": "Statistics",
+    "question_text": "What is the 'Mean' in statistics?",
+    "option_a": "The middle value",
+    "option_b": "The average of a set of numbers",
+    "option_c": "The most frequent value",
+    "option_d": "None of the above",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Statistics",
+    "question_text": "What is the 'Median'?",
+    "option_a": "The middle value of a sorted list of numbers",
+    "option_b": "The sum of all values",
+    "option_c": "The range of values",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Statistics",
+    "question_text": "What is the 'Mode'?",
+    "option_a": "The average",
+    "option_b": "The value that appears most frequently",
+    "option_c": "The difference between high and low",
+    "option_d": "None of the above",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Statistics",
+    "question_text": "What is 'Standard Deviation'?",
+    "option_a": "A measure of the amount of variation or dispersion of a set of values",
+    "option_b": "The highest value",
+    "option_c": "The lowest value",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Probability",
+    "question_text": "What is the probability of a coin landing on heads?",
+    "option_a": "0.1",
+    "option_b": "0.5",
+    "option_c": "0.75",
+    "option_d": "1.0",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Data Preprocessing",
+    "question_text": "What does 'Normalization' usually scale data to?",
+    "option_a": "0 to 1",
+    "option_b": "-1 to 1",
+    "option_c": "0 to 100",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Data Preprocessing",
+    "question_text": "What is 'Standardization'?",
+    "option_a": "Scaling data to have a mean of 0 and standard deviation of 1",
+    "option_b": "Removing outliers",
+    "option_c": "Converting text to numbers",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "Which type of learning uses labeled data?",
+    "option_a": "Unsupervised Learning",
+    "option_b": "Supervised Learning",
+    "option_c": "Reinforcement Learning",
+    "option_d": "Semi-supervised Learning",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is a 'Regression' problem?",
+    "option_a": "Predicting a discrete category",
+    "option_b": "Predicting a continuous numerical value",
+    "option_c": "Grouping similar items",
+    "option_d": "None of the above",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Classification'?",
+    "option_a": "Predicting a label or category",
+    "option_b": "Predicting a weight",
+    "option_c": "Calculating a distance",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Data Visualisation",
+    "question_text": "Which library is most common for plotting in Python?",
+    "option_a": "NumPy",
+    "option_b": "Matplotlib",
+    "option_c": "Pandas",
+    "option_d": "Requests",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Data Visualisation",
+    "question_text": "What is a 'Scatter Plot' used for?",
+    "option_a": "Showing the distribution of a single variable",
+    "option_b": "Showing the relationship between two numerical variables",
+    "option_c": "Showing categories",
+    "option_d": "None of the above",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Data Visualisation",
+    "question_text": "What is a 'Histogram' primarily used for?",
+    "option_a": "Visualizing the distribution of numerical data",
+    "option_b": "Showing a trend over time",
+    "option_c": "Comparing two categorical values",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Data Preprocessing",
+    "question_text": "What is 'One-Hot Encoding'?",
+    "option_a": "Converting categorical variables into a numerical form (binary vectors)",
+    "option_b": "Deleting rows with missing data",
+    "option_c": "Replacing 0 with 1",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Data Preprocessing",
+    "question_text": "What is 'Imputation'?",
+    "option_a": "The process of replacing missing data with substituted values",
+    "option_b": "Removing duplicates",
+    "option_c": "Sorting data",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Basics",
+    "question_text": "What does 'CSV' stand for?",
+    "option_a": "Correct System Value",
+    "option_b": "Comma-Separated Values",
+    "option_c": "Computer Source Variable",
+    "option_d": "None of the above",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Statistics",
+    "question_text": "What is a 'P-value' used for?",
+    "option_a": "Determining the significance of results in hypothesis testing",
+    "option_b": "Calculating the mean",
+    "option_c": "Generating random numbers",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Basics",
+    "question_text": "Which Python library is primarily used for data manipulation and analysis?",
+    "option_a": "Scikit-learn",
+    "option_b": "Pandas",
+    "option_c": "TensorFlow",
+    "option_d": "Pygame",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Basics",
+    "question_text": "What does a 'DataFrame' represent in Pandas?",
+    "option_a": "A 1D array",
+    "option_b": "A 2D labeled data structure (table-like)",
+    "option_c": "A mathematical set",
+    "option_d": "None of the above",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Overfitting'?",
+    "option_a": "When a model learns the training data too well, including its noise, and fails on new data",
+    "option_b": "When a model is too simple to capture the underlying pattern",
+    "option_c": "When the training takes too long",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Underfitting'?",
+    "option_a": "When a model is too complex",
+    "option_b": "When a model cannot capture the underlying trend of the data",
+    "option_c": "When the data is too large",
+    "option_d": "None of the above",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Train-Test Split' used for?",
+    "option_a": "To evaluate how well a model generalizes to unseen data",
+    "option_b": "To make the data smaller",
+    "option_c": "To combine two datasets",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "Which algorithm is commonly used for K-Nearest Neighbors?",
+    "option_a": "Linear Regression",
+    "option_b": "KNN",
+    "option_c": "Decision Tree",
+    "option_d": "K-Means",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Clustering'?",
+    "option_a": "A supervised learning task",
+    "option_b": "An unsupervised learning task that groups similar data points together",
+    "option_c": "A regression technique",
+    "option_d": "None of the above",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Linear Algebra",
+    "question_text": "What is a 'Vector'?",
+    "option_a": "A single number",
+    "option_b": "An ordered array of numbers",
+    "option_c": "A 2D grid of numbers",
+    "option_d": "None of the above",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Linear Algebra",
+    "question_text": "What is a 'Matrix'?",
+    "option_a": "A 1D list",
+    "option_b": "A rectangular array of numbers arranged in rows and columns",
+    "option_c": "A type of database",
+    "option_d": "None of the above",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Statistics",
+    "question_text": "What is 'Correlation'?",
+    "option_a": "The cause of an event",
+    "option_b": "A statistical measure of the strength and direction of the linear relationship between two variables",
+    "option_c": "The average of variables",
+    "option_d": "None of the above",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Feature Engineering'?",
+    "option_a": "The process of using domain knowledge to create features that make machine learning algorithms work better",
+    "option_b": "Building a computer",
+    "option_c": "Writing a database query",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is an 'Outlier'?",
+    "option_a": "A data point that differs significantly from other observations",
+    "option_b": "The very first row of data",
+    "option_c": "The column names",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Statistics",
+    "question_text": "What is 'Variance'?",
+    "option_a": "The square of the standard deviation",
+    "option_b": "The mean of the data",
+    "option_c": "The total number of rows",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Linear Algebra",
+    "question_text": "What is 'Transpose' of a matrix?",
+    "option_a": "Flipping a matrix over its diagonal (swapping rows and columns)",
+    "option_b": "Adding two matrices",
+    "option_c": "Deleting a matrix",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is a 'Decision Tree'?",
+    "option_a": "A flowchart-like structure used for classification and regression",
+    "option_b": "A type of forest",
+    "option_c": "A list of numbers",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Random Forest'?",
+    "option_a": "An ensemble learning method that uses multiple decision trees",
+    "option_b": "A shuffle function",
+    "option_c": "A data storage system",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Probability",
+    "question_text": "What is 'Bayes' Theorem' used for?",
+    "option_a": "Calculating conditional probability",
+    "option_b": "Finding the mean",
+    "option_c": "Sorting data",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Data Preprocessing",
+    "question_text": "What is 'EDA'?",
+    "option_a": "Exploratory Data Analysis",
+    "option_b": "Every Data Available",
+    "option_c": "Electronic Data Audit",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Logistic Regression' used for?",
+    "option_a": "Classification (specifically binary classification)",
+    "option_b": "Predicting stock prices (continuous)",
+    "option_c": "Calculating distance",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Linear Algebra",
+    "question_text": "What is the 'Identity Matrix'?",
+    "option_a": "A square matrix with ones on the main diagonal and zeros elsewhere",
+    "option_b": "A matrix with only ones",
+    "option_c": "A matrix with only zeros",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Gradient Descent'?",
+    "option_a": "An optimization algorithm used to find the minimum of a function",
+    "option_b": "A way to increase error",
+    "option_c": "A type of plot",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Basics",
+    "question_text": "Which tag is used to create a hyperlink in HTML (related to data reporting)?",
+    "option_a": "<a>",
+    "option_b": "<link>",
+    "option_c": "<href>",
+    "option_d": "<i>",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Root Mean Square Error' (RMSE)?",
+    "option_a": "A common metric for regression model performance",
+    "option_b": "A simple word count",
+    "option_c": "A probability value",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Cross-Validation'?",
+    "option_a": "A technique for assessing how the results of a statistical analysis will generalize to an independent data set",
+    "option_b": "Checking data twice",
+    "option_c": "Comparing two humans",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Linear Algebra",
+    "question_text": "What is the 'Dot Product' of two vectors?",
+    "option_a": "The sum of the products of the corresponding entries of the two sequences of numbers",
+    "option_b": "Multiplying the lengths",
+    "option_c": "Drawing a dot between them",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Statistics",
+    "question_text": "What is 'Inferential Statistics'?",
+    "option_a": "Drawing conclusions about a population from a sample",
+    "option_b": "Just describing the sample data",
+    "option_c": "Drawing pictures of data",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Statistics",
+    "question_text": "What is 'Descriptive Statistics'?",
+    "option_a": "Summarizing and describing the features of a data set",
+    "option_b": "Predicting the future",
+    "option_c": "Proving a theory",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Probability",
+    "question_text": "What is 'Independence' in probability?",
+    "option_a": "When the occurrence of one event does not affect the occurrence of another",
+    "option_b": "When two events always happen together",
+    "option_c": "When one event causes another",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'L1 Regularization' (Lasso)?",
+    "option_a": "Adds absolute value of magnitude of coefficient as penalty term to the loss function",
+    "option_b": "Adds squared magnitude as penalty",
+    "option_c": "Removes all features",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'L2 Regularization' (Ridge)?",
+    "option_a": "Adds squared magnitude of coefficient as penalty term",
+    "option_b": "Adds absolute value as penalty",
+    "option_c": "Makes all coefficients zero",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Data Preprocessing",
+    "question_text": "What is 'Feature Scaling'?",
+    "option_a": "Method used to normalize the range of independent variables or features of data",
+    "option_b": "Adding more features",
+    "option_c": "Deleting features",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Support Vector Machine' (SVM)?",
+    "option_a": "A supervised learning model that finds the hyperplane that best separates classes",
+    "option_b": "A type of hardware server",
+    "option_c": "A database engine",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Naive Bayes'?",
+    "option_a": "A classification algorithm based on Bayes' Theorem with an assumption of independence among predictors",
+    "option_b": "A very simple graph",
+    "option_c": "A way to calculate averages",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'K-Means Clustering'?",
+    "option_a": "A supervised learning algorithm",
+    "option_b": "An unsupervised learning algorithm that partitions data into K clusters",
+    "option_c": "A type of regression",
+    "option_d": "None of the above",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Statistics",
+    "question_text": "What is 'A/B Testing'?",
+    "option_a": "A statistical way of comparing two versions of a variable to determine which performs better",
+    "option_b": "Testing a grading system",
+    "option_c": "Running a code with two variables",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Deep Learning",
+    "question_text": "What is a 'Neural Network'?",
+    "option_a": "A series of algorithms that endeavors to recognize underlying relationships in a set of data through a process that mimics the human brain",
+    "option_b": "A network of computers",
+    "option_c": "A list of neurons",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Deep Learning",
+    "question_text": "What is an 'Activation Function' in a neural network?",
+    "option_a": "A mathematical gate in between the input fed to a neuron and its output",
+    "option_b": "A switch to turn off the network",
+    "option_c": "A way to save the model",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Deep Learning",
+    "question_text": "What is 'Backpropagation'?",
+    "option_a": "An algorithm for supervised learning of artificial neural networks using gradient descent",
+    "option_b": "Deleting old data",
+    "option_c": "A type of forward pass",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "NLP",
+    "question_text": "What does 'NLP' stand for?",
+    "option_a": "Natural Language Processing",
+    "option_b": "New Language Process",
+    "option_c": "Numerical Language Path",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "NLP",
+    "question_text": "What is 'Tokenization' in NLP?",
+    "option_a": "The process of breaking down text into smaller units (tokens) such as words or characters",
+    "option_b": "Encrypting a word",
+    "option_c": "Deleting a sentence",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "NLP",
+    "question_text": "What is 'Stemming'?",
+    "option_a": "Reducing a word to its word stem or root form",
+    "option_b": "Increasing the size of a word",
+    "option_c": "Correcting spelling",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "NLP",
+    "question_text": "What is 'Lemmatization'?",
+    "option_a": "Grouping together the inflected forms of a word so they can be analyzed as a single item (dictionary form)",
+    "option_b": "Cutting a word in half",
+    "option_c": "Adding prefixes",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "SQL",
+    "question_text": "What does 'SELECT' do in SQL?",
+    "option_a": "Retrieves data from a database",
+    "option_b": "Deletes data",
+    "option_c": "Updates a row",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "SQL",
+    "question_text": "What does 'WHERE' clause do?",
+    "option_a": "Filters records based on a specific condition",
+    "option_b": "Sorts the data",
+    "option_c": "Joins two tables",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Big Data",
+    "question_text": "What is 'Hadoop'?",
+    "option_a": "An open-source framework that allows for the distributed processing of large data sets across clusters of computers",
+    "option_b": "A type of small database",
+    "option_c": "A programming language",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Big Data",
+    "question_text": "What are 'The 3 Vs' of Big Data?",
+    "option_a": "Volume, Velocity, Variety",
+    "option_b": "Value, Vector, Voltage",
+    "option_c": "Vast, Visual, Virtual",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Dimensionality Reduction'?",
+    "option_a": "The process of reducing the number of random variables under consideration (e.g., via PCA)",
+    "option_b": "Making the dataset larger",
+    "option_c": "Deleting the target variable",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'PCA'?",
+    "option_a": "Principal Component Analysis",
+    "option_b": "Primary Control Asset",
+    "option_c": "Probabilistic Code Alignment",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Statistics",
+    "question_text": "What is 'Hypothesis Testing'?",
+    "option_a": "Making an assumption about a population parameter and testing it with sample data",
+    "option_b": "Writing a guess in a notebook",
+    "option_c": "Asking a user for feedback",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Basics",
+    "question_text": "What is the purpose of 'Scikit-learn'?",
+    "option_a": "Machine learning in Python",
+    "option_b": "Building websites",
+    "option_c": "Game development",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Data Visualisation",
+    "question_text": "What is a 'Box Plot' primarily used to show?",
+    "option_a": "Summary of a set of data (minimum, first quartile, median, third quartile, and maximum)",
+    "option_b": "A line trend",
+    "option_c": "Total counts",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Precision'?",
+    "option_a": "The ratio of correctly predicted positive observations to the total predicted positives",
+    "option_b": "The total correct predictions",
+    "option_c": "The speed of the model",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Recall' (Sensitivity)?",
+    "option_a": "The ratio of correctly predicted positive observations to all observations in the actual class",
+    "option_b": "How fast the model remembers data",
+    "option_c": "Printing the results again",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is the 'F1 Score'?",
+    "option_a": "The weighted average of Precision and Recall",
+    "option_b": "The first score recorded",
+    "option_c": "A score for the first feature",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is an 'Epoch' in deep learning?",
+    "option_a": "One complete pass through the entire training dataset",
+    "option_b": "One second of training",
+    "option_c": "A small part of the dataset",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Batch Size'?",
+    "option_a": "The number of training examples utilized in one iteration",
+    "option_b": "The total size of the database",
+    "option_c": "The number of features",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "SQL",
+    "question_text": "What does 'GROUP BY' do?",
+    "option_a": "Groups rows that have the same values into summary rows",
+    "option_b": "Sorts the rows",
+    "option_c": "Deletes rows",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Ensemble Learning'?",
+    "option_a": "Combining multiple models to improve performance",
+    "option_b": "Learning in a group of people",
+    "option_c": "Learning without a teacher",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Probability",
+    "question_text": "What is a 'Uniform Distribution'?",
+    "option_a": "A distribution where all outcomes are equally likely",
+    "option_b": "A distribution that looks like a bell curve",
+    "option_c": "A distribution with only one value",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Probability",
+    "question_text": "What is a 'Normal Distribution'?",
+    "option_a": "A continuous probability distribution that is symmetrical on both sides of the mean (bell curve)",
+    "option_b": "A flat line",
+    "option_c": "A type of table",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Hyperparameter Tuning'?",
+    "option_a": "The process of choosing a set of optimal hyperparameters for a learning algorithm",
+    "option_b": "Adding more data",
+    "option_c": "Changing the target label",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Statistics",
+    "question_text": "What is a 'Type I Error'?",
+    "option_a": "Rejecting a true null hypothesis (False Positive)",
+    "option_b": "Failing to reject a false null hypothesis (False Negative)",
+    "option_c": "A syntax error in code",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Statistics",
+    "question_text": "What is a 'Type II Error'?",
+    "option_a": "Failing to reject a false null hypothesis (False Negative)",
+    "option_b": "Rejecting a true null hypothesis (False Positive)",
+    "option_c": "A logical error",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Deep Learning",
+    "question_text": "What does 'CNN' stand for in computer vision?",
+    "option_a": "Convolutional Neural Network",
+    "option_b": "Center Node Network",
+    "option_c": "Common Neural Node",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Deep Learning",
+    "question_text": "What does 'RNN' stand for?",
+    "option_a": "Recurrent Neural Network",
+    "option_b": "Random Node Network",
+    "option_c": "Rational Number Node",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'XGBoost'?",
+    "option_a": "An optimized distributed gradient boosting library",
+    "option_b": "A fast browser",
+    "option_c": "A type of database",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'LightGBM'?",
+    "option_a": "A gradient boosting framework that uses tree-based learning algorithms",
+    "option_b": "A lightweight laptop",
+    "option_c": "A simple calculator",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Bagging'?",
+    "option_a": "Bootstrap Aggregating; taking multiple samples and building models on them",
+    "option_b": "Putting data in a bag",
+    "option_c": "Deleting data samples",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Boosting'?",
+    "option_a": "Sequential ensemble method where each model tries to correct the errors of the previous one",
+    "option_b": "Increasing the memory",
+    "option_c": "Speeding up the internet",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Basics",
+    "question_text": "What is 'Data Wrangling'?",
+    "option_a": "The process of cleaning, structuring, and enriching raw data into a desired format",
+    "option_b": "Fighting for data",
+    "option_c": "Storing data",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Deep Learning",
+    "question_text": "What is a 'Perceptron'?",
+    "option_a": "The simplest type of feedforward neural network (a single neuron)",
+    "option_b": "A complex database",
+    "option_c": "A mathematical set",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Deep Learning",
+    "question_text": "What is 'Dropout' in neural networks?",
+    "option_a": "A regularization technique where randomly selected neurons are ignored during training",
+    "option_b": "When a student leaves school",
+    "option_c": "Deleting the entire model",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Basics",
+    "question_text": "What is 'NumPy' primarily used for?",
+    "option_a": "Numerical computing and array operations",
+    "option_b": "Making charts",
+    "option_c": "Building UIs",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Statistics",
+    "question_text": "What is 'Skewness'?",
+    "option_a": "A measure of the asymmetry of the probability distribution of a real-valued random variable",
+    "option_b": "How tall a distribution is",
+    "option_c": "Number of columns",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Statistics",
+    "question_text": "What is 'Kurtosis'?",
+    "option_a": "A measure of the 'tailedness' of the probability distribution",
+    "option_b": "The average value",
+    "option_c": "The range of values",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Reinforcement Learning'?",
+    "option_a": "Learning by interacting with an environment to maximize some cumulative reward",
+    "option_b": "Learning from a teacher",
+    "option_c": "Learning without data",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "SQL",
+    "question_text": "What is a 'JOIN' in SQL?",
+    "option_a": "Combines rows from two or more tables based on a related column",
+    "option_b": "Separates a table into two",
+    "option_c": "Deletes duplicate rows",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "NLP",
+    "question_text": "What is 'TF-IDF'?",
+    "option_a": "Term Frequency-Inverse Document Frequency",
+    "option_b": "Total Fast Identify Detail",
+    "option_c": "Text Format Interface Data",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "NLP",
+    "question_text": "What is 'Stop Word Removal'?",
+    "option_a": "Removing common words (like 'the', 'is') that don't carry much information",
+    "option_b": "Stopping the program",
+    "option_c": "Deleting long words",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "NLP",
+    "question_text": "What is 'Word Embedding'?",
+    "option_a": "Representing words as vectors of real numbers",
+    "option_b": "Putting words in a box",
+    "option_c": "A type of dictionary",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Deep Learning",
+    "question_text": "What is an 'Autoencoder'?",
+    "option_a": "A type of neural network used for unsupervised learning of efficient codings (dimensionality reduction)",
+    "option_b": "A car engine",
+    "option_c": "A tool to write code automatically",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Deep Learning",
+    "question_text": "What is a 'GAN'?",
+    "option_a": "Generative Adversarial Network",
+    "option_b": "General Asset Number",
+    "option_c": "Gradient Asset Node",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Deep Learning",
+    "question_text": "What is 'Transfer Learning'?",
+    "option_a": "Using a pre-trained model on a new, related task",
+    "option_b": "Moving a model to a new computer",
+    "option_c": "Learning how to move data",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Statistics",
+    "question_text": "What is 'Central Limit Theorem'?",
+    "option_a": "The distribution of sample means approximates a normal distribution as the sample size becomes larger",
+    "option_b": "The average of all data is zero",
+    "option_c": "The middle point of a dataset",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Statistics",
+    "question_text": "What is 'Z-Score'?",
+    "option_a": "The number of standard deviations a given data point is from the mean",
+    "option_b": "The highest score in a test",
+    "option_c": "A random number",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Association Rule Learning'?",
+    "option_a": "A rule-based machine learning method for discovering interesting relations between variables in large databases",
+    "option_b": "Learning from a teacher",
+    "option_c": "Sorting data alphabetically",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Collaborative Filtering'?",
+    "option_a": "A method used by recommendation systems to make predictions about the interests of a user by collecting preferences from many users",
+    "option_b": "Filtering out spam emails",
+    "option_c": "Working together on a spreadsheet",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Time Series",
+    "question_text": "What is 'Stationarity' in time series?",
+    "option_a": "When statistical properties like mean and variance do not change over time",
+    "option_b": "When the data is standing still",
+    "option_c": "When there is no data",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Time Series",
+    "question_text": "What is 'Seasonality'?",
+    "option_a": "Periodic fluctuations in time series data that occur at regular intervals",
+    "option_b": "Data collected only in summer",
+    "option_c": "A type of chart",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Time Series",
+    "question_text": "What does 'ARIMA' stand for?",
+    "option_a": "AutoRegressive Integrated Moving Average",
+    "option_b": "All Real Index Moving Asset",
+    "option_c": "Advanced Range Index Model A",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Big Data",
+    "question_text": "What is 'Spark'?",
+    "option_a": "An open-source, distributed computing system used for big data workloads",
+    "option_b": "A type of electrical component",
+    "option_c": "A programming language like Java",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Statistics",
+    "question_text": "What is 'Multicollinearity'?",
+    "option_a": "When two or more predictor variables in a multiple regression model are highly correlated",
+    "option_b": "When there are too many columns",
+    "option_c": "When the mean is zero",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Linear Algebra",
+    "question_text": "What is 'Eigenvalue'?",
+    "option_a": "A scalar associated with a linear system of equations (found in matrix equations)",
+    "option_b": "The sum of all elements",
+    "option_c": "A type of matrix",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Support' in Association Rules?",
+    "option_a": "How frequently the itemset appears in the dataset",
+    "option_b": "Technical help",
+    "option_c": "Number of users",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Confidence' in Association Rules?",
+    "option_a": "An indication of how often the rule has been found to be true",
+    "option_b": "How sure a human is",
+    "option_c": "A probability of 1.0",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Ethics",
+    "question_text": "What is 'Algorithmic Bias'?",
+    "option_a": "Systematic and repeatable errors in a computer system that create unfair outcomes",
+    "option_b": "A faster algorithm",
+    "option_c": "An algorithm that uses only numbers",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Ethics",
+    "question_text": "What is 'Data Privacy'?",
+    "option_a": "The area of data protection that concerns the proper handling of sensitive data",
+    "option_b": "Hiding all data",
+    "option_c": "Deleting user accounts",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Cloud",
+    "question_text": "What is 'AWS SageMaker' used for?",
+    "option_a": "Building, training, and deploying machine learning models in the cloud",
+    "option_b": "Storing images",
+    "option_c": "Coding in C#",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Cloud",
+    "question_text": "What is 'Google Colab'?",
+    "option_a": "A cloud-based Jupyter notebook environment",
+    "option_b": "A search engine",
+    "option_c": "A type of database",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'DBSCAN'?",
+    "option_a": "A density-based clustering algorithm",
+    "option_b": "A scanning tool",
+    "option_c": "A regression model",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Deep Learning",
+    "question_text": "What is 'LSTM'?",
+    "option_a": "Long Short-Term Memory, a type of RNN architecture",
+    "option_b": "Large Scale Tool Management",
+    "option_c": "List of Simple Task Models",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Deep Learning",
+    "question_text": "What is 'ReLU'?",
+    "option_a": "Rectified Linear Unit, a popular activation function",
+    "option_b": "A type of dataset",
+    "option_c": "A network layer",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Deep Learning",
+    "question_text": "What is 'Softmax'?",
+    "option_a": "An activation function that turns a vector of numbers into a vector of probabilities",
+    "option_b": "A type of software",
+    "option_c": "A data cleaning tool",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Data Augmentation'?",
+    "option_a": "Technique used to increase the amount of data by adding slightly modified copies of already existing data",
+    "option_b": "Buying data from another company",
+    "option_c": "Deleting data to save space",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Statistics",
+    "question_text": "What is the 'Law of Large Numbers'?",
+    "option_a": "As a sample size grows, its mean gets closer to the average of the whole population",
+    "option_b": "Large numbers are better than small ones",
+    "option_c": "Always use numbers above 100",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Linear Algebra",
+    "question_text": "What is 'SVD'?",
+    "option_a": "Singular Value Decomposition",
+    "option_b": "Single Vector Definition",
+    "option_c": "Standard Variable Distribution",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Basics",
+    "question_text": "What is the primary role of a 'Data Engineer'?",
+    "option_a": "Building and maintaining data pipelines and architectures",
+    "option_b": "Defining business strategy",
+    "option_c": "Writing marketing emails",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Statistics",
+    "question_text": "What is 'Confidence Interval'?",
+    "option_a": "A range of values so defined that there is a specified probability that the value of a parameter lies within it",
+    "option_b": "How confident a data scientist feels",
+    "option_c": "The total count of rows",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Data Preprocessing",
+    "question_text": "What is 'Feature Selection'?",
+    "option_a": "Selecting a subset of relevant features for use in model construction",
+    "option_b": "Choosing which colors to use in a chart",
+    "option_c": "Selecting which rows to delete",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Data Preprocessing",
+    "question_text": "What is 'Normalizing' a database?",
+    "option_a": "Organizing data to reduce redundancy",
+    "option_b": "Scaling numbers to 1.0",
+    "option_c": "Checking for errors",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is an 'Agent' in reinforcement learning?",
+    "option_a": "An entity that makes decisions and takes actions in an environment",
+    "option_b": "A secret spy",
+    "option_c": "A type of server",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is a 'Reward' in RL?",
+    "option_a": "Feedback that the agent receives from the environment to evaluate its action",
+    "option_b": "A trophy",
+    "option_c": "Money",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Data Visualisation",
+    "question_text": "What is 'Tableau' used for?",
+    "option_a": "Interactive data visualization and business intelligence",
+    "option_b": "Writing SQL code",
+    "option_c": "Programming in Python",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "SQL",
+    "question_text": "What is an 'Alias' in SQL (AS keyword)?",
+    "option_a": "Temporary name given to a table or a column",
+    "option_b": "A new password",
+    "option_c": "A type of join",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Big Data",
+    "question_text": "What is 'NoSQL'?",
+    "option_a": "Non-relational database management systems",
+    "option_b": "A system without SQL",
+    "option_c": "A database that is very small",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Big Data",
+    "question_text": "What is 'MapReduce'?",
+    "option_a": "A programming model for processing large data sets with a parallel, distributed algorithm on a cluster",
+    "option_b": "Drawing a map",
+    "option_c": "Reducing the number of maps",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Deep Learning",
+    "question_text": "What is 'Vanishing Gradient Problem'?",
+    "option_a": "When gradients become so small that the weights do not change during training",
+    "option_b": "When the error becomes zero",
+    "option_c": "A type of color fading",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Deep Learning",
+    "question_text": "What is 'Exploding Gradient Problem'?",
+    "option_a": "When gradients become very large, causing large weight updates",
+    "option_b": "When the computer crashes",
+    "option_c": "When the error increases to infinity",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "NLP",
+    "question_text": "What is 'Bag of Words'?",
+    "option_a": "A simplified representation used in NLP where text is represented as the multiset of its words",
+    "option_b": "A physical bag with paper words",
+    "option_c": "A type of dictionary",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "NLP",
+    "question_text": "What is 'NER'?",
+    "option_a": "Named Entity Recognition",
+    "option_b": "Network Entry Record",
+    "option_c": "New Entity Resource",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Stochastic Gradient Descent' (SGD)?",
+    "option_a": "Version of gradient descent that uses a random subset of data (mini-batch) for each step",
+    "option_b": "Gradient descent that never stops",
+    "option_c": "A very slow algorithm",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Basics",
+    "question_text": "Which cloud provider offers 'BigQuery'?",
+    "option_a": "Google Cloud",
+    "option_b": "AWS",
+    "option_c": "Azure",
+    "option_d": "IBM Cloud",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Deep Learning",
+    "question_text": "What is 'Keras'?",
+    "option_a": "High-level neural networks API, written in Python",
+    "option_b": "A type of fruit",
+    "option_c": "A hardware chip",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Semi-Supervised Learning'?",
+    "option_a": "Learning from a small amount of labeled data and a large amount of unlabeled data",
+    "option_b": "Learning without data",
+    "option_c": "Learning from a teacher who is partially there",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Statistics",
+    "question_text": "What is 'Standard Error'?",
+    "option_a": "Standard deviation of the sampling distribution of a statistic",
+    "option_b": "A common mistake in code",
+    "option_c": "The error rate of a model",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Basics",
+    "question_text": "What is 'Data Scraping'?",
+    "option_a": "Extracting data from websites",
+    "option_b": "Deleting data",
+    "option_c": "Drawing data on a screen",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Statistics",
+    "question_text": "What is 'Linear Regression'?",
+    "option_a": "Modeling relationship between a scalar response and one or more explanatory variables",
+    "option_b": "Grouping similar items",
+    "option_c": "A type of database",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Data Preprocessing",
+    "question_text": "What is 'Data Imbalance'?",
+    "option_a": "When one class has significantly more samples than another in a classification task",
+    "option_b": "When the weights are wrong",
+    "option_c": "When the server is down",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'SMOTE' used for?",
+    "option_a": "Handling imbalanced datasets by generating synthetic samples",
+    "option_b": "Cleaning text",
+    "option_c": "Scaling data",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Deep Learning",
+    "question_text": "What is 'Early Stopping'?",
+    "option_a": "Ending model training before the specified number of epochs to prevent overfitting",
+    "option_b": "Stopping the computer",
+    "option_c": "Deleting the model",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Data Visualisation",
+    "question_text": "What is 'Seaborn'?",
+    "option_a": "Python data visualization library based on matplotlib",
+    "option_b": "A type of cloud storage",
+    "option_c": "A machine learning library",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Cloud",
+    "question_text": "What is 'Azure Machine Learning'?",
+    "option_a": "Microsoft's cloud-based platform for building and deploying AI models",
+    "option_b": "A search engine",
+    "option_c": "A browser",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Basics",
+    "question_text": "Who coined the term 'Big Data'?",
+    "option_a": "John Mashey (widely credited)",
+    "option_b": "Bill Gates",
+    "option_c": "Steve Jobs",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Data Preprocessing",
+    "question_text": "What is 'Data Audit'?",
+    "option_a": "Process of evaluating the quality, accuracy, and reliability of data",
+    "option_b": "Counting numbers",
+    "option_c": "Deleting data",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'CatBoost'?",
+    "option_a": "A fast, open-source gradient boosting on decision trees library with categorical features support",
+    "option_b": "A library for cat images",
+    "option_c": "A type of database",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Deep Learning",
+    "question_text": "What is 'Generative AI'?",
+    "option_a": "AI that can create new content, such as text, images, or audio",
+    "option_b": "AI that only classifies data",
+    "option_c": "AI that calculates means",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Deep Learning",
+    "question_text": "What is 'Transformer' architecture?",
+    "option_a": "Deep learning model that adopts the mechanism of self-attention",
+    "option_b": "A type of electric robot",
+    "option_c": "A hardware component",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Deep Learning",
+    "question_text": "What is 'Self-Attention'?",
+    "option_a": "Process where a model attends to different parts of the same input sequence",
+    "option_b": "A human meditation technique",
+    "option_c": "A way to save memory",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "NLP",
+    "question_text": "What is 'BERT'?",
+    "option_a": "Bidirectional Encoder Representations from Transformers",
+    "option_b": "Binary Entity Resource Tool",
+    "option_c": "Basic Element Report Technique",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "NLP",
+    "question_text": "What is 'GPT'?",
+    "option_a": "Generative Pre-trained Transformer",
+    "option_b": "General Path Tool",
+    "option_c": "Graphical Process Technique",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Statistics",
+    "question_text": "What is 'P-Hacking'?",
+    "option_a": "Misuse of data analysis to find patterns in data that can be presented as statistically significant",
+    "option_b": "Finding a new P-value formula",
+    "option_c": "Coding in Python",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Big Data",
+    "question_text": "What is 'Kafka'?",
+    "option_a": "Distributed event store and stream-processing platform",
+    "option_b": "A database engine",
+    "option_c": "A type of browser",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Big Data",
+    "question_text": "What is 'Flink'?",
+    "option_a": "Framework and distributed processing engine for stateful computations over data streams",
+    "option_b": "A type of chart",
+    "option_c": "A programming language",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Big Data",
+    "question_text": "What is 'Hive'?",
+    "option_a": "Data warehouse software project built on top of Apache Hadoop for providing data query and analysis",
+    "option_b": "A place for bees",
+    "option_c": "A list of numbers",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Big Data",
+    "question_text": "What is 'HBase'?",
+    "option_a": "An open-source, non-relational, distributed database modeled after Google's Bigtable",
+    "option_b": "A base for hard drives",
+    "option_c": "A type of SQL database",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Deep Learning",
+    "question_text": "What is 'Batch Normalization'?",
+    "option_a": "Method used to make artificial neural networks faster and more stable through normalization of the input layer",
+    "option_b": "Cleaning data in batches",
+    "option_c": "Deleting batches of data",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Deep Learning",
+    "question_text": "What is 'Grad-CAM'?",
+    "option_a": "Technique for making Convolutional Neural Network (CNN)-based models more transparent by visualizing regions of input that are important for predictions",
+    "option_b": "A type of camera",
+    "option_c": "A way to calculate gradients",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Isolation Forest'?",
+    "option_a": "An anomaly detection algorithm based on decision trees",
+    "option_b": "A forest with only one tree",
+    "option_c": "A way to hide data",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'One-Class SVM'?",
+    "option_a": "Unsupervised algorithm that learns a decision boundary for anomaly detection",
+    "option_b": "A classifier for only one person",
+    "option_c": "A simple type of matrix",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Basics",
+    "question_text": "What is 'Data Lake'?",
+    "option_a": "A centralized repository that allows you to store all your structured and unstructured data at any scale",
+    "option_b": "A very large spreadsheet",
+    "option_c": "A folder on a computer",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Basics",
+    "question_text": "What is 'Data Warehouse'?",
+    "option_a": "A system used for reporting and data analysis, and is considered a core component of business intelligence",
+    "option_b": "A room full of servers",
+    "option_c": "A type of external hard drive",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Basics",
+    "question_text": "What is 'ETL'?",
+    "option_a": "Extract, Transform, Load",
+    "option_b": "Every Task List",
+    "option_c": "Electronic Technical Log",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Basics",
+    "question_text": "What is 'ELT'?",
+    "option_a": "Extract, Load, Transform",
+    "option_b": "Electronic Light Tool",
+    "option_c": "Every Level Task",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Statistics",
+    "question_text": "What is 'Aalen-Johansen Estimator' used for?",
+    "option_a": "Multi-state models in survival analysis",
+    "option_b": "Calculating the mean",
+    "option_c": "Generating random numbers",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Statistics",
+    "question_text": "What is 'Kaplan-Meier Estimator'?",
+    "option_a": "Non-parametric statistic used to estimate the survival function from lifetime data",
+    "option_b": "A type of average",
+    "option_c": "A probability chart",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Deep Learning",
+    "question_text": "What is 'Word2Vec'?",
+    "option_a": "Group of related models that are used to produce word embeddings",
+    "option_b": "A list of words",
+    "option_c": "A word count tool",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Deep Learning",
+    "question_text": "What is 'GloVe'?",
+    "option_a": "Global Vectors for Word Representation",
+    "option_b": "A physical glove for VR",
+    "option_c": "A type of dataset",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Deep Learning",
+    "question_text": "What is 'Fine-Tuning'?",
+    "option_a": "Taking a pre-trained model and further training it on a specific dataset",
+    "option_b": "Adjusting the volume",
+    "option_c": "Changing the color of a chart",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Basics",
+    "question_text": "What is 'Data Governance'?",
+    "option_a": "Process of managing the availability, usability, integrity and security of the data in enterprise systems",
+    "option_b": "Rules for government data",
+    "option_c": "Deleting data records",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "SQL",
+    "question_text": "What is 'ACID' in databases?",
+    "option_a": "Atomicity, Consistency, Isolation, Durability",
+    "option_b": "Access, Control, Identify, Detail",
+    "option_c": "All Core Information Data",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "SQL",
+    "question_text": "What is a 'PrimaryKey'?",
+    "option_a": "A unique identifier for each record in a table",
+    "option_b": "The first row",
+    "option_c": "A key for encryption",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "SQL",
+    "question_text": "What is a 'ForeignKey'?",
+    "option_a": "A field in one table that uniquely identifies a row of another table",
+    "option_b": "A key from another country",
+    "option_c": "A secondary index",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Deep Learning",
+    "question_text": "What is 'YOLO' in computer vision?",
+    "option_a": "You Only Look Once (real-time object detection system)",
+    "option_b": "A popular slang",
+    "option_c": "A data cleaning tool",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Deep Learning",
+    "question_text": "What is 'MobileNet'?",
+    "option_a": "A class of efficient models for mobile and embedded vision applications",
+    "option_b": "A type of phone",
+    "option_c": "A network for mobile data",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Deep Learning",
+    "question_text": "What is 'ResNet'?",
+    "option_a": "Residual Network, known for using shortcut connections",
+    "option_b": "A type of database",
+    "option_c": "A network for restaurants",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Visualization",
+    "question_text": "What is 'Plotly'?",
+    "option_a": "A technical computing graphing library for making interactive charts",
+    "option_b": "A type of story",
+    "option_c": "A machine learning algorithm",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Ethics",
+    "question_text": "What is 'Right to Explanation'?",
+    "option_a": "The right to be given an explanation for an output of an algorithm",
+    "option_b": "A teacher's right to explain",
+    "option_c": "A legal right of a lawyer",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Ethics",
+    "question_text": "What is 'Differential Privacy'?",
+    "option_a": "System for publicly sharing information about a dataset by describing the patterns of groups within the dataset while withholding information about individuals",
+    "option_b": "Hiding different types of data",
+    "option_c": "A type of encryption",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "NLP",
+    "question_text": "What is 'Perplexity' in NLP?",
+    "option_a": "A measurement of how well a probability model predicts a sample",
+    "option_b": "How confused a model is",
+    "option_c": "Number of sentences",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Deep Learning",
+    "question_text": "What is 'Hyperparameter'?",
+    "option_a": "A parameter whose value is set before the learning process begins",
+    "option_b": "A very large number",
+    "option_c": "A parameter learned during training",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Label Encoding'?",
+    "option_a": "Converting categorical labels into numerical form (0, 1, 2...)",
+    "option_b": "Writing labels on a box",
+    "option_c": "Deleting labels",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Statistics",
+    "question_text": "What is a 'Null Hypothesis'?",
+    "option_a": "A default statement that there is no relationship between two measured phenomena",
+    "option_b": "A hypothesis that is zero",
+    "option_c": "A hypothesis that is wrong",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Statistics",
+    "question_text": "What is 'Alternative Hypothesis'?",
+    "option_a": "The hypothesis used in hypothesis testing that is contrary to the null hypothesis",
+    "option_b": "A second guess",
+    "option_c": "Another type of test",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "NLP",
+    "question_text": "What is 'Word Cloud'?",
+    "option_a": "A visualization technique for text data where the size of each word indicates its frequency",
+    "option_b": "A cloud where words are stored",
+    "option_c": "A type of database",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "NLP",
+    "question_text": "What is 'Sentiment Analysis'?",
+    "option_a": "Use of natural language processing to identify, extract, quantify, and study affective states and subjective information",
+    "option_b": "Analyzing how fast a person types",
+    "option_c": "Counting words",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Basics",
+    "question_text": "What is 'Docker' used for in DS?",
+    "option_a": "Ensuring reproducibility by containerizing the environment",
+    "option_b": "Storing large files",
+    "option_c": "Drawing charts",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Big Data",
+    "question_text": "What does 'Parquet' format offer?",
+    "option_a": "Columnar storage format for use in any project in the Hadoop ecosystem",
+    "option_b": "A type of table",
+    "option_c": "Image storage",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Big Data",
+    "question_text": "What is 'Airflow'?",
+    "option_a": "Platform to programmatically author, schedule and monitor workflows",
+    "option_b": "A type of fan",
+    "option_c": "A cloud server",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'LightGBM' primarily known for?",
+    "option_a": "Histogram-based decision tree learning",
+    "option_b": "Image processing",
+    "option_c": "Text translation",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Statistics",
+    "question_text": "What is the 'F-test' used for?",
+    "option_a": "To compare the variances of two populations",
+    "option_b": "To find the mean",
+    "option_c": "To count the number of rows",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Statistics",
+    "question_text": "What is 'Anova'?",
+    "option_a": "Analysis of Variance",
+    "option_b": "All Normal Observation Values",
+    "option_c": "Another Variable Analysis",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Linear Algebra",
+    "question_text": "What is a 'Unit Vector'?",
+    "option_a": "A vector with a length of 1",
+    "option_b": "A vector with only ones",
+    "option_c": "A vector with all zeros",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Linear Algebra",
+    "question_text": "What is the 'Rank' of a matrix?",
+    "option_a": "The maximum number of linearly independent rows or columns",
+    "option_b": "The total number of elements",
+    "option_c": "The sum of the diagonal",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Linear Algebra",
+    "question_text": "What is 'Determinant' of a matrix?",
+    "option_a": "A scalar value that can be computed from the elements of a square matrix",
+    "option_b": "The first element",
+    "option_c": "The average value",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Deep Learning",
+    "question_text": "What is 'MLP'?",
+    "option_a": "Multilayer Perceptron",
+    "option_b": "Main Logic Process",
+    "option_c": "Multi Label Path",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Deep Learning",
+    "question_text": "What is 'LeNet-5'?",
+    "option_a": "A classic CNN architecture for handwritten digit recognition",
+    "option_b": "A type of database",
+    "option_c": "A programming language",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Deep Learning",
+    "question_text": "What is 'AlexNet'?",
+    "option_a": "A influential CNN that won the ImageNet competition in 2012",
+    "option_b": "A virtual assistant",
+    "option_c": "A type of server",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Deep Learning",
+    "question_text": "What is 'VGG'?",
+    "option_a": "Visual Geometry Group (a type of CNN architecture)",
+    "option_b": "Very Good Graphics",
+    "option_c": "Virtual Game Group",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Reinforcement Learning",
+    "question_text": "What is 'Q-Learning'?",
+    "option_a": "A model-free reinforcement learning algorithm",
+    "option_b": "A type of quick sort",
+    "option_c": "Learning from a quest",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Reinforcement Learning",
+    "question_text": "What is 'Exploration vs Exploitation'?",
+    "option_a": "The trade-off between trying new things and using what you know",
+    "option_b": "Looking for data vs deleting data",
+    "option_c": "Building a model vs deploying it",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Reinforcement Learning",
+    "question_text": "What is 'Markov Decision Process' (MDP)?",
+    "option_a": "A mathematical framework for modeling decision making",
+    "option_b": "A type of sorting algorithm",
+    "option_c": "A database schema",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Data Preprocessing",
+    "question_text": "What is 'Binning'?",
+    "option_a": "Grouping continuous data into small intervals (bins)",
+    "option_b": "Deleting data",
+    "option_c": "Saving data in a bin file",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Data Preprocessing",
+    "question_text": "What is 'Smoothing'?",
+    "option_a": "Technique used to remove noise from data",
+    "option_b": "Making the chart look nice",
+    "option_c": "Adding more data",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'AdaBoost'?",
+    "option_a": "Adaptive Boosting (ensemble method)",
+    "option_b": "A fast browser",
+    "option_c": "A type of database",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'LOF' (Local Outlier Factor)?",
+    "option_a": "An algorithm for anomaly detection",
+    "option_b": "A list of files",
+    "option_c": "A type of loop",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Ethics",
+    "question_text": "What is 'Transparency' in AI?",
+    "option_a": "Being open about how an AI system works and what data it uses",
+    "option_b": "Hiding the code",
+    "option_c": "Making the UI clear",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Ethics",
+    "question_text": "What is 'Accountability' in AI?",
+    "option_a": "Ensuring someone is responsible for the outcomes of AI systems",
+    "option_b": "Calculating the cost of AI",
+    "option_c": "Writing reports",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Deep Learning",
+    "question_text": "What is 'Auto-diff'?",
+    "option_a": "Automatic Differentiation (used to calculate gradients)",
+    "option_b": "Automatic difference between files",
+    "option_c": "A type of hardware",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Deep Learning",
+    "question_text": "What is 'PyTorch'?",
+    "option_a": "An open source machine learning framework based on the Torch library",
+    "option_b": "A type of flashlight",
+    "option_c": "A database engine",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Deep Learning",
+    "question_text": "What is 'TensorFlow'?",
+    "option_a": "A free and open-source software library for machine learning",
+    "option_b": "A flow of water",
+    "option_c": "A type of chart",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Big Data",
+    "question_text": "What is 'Redis' commonly used for in DS?",
+    "option_a": "In-memory data structure store, used as a database, cache, and message broker",
+    "option_b": "Image editing",
+    "option_c": "Plotting graphs",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Big Data",
+    "question_text": "What is 'Presto'?",
+    "option_a": "An open source distributed SQL query engine for big data",
+    "option_b": "A type of magic trick",
+    "option_c": "A fast computer",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Statistics",
+    "question_text": "What is 'Bayesian Inference'?",
+    "option_a": "Method of statistical inference in which Bayes' theorem is used to update the probability for a hypothesis as more evidence or information becomes available",
+    "option_b": "Counting things one by one",
+    "option_c": "A type of guessing",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Statistics",
+    "question_text": "What is 'Maximum Likelihood Estimation' (MLE)?",
+    "option_a": "A method of estimating the parameters of a probability distribution",
+    "option_b": "Finding the highest value",
+    "option_c": "A type of sorting",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Validation Set'?",
+    "option_a": "A subset of data used to tune hyperparameters",
+    "option_b": "The final test data",
+    "option_c": "The training data",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Basics",
+    "question_text": "What is 'Anaconda' in Python?",
+    "option_a": "A distribution of the Python and R programming languages for scientific computing",
+    "option_b": "A type of snake",
+    "option_c": "A data storage device",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Basics",
+    "question_text": "What is 'Conda'?",
+    "option_a": "An open source package management system and environment management system",
+    "option_b": "A type of computer",
+    "option_c": "A database query",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Statistics",
+    "question_text": "What is 'Chi-Square Test' used for?",
+    "option_a": "To determine whether there is a statistically significant difference between the expected frequencies and the observed frequencies in one or more categories",
+    "option_b": "To find the average",
+    "option_c": "To count the rows",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'OOB Error' (Out-of-Bag)?",
+    "option_a": "Method of measuring the prediction error of random forests",
+    "option_b": "When a bag is empty",
+    "option_c": "A type of syntax error",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "NLP",
+    "question_text": "What is 'Lemmatization' vs 'Stemming'?",
+    "option_a": "Lemmatization uses context and vocabulary, Stemming just cuts off the end",
+    "option_b": "They are the same",
+    "option_c": "Stemming is better for everything",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "NLP",
+    "question_text": "What is 'N-gram'?",
+    "option_a": "A contiguous sequence of n items from a given sample of text or speech",
+    "option_b": "A weight measurement",
+    "option_c": "A type of chart",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "NLP",
+    "question_text": "What is 'Cosine Similarity'?",
+    "option_a": "A measure of similarity between two non-zero vectors",
+    "option_b": "A type of fruit",
+    "option_c": "The angle of a triangle",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Basics",
+    "question_text": "What is 'Git' used for in DS?",
+    "option_a": "Version control",
+    "option_b": "Storing images",
+    "option_c": "Plotting graphs",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Basics",
+    "question_text": "What is a 'Commit' in Git?",
+    "option_a": "A snapshot of the changes made to the files in the repository",
+    "option_b": "A promise to work",
+    "option_c": "Deleting a file",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Statistics",
+    "question_text": "What is 'Power of a Test'?",
+    "option_a": "The probability that the test correctly rejects the null hypothesis",
+    "option_b": "How fast the computer runs",
+    "option_c": "The size of the data",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Kernel Trick' in SVM?",
+    "option_a": "A method to map data into higher dimensional space without computing coordinates",
+    "option_b": "A way to hide code",
+    "option_c": "A type of sorting",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Visualization",
+    "question_text": "What is 'Heatmap'?",
+    "option_a": "A graphical representation of data where values are depicted by color",
+    "option_b": "A map of hot places",
+    "option_c": "A type of scatter plot",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Deep Learning",
+    "question_text": "What is 'Pooling' (in CNN)?",
+    "option_a": "A down-sampling operation that reduces the dimensionality of each feature map",
+    "option_b": "Combining data from multiple pools",
+    "option_c": "A type of memory storage",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Deep Learning",
+    "question_text": "What is 'Stochastic' mean?",
+    "option_a": "Having a random probability distribution or pattern",
+    "option_b": "Being very fast",
+    "option_c": "Being fixed and certain",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Elastic Net'?",
+    "option_a": "A regularized regression method that linearly combines L1 and L2 penalties",
+    "option_b": "A net made of elastic",
+    "option_c": "A type of neural network",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Inductive Bias'?",
+    "option_a": "The set of assumptions that the learner uses to predict outputs of given inputs",
+    "option_b": "A type of hardware bias",
+    "option_c": "Making errors on purpose",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Cloud",
+    "question_text": "What is 'Google Cloud Platform' (GCP)?",
+    "option_a": "A suite of cloud computing services offered by Google",
+    "option_b": "A search engine",
+    "option_c": "A type of browser",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Cloud",
+    "question_text": "What is 'Microsoft Azure'?",
+    "option_a": "A cloud computing service created by Microsoft",
+    "option_b": "A type of laptop",
+    "option_c": "A browser",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Deep Learning",
+    "question_text": "What is 'Leaky ReLU'?",
+    "option_a": "A version of ReLU that allows a small, non-zero gradient when the input is negative",
+    "option_b": "A broken neural network",
+    "option_c": "A type of dataset",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Deep Learning",
+    "question_text": "What is 'Adam Optimizer'?",
+    "option_a": "An optimization algorithm that can be used instead of the classical stochastic gradient descent",
+    "option_b": "The name of a data scientist",
+    "option_c": "A type of hardware",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Deep Learning",
+    "question_text": "What is 'RMSprop'?",
+    "option_a": "An optimizer developed to resolve Adagrad's radically diminishing learning rates",
+    "option_b": "A type of file",
+    "option_c": "A plotting tool",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Basics",
+    "question_text": "What is 'Jupyter'?",
+    "option_a": "An interactive computing environment",
+    "option_b": "A planet",
+    "option_c": "A programming language",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Basics",
+    "question_text": "What is 'Dash' (by Plotly)?",
+    "option_a": "A framework for building analytical web applications",
+    "option_b": "Running fast",
+    "option_c": "A type of character",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Basics",
+    "question_text": "What is 'Streamlit'?",
+    "option_a": "An open-source Python library used to create custom web apps for machine learning",
+    "option_b": "A type of internet connection",
+    "option_c": "A data storage system",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Gradient Boosting'?",
+    "option_a": "Machine learning technique for regression and classification problems, which produces a prediction model in the form of an ensemble of weak prediction models",
+    "option_b": "Increasing the speed of data loading",
+    "option_c": "A type of hardware boosting",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Decision Boundary'?",
+    "option_a": "Hypersurface that partitions the underlying vector space into two sets, one for each class",
+    "option_b": "The edge of a data table",
+    "option_c": "A rule in the code",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Curse of Dimensionality'?",
+    "option_a": "Phenomena that arise when analyzing and organizing data in high-dimensional spaces that do not occur in low-dimensional settings",
+    "option_b": "A magic spell",
+    "option_c": "Having too little data",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Data Science",
+    "topic": "Data Preprocessing",
+    "question_text": "What is 'Min-Max Scaling'?",
+    "option_a": "Rescaling the range of features to scale the range in [0, 1] or [-1, 1]",
+    "option_b": "Finding the smallest and largest numbers",
+    "option_c": "Deleting extremes",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  }
+]

@@ -1,0 +1,2012 @@
+[
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "Which of the following is a CSS framework?",
+    "option_a": "React",
+    "option_b": "Django",
+    "option_c": "Bootstrap",
+    "option_d": "Node.js",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "What does HTML stand for?",
+    "option_a": "Hyper Text Markup Language",
+    "option_b": "High Text Machine Language",
+    "option_c": "Hyper Tabular Markup Language",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "Which property is used to change the background color in CSS?",
+    "option_a": "color",
+    "option_b": "bgcolor",
+    "option_c": "background-color",
+    "option_d": "back-color",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "Which HTML tag is used to define an internal style sheet?",
+    "option_a": "<script>",
+    "option_b": "<css>",
+    "option_c": "<style>",
+    "option_d": "<link>",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "Which attribute is used to provide an alternative text for an image?",
+    "option_a": "title",
+    "option_b": "src",
+    "option_c": "alt",
+    "option_d": "longdesc",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "Which JavaScript method is used to select an element by its ID?",
+    "option_a": "getElementById()",
+    "option_b": "getElementByClassName()",
+    "option_c": "querySelector()",
+    "option_d": "getElementByTagName()",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "What is the correct way to write a JavaScript array?",
+    "option_a": "var colors = (1:'red', 2:'blue', 3:'green')",
+    "option_b": "var colors = ['red', 'blue', 'green']",
+    "option_c": "var colors = 'red', 'blue', 'green'",
+    "option_d": "var colors = 1 = ('red'), 2 = ('blue'), 3 = ('green')",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "Which CSS property controls the text size?",
+    "option_a": "font-style",
+    "option_b": "text-size",
+    "option_c": "font-size",
+    "option_d": "text-style",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "How do you call a function named 'myFunction' in JavaScript?",
+    "option_a": "call myFunction()",
+    "option_b": "call function myFunction()",
+    "option_c": "myFunction()",
+    "option_d": "execute myFunction()",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "Which operator is used to assign a value to a variable?",
+    "option_a": "*",
+    "option_b": "-",
+    "option_c": "=",
+    "option_d": "x",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "What is the purpose of the 'z-index' property in CSS?",
+    "option_a": "To set the zoom level of an element",
+    "option_b": "To specify the stack order of an element",
+    "option_c": "To define the width of an element",
+    "option_d": "To control the transparency of an element",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "Which HTML element is used to specify a footer for a document or section?",
+    "option_a": "<bottom>",
+    "option_b": "<section>",
+    "option_c": "<footer>",
+    "option_d": "<aside>",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "In JavaScript, which of the following is a logical operator?",
+    "option_a": "&&",
+    "option_b": "==",
+    "option_c": "===",
+    "option_d": "!",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "Which CSS selector is used to select elements with a specific class?",
+    "option_a": "#",
+    "option_b": ".",
+    "option_c": "*",
+    "option_d": ":",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "How can you make a list that lists the items with numbers?",
+    "option_a": "<ul>",
+    "option_b": "<list>",
+    "option_c": "<ol>",
+    "option_d": "<dl>",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "Which JavaScript event occurs when the user clicks on an HTML element?",
+    "option_a": "onmouseover",
+    "option_b": "onchange",
+    "option_c": "onclick",
+    "option_d": "onmouseclick",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "What is the default value of the position property in CSS?",
+    "option_a": "relative",
+    "option_b": "fixed",
+    "option_c": "static",
+    "option_d": "absolute",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "Which HTML tag is used to define an unordered list?",
+    "option_a": "<ol>",
+    "option_b": "<li>",
+    "option_c": "<ul>",
+    "option_d": "<u>",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "To check if two values are equal in value and type in JavaScript, which operator is used?",
+    "option_a": "==",
+    "option_b": "=",
+    "option_c": "===",
+    "option_d": "!==",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "Which CSS property is used to make the text bold?",
+    "option_a": "font-weight",
+    "option_b": "text-decoration",
+    "option_c": "font-style",
+    "option_d": "text-bold",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "Which HTML element is used for the largest heading?",
+    "option_a": "<h6>",
+    "option_b": "<heading>",
+    "option_c": "<h1>",
+    "option_d": "<head>",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "How do you write 'Hello World' in an alert box in JavaScript?",
+    "option_a": "msgBox('Hello World');",
+    "option_b": "alertBox('Hello World');",
+    "option_c": "alert('Hello World');",
+    "option_d": "msg('Hello World');",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "Which CSS property is used to create space between the element's border and its content?",
+    "option_a": "margin",
+    "option_b": "border-spacing",
+    "option_c": "padding",
+    "option_d": "outline",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "What is the correct HTML for creating a hyperlink?",
+    "option_a": "<a url='http://www.google.com'>Google</a>",
+    "option_b": "<a>http://www.google.com</a>",
+    "option_c": "<a href='http://www.google.com'>Google</a>",
+    "option_d": "<link href='http://www.google.com'>Google</link>",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "How do you create a function in JavaScript?",
+    "option_a": "function:myFunction()",
+    "option_b": "function = myFunction()",
+    "option_c": "function myFunction()",
+    "option_d": "def myFunction()",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "Which property is used to change the font of an element in CSS?",
+    "option_a": "font-style",
+    "option_b": "font-family",
+    "option_c": "font-weight",
+    "option_d": "text-font",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "Inside which HTML element do we put the JavaScript?",
+    "option_a": "<js>",
+    "option_b": "<javascript>",
+    "option_c": "<script>",
+    "option_d": "<scripting>",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "How can you add a comment in CSS?",
+    "option_a": "// this is a comment",
+    "option_b": "' this is a comment",
+    "option_c": "/* this is a comment */",
+    "option_d": "// this is a comment //",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "Which HTML element is used to define a multi-line input field?",
+    "option_a": "<text>",
+    "option_b": "<input type='textarea'>",
+    "option_c": "<textarea>",
+    "option_d": "<input type='text'>",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "In JavaScript, how do you start a FOR loop?",
+    "option_a": "for (i <= 5; i++)",
+    "option_b": "for i = 1 to 5",
+    "option_c": "for (let i = 0; i <= 5; i++)",
+    "option_d": "for (let i = 0; i <= 5)",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "Which CSS property is used to add a shadow to a box?",
+    "option_a": "text-shadow",
+    "option_b": "shadow-box",
+    "option_c": "box-shadow",
+    "option_d": "element-shadow",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "Which JavaScript method is used to remove the last element from an array?",
+    "option_a": "shift()",
+    "option_b": "slice()",
+    "option_c": "pop()",
+    "option_d": "remove()",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "What is the purpose of the 'viewport' meta tag in HTML?",
+    "option_a": "To define the page description",
+    "option_b": "To control the layout on mobile browsers",
+    "option_c": "To set the character encoding",
+    "option_d": "To link an external stylesheet",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "Which CSS property is used to change the mouse cursor?",
+    "option_a": "pointer",
+    "option_b": "mouse",
+    "option_c": "cursor",
+    "option_d": "icon",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "How do you write an IF statement in JavaScript?",
+    "option_a": "if i = 5 then",
+    "option_b": "if (i == 5)",
+    "option_c": "if i == 5",
+    "option_d": "if i = 5",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "Which HTML element is used to group inline-elements?",
+    "option_a": "<div>",
+    "option_b": "<section>",
+    "option_c": "<span>",
+    "option_d": "<footer>",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "Which property is used to change the left margin of an element?",
+    "option_a": "padding-left",
+    "option_b": "indent",
+    "option_c": "margin-left",
+    "option_d": "left-margin",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "What is the correct way to write a multi-line comment in JavaScript?",
+    "option_a": "<!-- This is a comment -->",
+    "option_b": "// This is a comment //",
+    "option_c": "/* This is a comment */",
+    "option_d": "' This is a comment '",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "Which HTML element is used to display a scalar measurement within a range?",
+    "option_a": "<gauge>",
+    "option_b": "<range>",
+    "option_c": "<meter>",
+    "option_d": "<measure>",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "Which property can be used to set the color of an element's border?",
+    "option_a": "border-style",
+    "option_b": "border-width",
+    "option_c": "border-color",
+    "option_d": "color",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "Which JavaScript method is used to write text in the console?",
+    "option_a": "console.write()",
+    "option_b": "console.print()",
+    "option_c": "console.log()",
+    "option_d": "print()",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "Which attribute of the <form> element specifies where to send the form-data?",
+    "option_a": "method",
+    "option_b": "target",
+    "option_c": "action",
+    "option_d": "path",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "Which property is used to align text to the center in CSS?",
+    "option_a": "align",
+    "option_b": "text-align-center",
+    "option_c": "text-align",
+    "option_d": "center",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "What is the purpose of the 'defer' attribute in a <script> tag?",
+    "option_a": "To execute the script immediately",
+    "option_b": "To download the script after the page has finished parsing",
+    "option_c": "To download the script in parallel and execute it after parsing",
+    "option_d": "To skip the script altogether",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "Which CSS unit is relative to the font-size of the element?",
+    "option_a": "px",
+    "option_b": "rem",
+    "option_c": "em",
+    "option_d": "%",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "How do you add a new element at the beginning of an array in JavaScript?",
+    "option_a": "push()",
+    "option_b": "add()",
+    "option_c": "unshift()",
+    "option_d": "prepend()",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "Which HTML element is used to define a list item?",
+    "option_a": "<ul>",
+    "option_b": "<ol>",
+    "option_c": "<li>",
+    "option_d": "<list>",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "Which CSS property is used to set the opacity of an element?",
+    "option_a": "filter",
+    "option_b": "transparency",
+    "option_c": "opacity",
+    "option_d": "visibility",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "What does JSON stand for?",
+    "option_a": "Java Standard Object Notation",
+    "option_b": "JavaScript Object Normalization",
+    "option_c": "JavaScript Object Notation",
+    "option_d": "Jumbo Solution Object Notation",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "What is a 'component' in React?",
+    "option_a": "A part of the user interface",
+    "option_b": "A database table",
+    "option_c": "A CSS selector",
+    "option_d": "A HTTP request",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "Which hook is used to manage state in a React functional component?",
+    "option_a": "useEffect",
+    "option_b": "useContext",
+    "option_c": "useState",
+    "option_d": "useReducer",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "What is JSX?",
+    "option_a": "A JavaScript extension that allows writing HTML-like code",
+    "option_b": "A database query language",
+    "option_c": "A CSS preprocessor",
+    "option_d": "A backend framework",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "How do you pass data from a parent component to a child component in React?",
+    "option_a": "Using state",
+    "option_b": "Using refs",
+    "option_c": "Using props",
+    "option_d": "Using context",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "Which hook is used to perform side effects in React?",
+    "option_a": "useState",
+    "option_b": "useMemo",
+    "option_c": "useEffect",
+    "option_d": "useCallback",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "What is the virtual DOM in React?",
+    "option_a": "A direct representation of the browser DOM",
+    "option_b": "A lightweight copy of the real DOM",
+    "option_c": "A database for storing UI state",
+    "option_d": "A tool for debugging CSS",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "In React, which attribute is used to provide a unique identity to list items?",
+    "option_a": "id",
+    "option_b": "class",
+    "option_c": "key",
+    "option_d": "ref",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "What is Node.js?",
+    "option_a": "A frontend framework",
+    "option_b": "A programming language",
+    "option_c": "A JavaScript runtime built on Chrome's V8 engine",
+    "option_d": "A database management system",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "Which command is used to initialize a new Node.js project?",
+    "option_a": "node init",
+    "option_b": "npm install",
+    "option_c": "npm init",
+    "option_d": "git init",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "How do you import a module in Node.js using CommonJS?",
+    "option_a": "import module from 'path'",
+    "option_b": "require('path')",
+    "option_c": "include 'path'",
+    "option_d": "using 'path'",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "What is 'npm'?",
+    "option_a": "Node Project Manager",
+    "option_b": "Node Package Manager",
+    "option_c": "New Package Module",
+    "option_d": "None of the above",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "Which property of 'package.json' lists the project dependencies?",
+    "option_a": "scripts",
+    "option_b": "main",
+    "option_c": "dependencies",
+    "option_d": "version",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "What is Express.js?",
+    "option_a": "A database engine",
+    "option_b": "A template engine",
+    "option_c": "A web application framework for Node.js",
+    "option_d": "A frontend library",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "What is middleware in Express?",
+    "option_a": "Functions that have access to the request and response objects",
+    "option_b": "The database connection layer",
+    "option_c": "The frontend routing logic",
+    "option_d": "A type of variable in JavaScript",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "Which method is used to define a GET route in Express?",
+    "option_a": "app.post()",
+    "option_b": "app.put()",
+    "option_c": "app.get()",
+    "option_d": "app.listen()",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "How do you start an Express server on port 3000?",
+    "option_a": "app.start(3000)",
+    "option_b": "app.run(3000)",
+    "option_c": "app.listen(3000)",
+    "option_d": "app.serve(3000)",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "What does a callback function in asynchronous JavaScript do?",
+    "option_a": "It stops the execution of code",
+    "option_b": "It is executed after another function has finished executing",
+    "option_c": "It is used to define a class",
+    "option_d": "It returns a value immediately",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "What is an 'Event Emitter' in Node.js?",
+    "option_a": "A tool for debugging HTML",
+    "option_b": "An object that emits named events that cause viewers to be called",
+    "option_c": "A way to send emails",
+    "option_d": "A database trigger",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "Which Node.js module is used for file system operations?",
+    "option_a": "http",
+    "option_b": "path",
+    "option_c": "fs",
+    "option_d": "util",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "How do you read a file synchronously in Node.js?",
+    "option_a": "fs.readFile()",
+    "option_b": "fs.read()",
+    "option_c": "fs.readFileSync()",
+    "option_d": "fs.openSync()",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "What is 'Promise' in JavaScript?",
+    "option_a": "A variable that cannot change",
+    "option_b": "An object representing the eventual completion or failure of an async operation",
+    "option_c": "A way to define a constant",
+    "option_d": "A loop structure",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "Which keyword is used to wait for a Promise to resolve?",
+    "option_a": "wait",
+    "option_b": "then",
+    "option_c": "await",
+    "option_d": "resolve",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "What is the purpose of 'module.exports'?",
+    "option_a": "To import external modules",
+    "option_b": "To export variables or functions from a module in Node.js",
+    "option_c": "To define a global variable",
+    "option_d": "To install a package",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "What is 'Nodemon'?",
+    "option_a": "A database engine",
+    "option_b": "A tool that restarts the Node.js application when file changes are detected",
+    "option_c": "A package manager",
+    "option_d": "A CSS framework",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "How do you access route parameters in Express (e.g., /user/:id)?",
+    "option_a": "req.body.id",
+    "option_b": "req.query.id",
+    "option_c": "req.params.id",
+    "option_d": "req.id",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "Which status code represents 'Not Found'?",
+    "option_a": "200",
+    "option_b": "500",
+    "option_c": "404",
+    "option_d": "403",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "What does REST stand for?",
+    "option_a": "Representational State Transfer",
+    "option_b": "Remote State Transfer",
+    "option_c": "Resource State Transition",
+    "option_d": "Regular State Transfer",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "Which HTTP method is typically used to create a new resource?",
+    "option_a": "GET",
+    "option_b": "PUT",
+    "option_c": "POST",
+    "option_d": "DELETE",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "Which HTTP method is typically used to update an existing resource completely?",
+    "option_a": "GET",
+    "option_b": "POST",
+    "option_c": "PUT",
+    "option_d": "PATCH",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "What is the difference between PUT and PATCH?",
+    "option_a": "PUT is for creation, PATCH is for deletion",
+    "option_b": "PUT replaces the resource, PATCH applies partial updates",
+    "option_c": "PUT is faster than PATCH",
+    "option_d": "There is no difference",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "What is Redux?",
+    "option_a": "A CSS styling library",
+    "option_b": "A state management library for JavaScript applications",
+    "option_c": "A database for browser storage",
+    "option_d": "A testing framework",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "In Redux, what is an 'action'?",
+    "option_a": "A function that changes the state",
+    "option_b": "A plain JavaScript object that describes what happened",
+    "option_c": "A database query",
+    "option_d": "A React component",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "In Redux, what is a 'reducer'?",
+    "option_a": "A function that minimizes the code",
+    "option_b": "A pure function that takes state and action and returns the next state",
+    "option_c": "A component that renders the UI",
+    "option_d": "A tool for image compression",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "Which library is commonly used with React for routing?",
+    "option_a": "React Navigation",
+    "option_b": "React Router",
+    "option_c": "Redux Router",
+    "option_d": "Express Router",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "What is 'prop drilling'?",
+    "option_a": "A way to optimize performance",
+    "option_b": "Passing data through many layers of components to reach a child",
+    "option_c": "A new feature in React 18",
+    "option_d": "A database indexing strategy",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "What is 'Lifted State' in React?",
+    "option_a": "Moving state to a common ancestor to share it between components",
+    "option_b": "Deleting state from a component",
+    "option_c": "A way to manage global state using Redux",
+    "option_d": "A browser feature for state persistence",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "What is 'CORS'?",
+    "option_a": "Cross-Origin Remote Storage",
+    "option_b": "Cross-Origin Resource Sharing",
+    "option_c": "Compact Object Relationship System",
+    "option_d": "Common Object Resource Standard",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "What is the purpose of 'helmet' middleware in Express?",
+    "option_a": "To provide a UI for the server",
+    "option_b": "To secure Express apps by setting various HTTP headers",
+    "option_c": "To compress the response body",
+    "option_d": "To log requests",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "How do you define a global variable in Node.js?",
+    "option_a": "window.myVar = 10",
+    "option_b": "global.myVar = 10",
+    "option_c": "root.myVar = 10",
+    "option_d": "var myVar = 10",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "What is 'body-parser' in Express used for?",
+    "option_a": "Parsing the URL",
+    "option_b": "Parsing incoming request bodies",
+    "option_c": "Parsing HTML templates",
+    "option_d": "Parsing CSS files",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "Which Node.js event is emitted when the process is about to exit?",
+    "option_a": "close",
+    "option_b": "stop",
+    "option_c": "exit",
+    "option_d": "end",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "What is 'npm install --save-dev' used for?",
+    "option_a": "Installing a package for production",
+    "option_b": "Installing a package for development purposes only",
+    "option_c": "Installing a package globally",
+    "option_d": "Upgrading an existing package",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "What is a 'Stream' in Node.js?",
+    "option_a": "A way to play music",
+    "option_b": "An interface for reading or writing data continuously",
+    "option_c": "A type of loop",
+    "option_d": "A database connection pool",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "What is the purpose of the 'os' module in Node.js?",
+    "option_a": "To interact with the file system",
+    "option_b": "To provide operating system-related utility methods",
+    "option_c": "To create web servers",
+    "option_d": "To manage database connections",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "Which method is used to hash a password using the 'bcrypt' library?",
+    "option_a": "bcrypt.create()",
+    "option_b": "bcrypt.hash()",
+    "option_c": "bcrypt.encrypt()",
+    "option_d": "bcrypt.make()",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "What is 'JWT'?",
+    "option_a": "Java Web Transformer",
+    "option_b": "JSON Web Token",
+    "option_c": "JavaScript Web Trust",
+    "option_d": "Java Web Tool",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "What are the three parts of a JWT?",
+    "option_a": "Header, Body, Footer",
+    "option_b": "Header, Payload, Signature",
+    "option_c": "ID, Data, Token",
+    "option_d": "Start, Middle, End",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "Which environment variable is commonly used to detect the production environment?",
+    "option_a": "ENV",
+    "option_b": "NODE_ENV",
+    "option_c": "STATUS",
+    "option_d": "PROD",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "How do you define a secret key for JWT in an Express app?",
+    "option_a": "In the HTML file",
+    "option_b": "In an environment variable (.env file)",
+    "option_c": "In the package.json file",
+    "option_d": "Hardcoded in every file",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "Which of these is a popular React testing library?",
+    "option_a": "Mocha",
+    "option_b": "Jest",
+    "option_c": "Selenium",
+    "option_d": "Postman",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Database",
+    "question_text": "What does SQL stand for?",
+    "option_a": "Structured Query Language",
+    "option_b": "Simple Query Language",
+    "option_c": "Secure Query Language",
+    "option_d": "Standard Query Language",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Database",
+    "question_text": "Which SQL statement is used to extract data from a database?",
+    "option_a": "OPEN",
+    "option_b": "SELECT",
+    "option_c": "GET",
+    "option_d": "EXTRACT",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Database",
+    "question_text": "Which SQL statement is used to update data in a database?",
+    "option_a": "SAVE",
+    "option_b": "MODIFY",
+    "option_c": "UPDATE",
+    "option_d": "SAVE AS",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Database",
+    "question_text": "Which SQL statement is used to delete data from a database?",
+    "option_a": "REMOVE",
+    "option_b": "COLLAPSE",
+    "option_c": "DELETE",
+    "option_d": "CLEAN",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Database",
+    "question_text": "In SQL, how do you select all columns from a table named 'Persons'?",
+    "option_a": "SELECT [all] FROM Persons",
+    "option_b": "SELECT * FROM Persons",
+    "option_c": "SELECT Persons",
+    "option_d": "SELECT *.Persons",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Database",
+    "question_text": "What type of database is MongoDB?",
+    "option_a": "Relational (SQL)",
+    "option_b": "Document-oriented (NoSQL)",
+    "option_c": "Graph database",
+    "option_d": "Key-value store",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Database",
+    "question_text": "In MongoDB, what is a 'collection' roughly equivalent to in SQL?",
+    "option_a": "A row",
+    "option_b": "A table",
+    "option_c": "A database",
+    "option_d": "A column",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Database",
+    "question_text": "In MongoDB, what is a 'document' roughly equivalent to in SQL?",
+    "option_a": "A row",
+    "option_b": "A table",
+    "option_c": "A column",
+    "option_d": "An index",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Database",
+    "question_text": "Which method is used to insert a single document in MongoDB?",
+    "option_a": "db.collection.add()",
+    "option_b": "db.collection.insert()",
+    "option_c": "db.collection.insertOne()",
+    "option_d": "db.collection.create()",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Database",
+    "question_text": "What is 'Mongoose' in the context of Node.js and MongoDB?",
+    "option_a": "A database engine",
+    "option_b": "An ODM (Object Data Modeling) library",
+    "option_c": "A testing framework",
+    "option_d": "A CSS library",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "What is the purpose of 'environment variables'?",
+    "option_a": "To store CSS styles",
+    "option_b": "To store configuration settings and secrets outside the code",
+    "option_c": "To define HTML structure",
+    "option_d": "To speed up the network",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "What is 'OAuth'?",
+    "option_a": "A database query language",
+    "option_b": "An open standard for access delegation (authorization)",
+    "option_c": "A type of JavaScript loop",
+    "option_d": "A server-side language",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Database",
+    "question_text": "What is a 'Primary Key' in a SQL database?",
+    "option_a": "A key used to encrypt the database",
+    "option_b": "A unique identifier for each record in a table",
+    "option_c": "The password for the database",
+    "option_d": "A key that links to another table",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Database",
+    "question_text": "What is a 'Foreign Key'?",
+    "option_a": "A key used by developers from other countries",
+    "option_b": "A field that relates to the primary key of another table",
+    "option_c": "A secondary index",
+    "option_d": "A ghost record",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Database",
+    "question_text": "What is 'normalization' in the context of databases?",
+    "option_a": "Deleting all data",
+    "option_b": "Organizing data to reduce redundancy and improve integrity",
+    "option_c": "Making sure all users have same access",
+    "option_d": "Converting SQL to JSON",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "What is 'GraphQL'?",
+    "option_a": "A CSS framework",
+    "option_b": "A query language for APIs",
+    "option_c": "A type of NoSQL database",
+    "option_d": "A frontend state manager",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "Who developed GraphQL?",
+    "option_a": "Google",
+    "option_b": "Facebook",
+    "option_c": "Microsoft",
+    "option_d": "Amazon",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "What is the main benefit of GraphQL over REST?",
+    "option_a": "It is faster for all requests",
+    "option_b": "Clients can request exactly the data they need (prevents overfetching)",
+    "option_c": "It doesn't use HTTP",
+    "option_d": "It only works with SQL databases",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "In GraphQL, what is a 'Schema'?",
+    "option_a": "A database table design",
+    "option_b": "A definition of the data types and their relationships",
+    "option_c": "A CSS layout",
+    "option_d": "A JSON file for settings",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "In GraphQL, what is a 'Resolver'?",
+    "option_a": "A component that resolves CSS conflicts",
+    "option_b": "A function that populates the data for a field in the schema",
+    "option_c": "A browser tool for debugging",
+    "option_d": "A way to resolve IP addresses",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "What is 'Next.js'?",
+    "option_a": "A CSS framework",
+    "option_b": "A React framework for production",
+    "option_c": "A database engine",
+    "option_d": "A browser plugin",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "What is 'SSR' in the context of web development?",
+    "option_a": "Static Site Rendering",
+    "option_b": "Server-Side Rendering",
+    "option_c": "Standard Side Rendering",
+    "option_d": "Secure System Rendering",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "What is 'SSG' in the context of Next.js?",
+    "option_a": "Server-Side Generation",
+    "option_b": "Static Site Generation",
+    "option_c": "Search Side Generation",
+    "option_d": "Simple Style Generation",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "What is the benefit of SSR?",
+    "option_a": "Faster initial page load and better SEO",
+    "option_b": "Lower server costs",
+    "option_c": "No JavaScript needed",
+    "option_d": "Works without a browser",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Architecture",
+    "question_text": "What is 'MVC' architecture?",
+    "option_a": "Main Variable Control",
+    "option_b": "Model-View-Controller",
+    "option_c": "Mini View Code",
+    "option_d": "Module Version Control",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Architecture",
+    "question_text": "In MVC, what is the role of the 'Model'?",
+    "option_a": "Handling the user interface",
+    "option_b": "Managing data and business logic",
+    "option_c": "Routing requests",
+    "option_d": "Styling the components",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Architecture",
+    "question_text": "In MVC, what is the 'View' responsible for?",
+    "option_a": "Managing the database",
+    "option_b": "Presenting data to the user",
+    "option_c": "Processing user inputs",
+    "option_d": "Executing backend logic",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Architecture",
+    "question_text": "In MVC, what does the 'Controller' do?",
+    "option_a": "Stores data",
+    "option_b": "Acts as an interface between Model and View",
+    "option_c": "Defines the CSS styles",
+    "option_d": "Runs the operating system",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Security",
+    "question_text": "What is 'XSS'?",
+    "option_a": "Cross-Site Storage",
+    "option_b": "Cross-Site Scripting",
+    "option_c": "Extensible Style Sheets",
+    "option_d": "Extra Small Styles",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Security",
+    "question_text": "What is 'CSRF'?",
+    "option_a": "Cross-Site Resource Filtering",
+    "option_b": "Cross-Site Request Forgery",
+    "option_c": "Common System Resource File",
+    "option_d": "Code Security Rule Frame",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Security",
+    "question_text": "What is 'Salting' in password hashing?",
+    "option_a": "Adding random data to a password before hashing",
+    "option_b": "Removing characters from a password",
+    "option_c": "Encrypting the entire database",
+    "option_d": "Using a salty flavor in code",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Security",
+    "question_text": "Which HTTP header is used for CSRF protection?",
+    "option_a": "Authorization",
+    "option_b": "X-CSRF-Token",
+    "option_c": "Content-Type",
+    "option_d": "User-Agent",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "DevOps",
+    "question_text": "What is 'Docker'?",
+    "option_a": "A cloud provider",
+    "option_b": "A containerization platform",
+    "option_c": "A JavaScript framework",
+    "option_d": "A code editor",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "DevOps",
+    "question_text": "What is a Docker 'Image'?",
+    "option_a": "A picture of a whale",
+    "option_b": "A read-only template used to create containers",
+    "option_c": "A running instance of an application",
+    "option_d": "A CSS background",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "DevOps",
+    "question_text": "What is a 'Container'?",
+    "option_a": "A physical box",
+    "option_b": "A runnable instance of an image",
+    "option_c": "A git branch",
+    "option_d": "A database table",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "DevOps",
+    "question_text": "What is 'CI/CD'?",
+    "option_a": "Coding Innovation / Continuous Design",
+    "option_b": "Continuous Integration / Continuous Deployment",
+    "option_c": "Code Inspection / Code Delivery",
+    "option_d": "None of the above",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "DevOps",
+    "question_text": "What is the purpose of 'GitHub Actions'?",
+    "option_a": "To write code",
+    "option_b": "To automate software workflows (CI/CD)",
+    "option_c": "To chat with developers",
+    "option_d": "To host images",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Architecture",
+    "question_text": "What are 'Microservices'?",
+    "option_a": "Small pieces of hardware",
+    "option_b": "An architectural style that structures an app as a collection of small services",
+    "option_c": "A very small CSS file",
+    "option_d": "A single monolithic application",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Architecture",
+    "question_text": "What is 'Serverless' computing?",
+    "option_a": "Computing without any servers anywhere",
+    "option_b": "A cloud execution model where the provider manages server allocation",
+    "option_c": "Running code strictly on the frontend",
+    "option_d": "An offline mode for web apps",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "What is the purpose of 'Lighthouse' in Chrome DevTools?",
+    "option_a": "To debug JavaScript",
+    "option_b": "To audit performance, accessibility, and SEO",
+    "option_c": "To view network requests",
+    "option_d": "To edit CSS live",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "Which React hook is used to access the router object in Next.js?",
+    "option_a": "useEffect",
+    "option_b": "useRouter",
+    "option_c": "useNavigate",
+    "option_d": "useNavigation",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "In React, what are 'Fragments' used for?",
+    "option_a": "To break the code",
+    "option_b": "To group multiple elements without adding extra nodes to the DOM",
+    "option_c": "To style components",
+    "option_d": "To store data",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "What is 'lazy loading'?",
+    "option_a": "Waiting for the user to type",
+    "option_b": "Loading resources only when they are needed",
+    "option_c": "A slow internet connection",
+    "option_d": "Skipping tests",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "What is 'Redis' commonly used for?",
+    "option_a": "A main database",
+    "option_b": "Caching and message brokering",
+    "option_c": "Rendering HTML",
+    "option_d": "Styling CSS",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "What is the 'package-lock.json' file for?",
+    "option_a": "To lock the computer",
+    "option_b": "To ensure consistent dependency versions across installs",
+    "option_c": "To store passwords",
+    "option_d": "To list the authors",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "Which Node.js tool is used to manage multiple Node versions?",
+    "option_a": "npm",
+    "option_b": "nvm",
+    "option_c": "node-version",
+    "option_d": "yarn",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Database",
+    "question_text": "What is an 'Index' in a database?",
+    "option_a": "The page number",
+    "option_b": "A data structure that improves the speed of data retrieval",
+    "option_c": "The first column in a table",
+    "option_d": "A list of all users",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Database",
+    "question_text": "What is 'ACID' in database transactions?",
+    "option_a": "A type of chemical",
+    "option_b": "Atomicity, Consistency, Isolation, Durability",
+    "option_c": "Access, Control, Information, Data",
+    "option_d": "Always Consistent In Data",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Security",
+    "question_text": "What is the purpose of 'HTTPS'?",
+    "option_a": "To make the website faster",
+    "option_b": "To provide encrypted communication and secure identification",
+    "option_c": "To host more images",
+    "option_d": "To allow search engines to crawl",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Security",
+    "question_text": "Which status code means 'Unauthorized'?",
+    "option_a": "400",
+    "option_b": "401",
+    "option_c": "403",
+    "option_d": "404",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "What is a 'closure' in JavaScript?",
+    "option_a": "A way to close the browser tab",
+    "option_b": "A function that has access to its outer function scope even after the outer function has returned",
+    "option_c": "A loop that never ends",
+    "option_d": "A style of syntax",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "What is 'hoisting' in JavaScript?",
+    "option_a": "Lifting a weight",
+    "option_b": "JavaScript's default behavior of moving declarations to the top",
+    "option_c": "A way to optimize images",
+    "option_d": "A version control feature",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "What does the 'this' keyword refer to in JavaScript?",
+    "option_a": "Always refers to the global object",
+    "option_b": "Refers to the object it belongs to",
+    "option_c": "Refers to the previous function",
+    "option_d": "It is a placeholder for data",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "What is the difference between 'var', 'let', and 'const'?",
+    "option_a": "There is no difference",
+    "option_b": "var is function-scoped, let and const are block-scoped; const cannot be reassigned",
+    "option_c": "let is for numbers, var is for strings",
+    "option_d": "const is faster than let",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "What is 'Flexbox' in CSS?",
+    "option_a": "A flexible database",
+    "option_b": "A layout model that allows elements to align and distribute space in a container",
+    "option_c": "A new font type",
+    "option_d": "A JavaScript library",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "In Flexbox, which property is used on the container to align items along the main axis?",
+    "option_a": "align-items",
+    "option_b": "justify-content",
+    "option_c": "flex-direction",
+    "option_d": "align-content",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "In Flexbox, which property is used on the container to align items along the cross axis?",
+    "option_a": "justify-content",
+    "option_b": "align-items",
+    "option_c": "flex-wrap",
+    "option_d": "display",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "What is 'CSS Grid'?",
+    "option_a": "A way to draw lines on a page",
+    "option_b": "A two-dimensional layout system for the web",
+    "option_c": "A table-based layout",
+    "option_d": "A tool for fixing CSS bugs",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "Which CSS property is used to create a grid container?",
+    "option_a": "display: flex",
+    "option_b": "display: grid",
+    "option_c": "grid-template: rows",
+    "option_d": "layout: grid",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "What is the 'Box Model' in CSS?",
+    "option_a": "A model for 3D boxes",
+    "option_b": "The representation of an element as a box with content, padding, border, and margin",
+    "option_c": "A way to pack files",
+    "option_d": "A JavaScript design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "What is 'BEM' in CSS?",
+    "option_a": "Binary Element Model",
+    "option_b": "Block Element Modifier",
+    "option_c": "Best Execution Method",
+    "option_d": "Basic Element Management",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "What is a 'SASS'?",
+    "option_a": "A CSS framework",
+    "option_b": "A CSS preprocessor",
+    "option_c": "A backend language",
+    "option_d": "A browser plugin",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "Which property is used in CSS to set the space between lines of text?",
+    "option_a": "letter-spacing",
+    "option_b": "line-height",
+    "option_c": "text-indent",
+    "option_d": "word-spacing",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "What is 'Media Queries' used for?",
+    "option_a": "To include images and videos",
+    "option_b": "To apply CSS styles based on device characteristics (like width)",
+    "option_c": "To query a database",
+    "option_d": "To manage social media",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "What is the result of 1 + '1' in JavaScript?",
+    "option_a": "2",
+    "option_b": "'11'",
+    "option_c": "NaN",
+    "option_d": "undefined",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "What is the result of 1 - '1' in JavaScript?",
+    "option_a": "0",
+    "option_b": "NaN",
+    "option_c": "'0'",
+    "option_d": "undefined",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "What is 'Micro-frontends'?",
+    "option_a": "Small monitors",
+    "option_b": "An architectural style where a frontend app is delivered as a set of independent features",
+    "option_c": "A very small CSS file",
+    "option_d": "A type of icon",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "What is 'WebSockets' used for?",
+    "option_a": "To download files faster",
+    "option_b": "To provide full-duplex communication channels over a single TCP connection",
+    "option_c": "To style the browser window",
+    "option_d": "To encrypt passwords",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "What is 'Socket.io'?",
+    "option_a": "A database engine",
+    "option_b": "A JavaScript library for real-time web applications",
+    "option_c": "A type of network cable",
+    "option_d": "A CSS framework",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "What is 'gRPC'?",
+    "option_a": "A new version of React",
+    "option_b": "A high-performance Remote Procedure Call (RPC) framework",
+    "option_c": "A database query language",
+    "option_d": "A graphical design tool",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Architecture",
+    "question_text": "What is 'Domain-Driven Design' (DDD)?",
+    "option_a": "A way to buy domain names",
+    "option_b": "A software design approach that connects the implementation to an evolving model",
+    "option_c": "A CSS layout technique",
+    "option_d": "A type of testing",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Architecture",
+    "question_text": "What is 'CQRS'?",
+    "option_a": "Common Query Relationship System",
+    "option_b": "Command Query Responsibility Segregation",
+    "option_c": "Code Quality Review Standard",
+    "option_d": "Continuous Quality Response System",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Architecture",
+    "question_text": "What is an 'API Gateway'?",
+    "option_a": "A physical router",
+    "option_b": "A server that acts as an API front-end, receives requests, and routes them to services",
+    "option_c": "A documentation tool",
+    "option_d": "A type of authentication",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "DevOps",
+    "question_text": "What is 'Kubernetes'?",
+    "option_a": "A database for logs",
+    "option_b": "An open-source system for automating deployment, scaling, and management of containers",
+    "option_c": "A CSS library",
+    "option_d": "A browser",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "DevOps",
+    "question_text": "What is 'Terraform'?",
+    "option_a": "A game engine",
+    "option_b": "An infrastructure as code tool",
+    "option_c": "A database migration tool",
+    "option_d": "A frontend framework",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "DevOps",
+    "question_text": "What is 'Ansible'?",
+    "option_a": "A type of ant",
+    "option_b": "An open-source automation tool for configuration management and deployment",
+    "option_c": "A code editor",
+    "option_d": "A testing library",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "DevOps",
+    "question_text": "What is 'Monitoring' in DevOps?",
+    "option_a": "Watching the screen",
+    "option_b": "Collecting and analyzing data about the performance and health of systems",
+    "option_c": "Writing code reviews",
+    "option_d": "Deploying code",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "DevOps",
+    "question_text": "What is 'Prometheus'?",
+    "option_a": "A Greek god",
+    "option_b": "An open-source monitoring and alerting toolkit",
+    "option_c": "A database for large files",
+    "option_d": "A frontend compiler",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "DevOps",
+    "question_text": "What is 'Grafana'?",
+    "option_a": "A drawing tool",
+    "option_b": "An open-source visualization and analytics software",
+    "option_c": "A database engine",
+    "option_d": "A cloud provider",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Testing",
+    "question_text": "What is 'Unit Testing'?",
+    "option_a": "Testing the whole system at once",
+    "option_b": "Testing individual units or components of software",
+    "option_c": "Testing the user interface only",
+    "option_d": "Testing on a mobile device",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Testing",
+    "question_text": "What is 'Integration Testing'?",
+    "option_a": "Testing individual functions",
+    "option_b": "Testing how different modules of an application work together",
+    "option_c": "Testing the database speed",
+    "option_d": "Testing the CSS colors",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Testing",
+    "question_text": "What is 'E2E Testing'?",
+    "option_a": "Easy to Execute",
+    "option_b": "End-to-End Testing",
+    "option_c": "Error to Execute",
+    "option_d": "Effective to Execute",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Testing",
+    "question_text": "What is 'Cypress'?",
+    "option_a": "A type of tree",
+    "option_b": "A modern end-to-end testing framework",
+    "option_c": "A backend language",
+    "option_d": "A database",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Testing",
+    "question_text": "What is 'TDD'?",
+    "option_a": "Test Data Design",
+    "option_b": "Test-Driven Development",
+    "option_c": "Total Data Delivery",
+    "option_d": "Time for Daily Development",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Testing",
+    "question_text": "What is 'Code Coverage'?",
+    "option_a": "The amount of space the code takes on disk",
+    "option_b": "A measure of how much of the code is executed during testing",
+    "option_c": "A type of insurance for developers",
+    "option_d": "The number of lines in a file",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Performance",
+    "question_text": "What is 'V8' in the context of JavaScript?",
+    "option_a": "A type of engine in a car",
+    "option_b": "Google's open-source high-performance JavaScript and WebAssembly engine",
+    "option_c": "A version of the JavaScript language",
+    "option_d": "A CSS property",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Performance",
+    "question_text": "What is 'Event Loop' in Node.js?",
+    "option_a": "A loop that counts events",
+    "option_b": "An endlessly running mechanism that allows Node.js to perform non-blocking I/O",
+    "option_c": "A way to schedule meetings",
+    "option_d": "A browser feature for animations",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Performance",
+    "question_text": "What is 'Debouncing'?",
+    "option_a": "A way to bounce a ball",
+    "option_b": "A technique to limit the rate at which a function gets invoked",
+    "option_c": "A database optimization",
+    "option_d": "A type of network error",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Performance",
+    "question_text": "What is 'Throttling'?",
+    "option_a": "Stopping a process completely",
+    "option_b": "Encouraging a function to run at most once in a specified time period",
+    "option_c": "A type of cyber attack",
+    "option_d": "A way to speed up the CPU",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "What is 'PWA'?",
+    "option_a": "Professional Web Application",
+    "option_b": "Progressive Web Application",
+    "option_c": "Private Web Access",
+    "option_d": "Portable Web Asset",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "What is a 'Service Worker'?",
+    "option_a": "A person who fixes servers",
+    "option_b": "A script that your browser runs in the background for features like offline experience",
+    "option_c": "A background process in Node.js",
+    "option_d": "A database admin tool",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "What is 'WebAssembly' (Wasm)?",
+    "option_a": "A new HTML tag",
+    "option_b": "A binary instruction format for a stack-based virtual machine",
+    "option_c": "A styling library",
+    "option_d": "A database for the web",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Performance",
+    "question_text": "What is 'Critical Rendering Path'?",
+    "option_a": "The fastest path through a maze",
+    "option_b": "The sequence of steps the browser takes to convert HTML, CSS, and JS into pixels",
+    "option_c": "A tool for fixing slow code",
+    "option_d": "The main route in the backend",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Architecture",
+    "question_text": "What is 'Event-Driven Architecture'?",
+    "option_a": "An architecture where you write many events",
+    "option_b": "A software architecture pattern promoting the production and consumption of events",
+    "option_c": "A way to organize calendars",
+    "option_d": "A CSS layout type",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Architecture",
+    "question_text": "What is 'Webhooks'?",
+    "option_a": "Hooks used for fishing",
+    "option_b": "User-defined HTTP callbacks triggered by specific events",
+    "option_c": "A type of React hook",
+    "option_d": "A browser extension",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Database",
+    "question_text": "What is 'Sharding' in databases?",
+    "option_a": "Breaking the database",
+    "option_b": "A method for distributing a single dataset across multiple databases",
+    "option_c": "Deleting old records",
+    "option_d": "Creating indexes",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Architecture",
+    "question_text": "What is 'Load Balancing'?",
+    "option_a": "Equally distributes network or application traffic across a number of servers",
+    "option_b": "Checking the server weight",
+    "option_c": "Reducing the number of users",
+    "option_d": "Buying more RAM",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Security",
+    "question_text": "What is 'OWASP'?",
+    "option_a": "Open Web Application Service Provider",
+    "option_b": "Open Web Application Security Project",
+    "option_c": "Official Web Application Security Protocol",
+    "option_d": "None of the above",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Security",
+    "question_text": "What is 'Injection' attack in security?",
+    "option_a": "Giving a vaccine to the computer",
+    "option_b": "When untrusted data is sent to an interpreter as part of a command or query",
+    "option_c": "Inserting CSS into HTML",
+    "option_d": "Adding a new user",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Backend",
+    "question_text": "What is the purpose of 'Docker Compose'?",
+    "option_a": "To write music with Docker",
+    "option_b": "To define and run multi-container Docker applications",
+    "option_c": "To build a single image",
+    "option_d": "To manage Kubernetes clusters",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Architecture",
+    "question_text": "What are 'Design Patterns' in software development?",
+    "option_a": "Colors and fonts for the UI",
+    "option_b": "Reusable solutions to commonly occurring problems in software design",
+    "option_c": "A set of rules for naming folders",
+    "option_d": "A type of code review",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Full Stack Development",
+    "topic": "Frontend",
+    "question_text": "What is the primary purpose of the 'alt' attribute on an <img> tag?",
+    "option_a": "To provide a link",
+    "option_b": "To provide alternative text for screen readers and if the image fails to load",
+    "option_c": "To set the image alignment",
+    "option_d": "To define the image source",
+    "correct_option": "B"
+  }
+]

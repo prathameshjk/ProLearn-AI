@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Prolearn</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>body { font-family: 'Outfit', sans-serif; }</style>
+</head>
+<body class="bg-slate-50 min-h-screen">
+    <nav class="bg-white border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <div class="w-8 h-8 bg-indigo-600 rounded-lg flex items-center justify-center text-white font-bold">P</div>
+                <span class="text-xl font-bold">Prolearn</span>
+            </div>
+            <div class="flex items-center gap-6">
+                <a href="/dashboard" class="text-slate-600 hover:text-indigo-600 font-medium transition-colors">Dashboard</a>
+                <a href="/create-test" class="text-slate-600 hover:text-indigo-600 font-medium transition-colors">Create Test</a>
+                <a href="/my-tests" class="text-slate-600 hover:text-indigo-600 font-medium transition-colors">My Tests</a>
+                <a href="/profile" class="text-slate-600 hover:text-indigo-600 font-medium transition-colors">Profile</a>
+                <div class="flex items-center gap-4">
+                    <span id="nav-username" class="text-slate-600 font-medium"></span>
+                    <button onclick="logout()" class="text-slate-400 hover:text-red-500 transition-colors">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"></path></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="max-w-7xl mx-auto px-4 py-12">
+        <header class="mb-12">
+            <h1 class="text-4xl font-bold text-slate-900">Dashboard</h1>
+            <p class="text-slate-500 mt-2">Choose a domain to start your daily aptitude test.</p>
+        </header>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="domain-grid">
+            <!-- Domains will be injected here -->
+        </div>
+    </main>
+
+    <script>
+        const user = JSON.parse(localStorage.getItem('user'));
+        if (!user) window.location.href = '/login';
+
+        document.getElementById('nav-username').innerText = user.username;
+
+        const domains = [
+            { name: "Artificial Intelligence", desc: "ML, Neural Networks, Search Algorithms", color: "indigo" },
+            { name: "Data Science", desc: "Statistics, Data Analysis, Visualization", color: "blue" },
+            { name: "Cybersecurity", desc: "Network Security, Cryptography, Threats", color: "red" },
+            { name: "Cloud Computing", desc: "AWS, Azure, Scalable Architectures", color: "sky" },
+            { name: "Full Stack Development", desc: "React, Node.js, Databases", color: "emerald" },
+            { name: "Mobile App Development", desc: "Flutter, React Native, iOS/Android", color: "violet" },
+            { name: "Deep Learning", desc: "CNNs, RNNs, Backpropagation", color: "fuchsia" },
+            { name: "Natural Language Processing", desc: "Tokenization, Transformers, LLMs", color: "amber" }
+        ];
+
+        const grid = document.getElementById('domain-grid');
+        domains.forEach(d => {
+            const card = `
+                <div class="bg-white p-6 rounded-3xl border border-slate-100 shadow-sm hover:shadow-md transition-all cursor-pointer group" onclick="startTest('${d.name}')">
+                    <div class="w-12 h-12 bg-${d.color}-100 rounded-2xl flex items-center justify-center mb-4 text-${d.color}-600 group-hover:bg-${d.color}-600 group-hover:text-white transition-all">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-800 mb-2">${d.name}</h3>
+                    <p class="text-slate-500 text-sm mb-6">${d.desc}</p>
+                    <div class="flex items-center text-sm font-bold text-${d.color}-600">
+                        Start Assessment
+                        <svg class="w-4 h-4 ml-1 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                    </div>
+                </div>
+            `;
+            grid.innerHTML += card;
+        });
+
+        async function startTest(domain) {
+            const res = await fetch(`/questions/${domain}?user_id=${user.user_id}`);
+            if (res.ok) {
+                const questions = await res.json();
+                localStorage.setItem('current_test', JSON.stringify({ domain, questions }));
+                window.location.href = '/test';
+            } else {
+                const err = await res.json();
+                alert(err.detail);
+            }
+        }
+
+        function logout() {
+            localStorage.clear();
+            window.location.href = '/login';
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assessment - Prolearn</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Outfit', sans-serif; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+</head>
+</head>
+<body class="bg-slate-50 min-h-screen relative overflow-hidden" id="test-body">
+    <!-- Instruction Modal -->
+    <div id="instruction-modal" class="fixed inset-0 z-[100] bg-slate-900/60 backdrop-blur-xl flex items-center justify-center p-4">
+        <div class="bg-white w-full max-w-2xl rounded-[2.5rem] shadow-2xl overflow-hidden border border-white/20">
+            <div class="bg-indigo-600 p-10 text-white relative">
+                <div class="absolute top-0 right-0 p-8 opacity-10">
+                    <svg class="w-32 h-32" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2L1 21h22L12 2zm0 3.45l8.43 14.55H3.57L12 5.45zM11 10v4h2v-4h-2zm0 6v2h2v-2h-2z"/></svg>
+                </div>
+                <h2 class="text-4xl font-black mb-3 tracking-tight">System Check & Rules</h2>
+                <p class="text-indigo-100 text-lg font-medium opacity-90">Please review these rules before beginning your assessment.</p>
+            </div>
+            
+            <div class="p-10 space-y-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="flex items-start gap-4 p-5 rounded-3xl bg-slate-50 border border-slate-100">
+                        <div class="p-3 bg-indigo-100 text-indigo-600 rounded-2xl">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        </div>
+                        <div>
+                            <p class="font-bold text-slate-800">20 Minutes</p>
+                            <p class="text-xs text-slate-500 font-bold uppercase tracking-wider">Total Duration</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4 p-5 rounded-3xl bg-slate-50 border border-slate-100">
+                        <div class="p-3 bg-emerald-100 text-emerald-600 rounded-2xl">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        </div>
+                        <div>
+                            <p class="font-bold text-slate-800">Locked Session</p>
+                            <p class="text-xs text-slate-500 font-bold uppercase tracking-wider">Proctored Environment</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="space-y-5">
+                    <h3 class="font-black text-slate-400 uppercase text-xs tracking-[0.2em]">Mandatory Requirements</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-center gap-4 text-slate-700 font-medium">
+                            <div class="w-2 h-2 rounded-full bg-red-500 shadow-[0_0_10px_rgba(239,68,68,0.5)]"></div>
+                            Do not switch tabs or minimize the browser window.
+                        </li>
+                        <li class="flex items-center gap-4 text-slate-700 font-medium">
+                            <div class="w-2 h-2 rounded-full bg-red-500 shadow-[0_0_10px_rgba(239,68,68,0.5)]"></div>
+                            The test will open in <span class="text-indigo-600 font-bold">Full Screen Mode</span>.
+                        </li>
+                        <li class="flex items-center gap-4 text-slate-700 font-medium">
+                            <div class="w-2 h-2 rounded-full bg-indigo-500 shadow-[0_0_10px_rgba(99,102,241,0.5)]"></div>
+                            Maintain a stable internet connection throughout.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="pt-8 border-t border-slate-100">
+                    <button onclick="confirmStart()" class="group relative w-full py-5 bg-indigo-600 text-white rounded-[1.5rem] font-bold text-lg shadow-2xl shadow-indigo-200 hover:bg-indigo-700 transition-all hover:scale-[1.02] active:scale-95 overflow-hidden">
+                        <span class="relative z-10 flex items-center justify-center gap-2">
+                            I Agree, Start My Test
+                            <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 7l5 5m0 0l-5 5m5-5H6"></path></svg>
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cheat Warning Overlay -->
+    <div id="cheat-warning" class="fixed inset-0 z-[200] bg-red-600/90 backdrop-blur-xl flex items-center justify-center p-4 hidden">
+        <div class="bg-white p-10 rounded-[3rem] max-w-md w-full text-center shadow-2xl border-4 border-white/50">
+            <div class="w-20 h-20 bg-red-100 text-red-600 rounded-full flex items-center justify-center mx-auto mb-6">
+                <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+            </div>
+            <h3 class="text-3xl font-black text-slate-800 mb-4 tracking-tight">Warning Detected!</h3>
+            <p id="violation-msg" class="text-slate-500 font-medium mb-8 leading-relaxed">You have attempted to leave the assessment environment. This violation has been recorded.</p>
+            <button onclick="resumeTest()" class="w-full py-4 bg-red-600 text-white rounded-2xl font-bold shadow-lg shadow-red-200 hover:bg-red-700 transition-all active:scale-95">
+                Resume Assessment
+            </button>
+        </div>
+    </div>
+
+    <div class="max-w-[1400px] mx-auto px-4 py-8">
+        <!-- Header -->
+        <div class="flex flex-wrap gap-4 justify-between items-center mb-8 bg-white p-6 rounded-3xl shadow-sm border border-slate-100">
+            <div>
+                <h1 class="text-3xl font-extrabold text-slate-800 tracking-tight" id="test-domain">Assessment</h1>
+                <p class="text-slate-500 font-medium mt-1">Please answer all questions carefully.</p>
+            </div>
+            <div class="flex items-center gap-6">
+                <button onclick="endTest()" class="px-6 py-3 bg-red-50 text-red-600 rounded-2xl font-bold border border-red-100 shadow-sm hover:bg-red-100 hover:text-red-700 transition-all active:scale-95 flex items-center gap-2">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 10a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1h-4a1 1 0 01-1-1v-4z"></path></svg>
+                    End Test
+                </button>
+                <div id="timer" class="bg-indigo-50 px-8 py-3 rounded-2xl font-black border border-indigo-100 shadow-sm text-indigo-700 flex items-center gap-3 scale-110 origin-right">
+                    <svg class="w-6 h-6 animate-pulse" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    <span id="timer-text" class="text-2xl font-mono">20:00</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex flex-col lg:flex-row gap-8">
+            <!-- Left Column: Questions -->
+            <div class="flex-1">
+                <div id="question-container" class="bg-white p-8 lg:p-12 rounded-[2.5rem] shadow-xl shadow-slate-200/50 border border-slate-100 relative overflow-hidden">
+                    <!-- Progress Bar at top of container -->
+                    <div class="absolute top-0 left-0 w-full h-1.5 bg-slate-100">
+                        <div id="progress" class="bg-indigo-600 h-full transition-all duration-500 ease-out" style="width: 0%"></div>
+                    </div>
+
+                    <div class="mb-10">
+                        <p id="q-number" class="text-indigo-600 font-bold text-sm uppercase tracking-widest mb-4">Question 1 of 20</p>
+                        <h2 id="q-text" class="text-3xl font-bold text-slate-800 leading-[1.3] min-h-[4rem]">...</h2>
+                    </div>
+                    
+                    <div class="space-y-4" id="options">
+                        <!-- Options injected here -->
+                    </div>
+
+                    <div class="mt-12 pt-8 border-t border-slate-50 flex justify-between items-center">
+                        <button onclick="prevQ()" id="prev-btn" class="px-10 py-4 bg-slate-100 text-slate-600 rounded-2xl font-bold transition-all hover:bg-slate-200 disabled:opacity-50 disabled:hover:bg-slate-100">
+                            Back
+                        </button>
+                        <button onclick="nextQ()" id="next-btn" class="px-10 py-4 bg-indigo-600 text-white rounded-2xl font-bold shadow-lg shadow-indigo-200 transition-all hover:bg-indigo-700 hover:scale-[1.02] active:scale-95">
+                            Next Question
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column: Sidebar -->
+            <div class="w-full lg:w-[400px] flex flex-col gap-6">
+                <!-- Progress Stats -->
+                <div class="bg-white p-8 rounded-[2rem] shadow-lg shadow-slate-200/40 border border-slate-100">
+                    <h3 class="text-lg font-bold text-slate-800 mb-6 flex items-center gap-2">
+                        <div class="w-2 h-6 bg-indigo-600 rounded-full"></div>
+                        Live Progress
+                    </h3>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="bg-slate-50 p-5 rounded-2xl border border-slate-100 text-center">
+                            <span class="block text-slate-400 text-[10px] font-bold uppercase tracking-wider mb-2">Total</span>
+                            <span class="text-2xl font-black text-slate-700" id="stat-total">0</span>
+                        </div>
+                        <div class="bg-blue-50/50 p-5 rounded-2xl border border-blue-100 text-center">
+                            <span class="block text-blue-400 text-[10px] font-bold uppercase tracking-wider mb-2">Attempted</span>
+                            <span class="text-2xl font-black text-blue-600" id="stat-attempted">0</span>
+                        </div>
+                        <div class="bg-emerald-50/50 p-5 rounded-2xl border border-emerald-100 text-center">
+                            <span class="block text-emerald-400 text-[10px] font-bold uppercase tracking-wider mb-2">Solved</span>
+                            <span class="text-2xl font-black text-emerald-600" id="stat-solved">0</span>
+                        </div>
+                        <div class="bg-amber-50/50 p-5 rounded-2xl border border-amber-100 text-center">
+                            <span class="block text-amber-400 text-[10px] font-bold uppercase tracking-wider mb-2">Skipped</span>
+                            <span class="text-2xl font-black text-amber-600" id="stat-skipped">0</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Question Navigation -->
+                <div class="bg-white p-8 rounded-[2rem] shadow-lg shadow-slate-200/40 border border-slate-100 flex-1 overflow-hidden flex flex-col">
+                    <h3 class="text-base font-bold text-slate-800 mb-6 flex items-center gap-2">
+                        <div class="w-1.5 h-5 bg-slate-200 rounded-full"></div>
+                        Question Navigator
+                    </h3>
+                    <div class="overflow-y-auto pr-2 custom-scrollbar">
+                        <div id="question-nav" class="flex flex-wrap gap-2.5">
+                            <!-- Question buttons will be injected here -->
+                        </div>
+                    </div>
+                    
+                    <!-- Labels -->
+                    <div class="mt-8 pt-6 border-t border-slate-100 grid grid-cols-2 gap-y-3">
+                        <div class="flex items-center gap-2 text-xs font-bold text-slate-500">
+                            <div class="w-3 h-3 rounded-full bg-indigo-600"></div> Solved
+                        </div>
+                        <div class="flex items-center gap-2 text-xs font-bold text-slate-500">
+                            <div class="w-3 h-3 rounded-full bg-amber-100 border border-amber-200"></div> Skipped
+                        </div>
+                        <div class="flex items-center gap-2 text-xs font-bold text-slate-500">
+                            <div class="w-3 h-3 rounded-full bg-white border-2 border-indigo-600"></div> Current
+                        </div>
+                        <div class="flex items-center gap-2 text-xs font-bold text-slate-500">
+                            <div class="w-3 h-3 rounded-full bg-slate-100"></div> Not Visited
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const testData = JSON.parse(localStorage.getItem('current_test'));
+        if (!testData) window.location.href = '/dashboard';
+        
+        let testStarted = false;
+        let tabSwitchCount = 0;
+        let currentIndex = 0;
+
+        const answers = {};
+        const visited = new Set([0]);
+        const questions = testData.questions;
+        document.getElementById('test-domain').innerText = testData.domain;
+        document.getElementById('stat-total').innerText = questions.length;
+
+        function renderQuestion() {
+            const q = questions[currentIndex];
+            visited.add(currentIndex);
+            
+            document.getElementById('q-number').innerText = `Question ${currentIndex + 1} of ${questions.length}`;
+            document.getElementById('q-text').innerText = q.question_text;
+            document.getElementById('progress').style.width = `${((currentIndex + 1) / questions.length) * 100}%`;
+
+            // Update Stats
+            const answeredCount = Object.keys(answers).length;
+            const visitedCount = visited.size;
+            
+            document.getElementById('stat-total').innerText = questions.length;
+            document.getElementById('stat-attempted').innerText = visitedCount;
+            document.getElementById('stat-solved').innerText = answeredCount;
+            document.getElementById('stat-skipped').innerText = visitedCount - answeredCount;
+
+            // Render Navigation Grid
+            const navDiv = document.getElementById('question-nav');
+            navDiv.innerHTML = '';
+            questions.forEach((_, idx) => {
+                const isCurrent = idx === currentIndex;
+                const isAnswered = answers[questions[idx].id];
+                const isVisited = visited.has(idx);
+                
+                let states = 'bg-slate-50 text-slate-400 border-slate-100 opacity-60';
+                
+                if (isCurrent) {
+                    states = 'bg-white text-indigo-600 border-indigo-600 shadow-sm ring-1 ring-indigo-600 z-10';
+                } else if (isAnswered) {
+                    states = 'bg-indigo-600 text-white border-indigo-600 opacity-100';
+                } else if (isVisited) {
+                    states = 'bg-amber-50 text-amber-600 border-amber-200 opacity-100';
+                }
+
+                navDiv.innerHTML += `
+                    <button onclick="jumpTo(${idx})" 
+                        class="h-9 w-9 rounded-lg border flex items-center justify-center font-bold text-xs transition-all duration-200 active:scale-90 ${states}">
+                        ${idx + 1}
+                    </button>
+                `;
+            });
+
+            const optionsDiv = document.getElementById('options');
+            optionsDiv.innerHTML = '';
+            
+            ['A', 'B', 'C', 'D'].forEach(opt => {
+                const key = `option_${opt.toLowerCase()}`;
+                const isSelected = answers[q.id] === opt;
+                optionsDiv.innerHTML += `
+                    <div onclick="selectOption('${opt}')" 
+                        class="p-6 border-2 rounded-[1.5rem] cursor-pointer transition-all flex items-center gap-5 group
+                        ${isSelected ? 'border-indigo-600 bg-indigo-50/50 shadow-md translate-x-1' : 'border-slate-100 bg-white hover:border-slate-300 hover:bg-slate-50/50'}">
+                        <div class="w-10 h-10 rounded-xl flex items-center justify-center font-bold text-lg transition-colors
+                            ${isSelected ? 'bg-indigo-600 text-white' : 'bg-slate-100 text-slate-400 group-hover:bg-slate-200'}">
+                            ${opt}
+                        </div>
+                        <span class="text-xl ${isSelected ? 'text-indigo-900 font-semibold' : 'text-slate-700 font-medium'}">${q[key]}</span>
+                    </div>
+                `;
+            });
+
+            document.getElementById('prev-btn').disabled = currentIndex === 0;
+            document.getElementById('next-btn').innerText = currentIndex === questions.length - 1 ? 'Submit Assessment' : 'Next Question';
+        }
+
+        function jumpTo(idx) {
+            currentIndex = idx;
+            renderQuestion();
+        }
+
+        function selectOption(opt) {
+            answers[questions[currentIndex].id] = opt;
+            renderQuestion();
+        }
+
+        function nextQ() {
+            if (currentIndex < questions.length - 1) {
+                currentIndex++;
+                renderQuestion();
+            } else {
+                submitTest();
+            }
+        }
+
+        function prevQ() {
+            if (currentIndex > 0) {
+                currentIndex--;
+                renderQuestion();
+            }
+        }
+
+        function endTest() {
+            if (confirm("Are you sure you want to end the test? This will submit your current answers.")) {
+                submitTest();
+            }
+        }
+
+        async function submitTest() {
+            const user = JSON.parse(localStorage.getItem('user'));
+            const payload = {
+                domain: testData.domain,
+                answers: Object.keys(answers).map(qid => ({
+                    question_id: parseInt(qid),
+                    selected_option: answers[qid]
+                })),
+                total_questions: questions.length
+            };
+
+            const res = await fetch(`/submit_test?user_id=${user.user_id}`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(payload)
+            });
+
+            if (res.ok) {
+                const data = await res.json();
+                localStorage.setItem('last_result', JSON.stringify(data));
+                window.location.href = '/result';
+            } else {
+                alert('Submission failed');
+            }
+        }
+
+        // Timer implementation
+        let time = 20 * 60;
+        let timerInterval;
+
+        function startTimer() {
+            timerInterval = setInterval(() => {
+                time--;
+                const mins = Math.floor(time / 60);
+                const secs = time % 60;
+                const timerElem = document.getElementById('timer-text');
+                if (timerElem) timerElem.innerText = `${mins}:${secs.toString().padStart(2, '0')}`;
+                if (time <= 0) {
+                    clearInterval(timerInterval);
+                    submitTest();
+                }
+            }, 1000);
+        }
+
+        async function confirmStart() {
+            try {
+                if (document.documentElement.requestFullscreen) {
+                    await document.documentElement.requestFullscreen();
+                }
+            } catch (err) {
+                console.warn("Fullscreen failed: ", err);
+            }
+            
+            document.getElementById('instruction-modal').classList.add('hidden');
+            document.getElementById('test-body').classList.remove('overflow-hidden');
+            testStarted = true;
+            startTimer();
+            renderQuestion();
+        }
+
+        function resumeTest() {
+            document.getElementById('cheat-warning').classList.add('hidden');
+            if (!document.fullscreenElement) {
+                document.documentElement.requestFullscreen().catch(() => {});
+            }
+        }
+
+        function triggerViolation() {
+            if (!testStarted) return;
+            tabSwitchCount++;
+            
+            if (tabSwitchCount >= 3) {
+                clearInterval(timerInterval);
+                alert("Maximum violations reached (3/3). Your test is being submitted automatically.");
+                submitTest();
+            } else {
+                document.getElementById('violation-msg').innerText = `You have attempted to leave the assessment environment. Warning ${tabSwitchCount} of 3. Further violations will lead to automatic submission.`;
+                document.getElementById('cheat-warning').classList.remove('hidden');
+            }
+        }
+
+        // Monitoring visibility
+        document.addEventListener("visibilitychange", () => {
+            if (document.hidden && testStarted) {
+                triggerViolation();
+            }
+        });
+
+        // Monitoring fullscreen
+        document.addEventListener("fullscreenchange", () => {
+            if (!document.fullscreenElement && testStarted) {
+                triggerViolation();
+            }
+        });
+
+        // Initial render is now controlled by confirmStart
+        // renderQuestion(); 
+
+    </script>
+</body>
+</html>

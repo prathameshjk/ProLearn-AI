@@ -1,0 +1,2002 @@
+[
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Search Algorithms",
+    "question_text": "Which algorithm is used for finding the shortest path in a weighted graph?",
+    "option_a": "BFS",
+    "option_b": "DFS",
+    "option_c": "Dijkstra's",
+    "option_d": "A*",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Search Algorithms",
+    "question_text": "In A* search, what does the heuristic function h(n) represent?",
+    "option_a": "Exact cost from start to n",
+    "option_b": "Estimated cost from n to goal",
+    "option_c": "Total cost f(n)",
+    "option_d": "None of the above",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Search Algorithms",
+    "question_text": "Which search is optimal if all step costs are equal?",
+    "option_a": "DFS",
+    "option_b": "BFS",
+    "option_c": "Greedy Search",
+    "option_d": "Hill Climbing",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Search Algorithms",
+    "question_text": "What is the space complexity of Breadth-First Search?",
+    "option_a": "O(b^d)",
+    "option_b": "O(d)",
+    "option_c": "O(bm)",
+    "option_d": "O(1)",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Search Algorithms",
+    "question_text": "Which algorithm suffers from 'Local Maxima' problems?",
+    "option_a": "A*",
+    "option_b": "BFS",
+    "option_c": "Hill Climbing",
+    "option_d": "Uniform Cost Search",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Machine Learning",
+    "question_text": "What is supervised learning?",
+    "option_a": "Learning with labeled data",
+    "option_b": "Learning without labels",
+    "option_c": "Reinforcement learning",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Machine Learning",
+    "question_text": "Which of these is a regression algorithm?",
+    "option_a": "K-Means",
+    "option_b": "Linear Regression",
+    "option_c": "SVM for classification",
+    "option_d": "Decision Trees for classification",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Machine Learning",
+    "question_text": "What is the 'Overfitting' in Machine Learning?",
+    "option_a": "High bias, low variance",
+    "option_b": "Low bias, high variance",
+    "option_c": "Low bias, low variance",
+    "option_d": "High bias, high variance",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Machine Learning",
+    "question_text": "Which algorithm is based on Bayes' Theorem?",
+    "option_a": "Random Forest",
+    "option_b": "Naive Bayes",
+    "option_c": "KNN",
+    "option_d": "Logistic Regression",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Machine Learning",
+    "question_text": "What does KNN stand for?",
+    "option_a": "K-Nearest Nodes",
+    "option_b": "K-Nearest Neighbors",
+    "option_c": "K-Neighbor Network",
+    "option_d": "Kernal Nearest Network",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Neural Networks",
+    "question_text": "What is the purpose of an activation function?",
+    "option_a": "Initialize weights",
+    "option_b": "Introduce non-linearity",
+    "option_c": "Normalize data",
+    "option_d": "Calculate loss",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Neural Networks",
+    "question_text": "Which layer is responsible for output in a typical NN?",
+    "option_a": "Input Layer",
+    "option_b": "Hidden Layer",
+    "option_c": "Output Layer",
+    "option_d": "None",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Neural Networks",
+    "question_text": "What is Backpropagation?",
+    "option_a": "Forward pass",
+    "option_b": "Weight update mechanism",
+    "option_c": "Data collection",
+    "option_d": "Feature engineering",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Deep Learning",
+    "question_text": "Which neural network architecture is best for image processing?",
+    "option_a": "RNN",
+    "option_b": "CNN",
+    "option_c": "GAN",
+    "option_d": "Transformer",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Deep Learning",
+    "question_text": "What does CNN stand for?",
+    "option_a": "Convolutional Neural Network",
+    "option_b": "Computer Network Node",
+    "option_c": "Circular Neural Network",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Natural Language Processing",
+    "question_text": "What is tokenization?",
+    "option_a": "Converting text to tokens",
+    "option_b": "Generating text",
+    "option_c": "Translating text",
+    "option_d": "Summarizing text",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Natural Language Processing",
+    "question_text": "Which technique is used to reduce words to their base form?",
+    "option_a": "Stemming",
+    "option_b": "Tokenization",
+    "option_c": "Parsing",
+    "option_d": "Vectorization",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Natural Language Processing",
+    "question_text": "What is the goal of Named Entity Recognition?",
+    "option_a": "Translate text",
+    "option_b": "Identify names, dates, locations",
+    "option_c": "Check grammar",
+    "option_d": "Count words",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Robotics",
+    "question_text": "What is 'Inverse Kinematics'?",
+    "option_a": "Calculating joint angles for target position",
+    "option_b": "Calculating position from joint angles",
+    "option_c": "Moving the robot manually",
+    "option_d": "Programming the robot",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Robotics",
+    "question_text": "Which sensor is commonly used for distance measurement in robots?",
+    "option_a": "Thermostat",
+    "option_b": "Ultrasonic Sensor",
+    "option_c": "Barometer",
+    "option_d": "Microphone",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Expert Systems",
+    "question_text": "What is the 'Inference Engine' in an Expert System?",
+    "option_a": "The data storage",
+    "option_b": "The component that applies logic rules",
+    "option_c": "The user interface",
+    "option_d": "The knowledge acquisition module",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Expert Systems",
+    "question_text": "Which part of an expert system stores the rules and facts?",
+    "option_a": "Knowledge Base",
+    "option_b": "Inference Engine",
+    "option_c": "Explanation Facility",
+    "option_d": "Blackboard",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Logic",
+    "question_text": "What is First-Order Logic?",
+    "option_a": "A simple way of adding numbers",
+    "option_b": "A formal system for representing objects and relations",
+    "option_c": "A programming language",
+    "option_d": "A type of search algorithm",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Search Algorithms",
+    "question_text": "Which search algorithm explores all nodes at the current depth before moving to the next level?",
+    "option_a": "Depth-First Search",
+    "option_b": "Breadth-First Search",
+    "option_c": "Greedy Search",
+    "option_d": "Linear Search",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Search Algorithms",
+    "question_text": "In game playing AI, what is Minimax used for?",
+    "option_a": "To maximize one player's score while minimizing the opponent's",
+    "option_b": "To find the shortest path to goal",
+    "option_c": "To classify images",
+    "option_d": "To translate languages",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Machine Learning",
+    "question_text": "Which of these is an example of Unsupervised Learning?",
+    "option_a": "Spam Detection",
+    "option_b": "Clustering",
+    "option_c": "Predicting House Prices",
+    "option_d": "Image Labeling",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Feature Engineering'?",
+    "option_a": "Training a model",
+    "option_b": "Selecting and transforming raw data into useful features",
+    "option_c": "Cleaning hardware components",
+    "option_d": "Tuning hyperparameters",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Neural Networks",
+    "question_text": "Which activation function outputs values in the range [0, 1]?",
+    "option_a": "ReLU",
+    "option_b": "Sigmoid",
+    "option_c": "Tanh",
+    "option_d": "Linear",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Neural Networks",
+    "question_text": "What does 'Softmax' output represent?",
+    "option_a": "Distances",
+    "option_b": "Probability distribution across classes",
+    "option_c": "Error rates",
+    "option_d": "Input gradients",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Deep Learning",
+    "question_text": "Which of the following describes a 'Vanishing Gradient'?",
+    "option_a": "Gradients become too large",
+    "option_b": "Gradients become too small, stopping training",
+    "option_c": "Gradients oscillate",
+    "option_d": "Gradients are zero",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "NLP",
+    "question_text": "What is 'Sentiment Analysis'?",
+    "option_a": "Identifying the emotion/opinion in text",
+    "option_b": "Translating languages",
+    "option_c": "Correcting spelling",
+    "option_d": "Splitting sentences",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "NLP",
+    "question_text": "Which model architecture introduced 'Attention' mechanisms?",
+    "option_a": "Decision Trees",
+    "option_b": "Transformers",
+    "option_c": "K-Means",
+    "option_d": "Adaboost",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Computer Vision",
+    "question_text": "What is 'Object Detection'?",
+    "option_a": "Colorizing images",
+    "option_b": "Identifying and locating objects in an image",
+    "option_c": "Compressing images",
+    "option_d": "Deleting objects",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Computer Vision",
+    "question_text": "Which filter is commonly used for edge detection?",
+    "option_a": "Blur filter",
+    "option_b": "Sobel filter",
+    "option_c": "Brightness filter",
+    "option_d": "Contrast filter",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Robotics",
+    "question_text": "What does SLAM stand for in robotics?",
+    "option_a": "Simultaneous Localization and Mapping",
+    "option_b": "System Log and Monitoring",
+    "option_c": "Simple Language for Machine",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Agents",
+    "question_text": "What is a 'Rational Agent'?",
+    "option_a": "An agent that acts randomly",
+    "option_b": "An agent that acts to achieve the best outcome",
+    "option_c": "An agent that follows a human",
+    "option_d": "A slow agent",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Agents",
+    "question_text": "What is a 'Turing Test' used for?",
+    "option_a": "To measure computer speed",
+    "option_b": "To determine if a machine shows human-like intelligence",
+    "option_c": "To check internet connectivity",
+    "option_d": "To debug code",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Uncertainty",
+    "question_text": "What is a Bayesian Network?",
+    "option_a": "A type of neural network",
+    "option_b": "A probabilistic graphical model",
+    "option_c": "A social network for data scientists",
+    "option_d": "A sorting algorithm",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Search Algorithms",
+    "question_text": "Which of these is an 'Uninformed' search?",
+    "option_a": "A*",
+    "option_b": "Iterative Deepening Search",
+    "option_c": "Greedy Search",
+    "option_d": "Genetic Algorithm",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Ensemble Learning'?",
+    "option_a": "Learning by listening to music",
+    "option_b": "Combining multiple models to improve performance",
+    "option_c": "Learning on a single computer",
+    "option_d": "None",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Neural Networks",
+    "question_text": "What does a 'Perceptron' do?",
+    "option_a": "It's the basic unit of a neural network",
+    "option_b": "It stores big data",
+    "option_c": "It's an operating system",
+    "option_d": "It's a database",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Deep Learning",
+    "question_text": "What is 'Transfer Learning'?",
+    "option_a": "Transferring data between disks",
+    "option_b": "Applying a pre-trained model to a new, related task",
+    "option_c": "Training a model from scratch",
+    "option_d": "Sending the model to a server",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "NLP",
+    "question_text": "What is 'Lemmatization'?",
+    "option_a": "Removing punctuation",
+    "option_b": "Reducing a word to its dictionary base form",
+    "option_c": "Counting frequency of words",
+    "option_d": "Translating words",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "History",
+    "question_text": "Which conference in 1956 is widely labeled as the birth of AI?",
+    "option_a": "Stanford Conference",
+    "option_b": "Dartmouth Conference",
+    "option_c": "MIT Summit",
+    "option_d": "Google I/O",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Search Algorithms",
+    "question_text": "What is Alpha-Beta Pruning used for?",
+    "option_a": "Speeding up image processing",
+    "option_b": "Reducing the number of nodes evaluated in Minimax",
+    "option_c": "Increasing training time",
+    "option_d": "Storing more data",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Machine Learning",
+    "question_text": "What is a 'Confusion Matrix' used for?",
+    "option_a": "To confuse the user",
+    "option_b": "To evaluate the performance of a classification model",
+    "option_c": "To store images",
+    "option_d": "To generate random numbers",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Expert Systems",
+    "question_text": "What's the role of a Knowledge Engineer?",
+    "option_a": "Write the source code for UI",
+    "option_b": "Translate human expertise into a format the machine can use",
+    "option_c": "Maintain the hardware",
+    "option_d": "Test the internet speed",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Deep Learning",
+    "question_text": "What are RNNs primarily used for?",
+    "option_a": "Static images",
+    "option_b": "Sequential data (e.g., time series, text)",
+    "option_c": "Tabular data",
+    "option_d": "None",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Computer Vision",
+    "question_text": "What is 'Image Segmentation'?",
+    "option_a": "Partitioning an image into multiple segments (sets of pixels)",
+    "option_b": "Changing the resolution",
+    "option_c": "Saving the image as JPEG",
+    "option_d": "Deleting the image",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Robotics",
+    "question_text": "What is 'Dead Reckoning' in robotics?",
+    "option_a": "Estimating position based on previous position and velocity",
+    "option_b": "The robot shutting down",
+    "option_c": "Infinite loop in code",
+    "option_d": "A type of sensor",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Reinforcement Learning",
+    "question_text": "What is the 'Reward' in Reinforcement Learning?",
+    "option_a": "Cash given to the developer",
+    "option_b": "A feedback signal to indicate success or failure of an action",
+    "option_c": "A type of dataset",
+    "option_d": "None",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Reinforcement Learning",
+    "question_text": "What does a 'Policy' define in RL?",
+    "option_a": "The hardware limits",
+    "option_b": "The mapping from states to actions",
+    "option_c": "The dataset Size",
+    "option_d": "The cost of training",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Uncertainty",
+    "question_text": "What's the relationship between likelihood and posterior in Bayes' theorem?",
+    "option_a": "Posterior is proportional to likelihood times prior",
+    "option_b": "They are the same",
+    "option_c": "Posterior is likelihood divided by prior",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Deep Learning",
+    "question_text": "Which framework is developed by Google for Deep Learning?",
+    "option_a": "PyTorch",
+    "option_b": "TensorFlow",
+    "option_c": "Scikit-Learn",
+    "option_d": "Flask",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Stochastic Gradient Descent'?",
+    "option_a": "A variant of GD that updates weights using a single sample at a time",
+    "option_b": "An exact calculation of the gradient",
+    "option_c": "A type of decision tree",
+    "option_d": "A data cleaning tool",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Planning",
+    "question_text": "What is 'STRIPS' in AI planning?",
+    "option_a": "A language for expressing planning problems",
+    "option_b": "A hardware component",
+    "option_c": "A type of sorting",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "NLP",
+    "question_text": "What is 'TF-IDF'?",
+    "option_a": "A way to measure word importance in a document",
+    "option_b": "An image format",
+    "option_c": "A type of search algorithm",
+    "option_d": "A neural network layer",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Search Algorithms",
+    "question_text": "What is a 'Heuristic'?",
+    "option_a": "An exact mathematical formula",
+    "option_b": "A rule of thumb that helps find a solution faster",
+    "option_c": "A type of database",
+    "option_d": "A network protocol",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Ethics",
+    "question_text": "What is 'Algorithmic Bias'?",
+    "option_a": "A bug in the compiler",
+    "option_b": "Systematic and unfair discrimination in model outcomes",
+    "option_c": "A slow algorithm",
+    "option_d": "None",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Deep Learning",
+    "question_text": "What is the purpose of 'Dropout' in a neural network?",
+    "option_a": "To speed up training",
+    "option_b": "To prevent overfitting by randomly disabling neurons",
+    "option_c": "To increase the number of layers",
+    "option_d": "To clear memory",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Search Algorithms",
+    "question_text": "Which property of a heuristic ensures that A* is optimal (for graph search)?",
+    "option_a": "Consistency (Monotonicity)",
+    "option_b": "Admissibility",
+    "option_c": "Completeness",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Machine Learning",
+    "question_text": "What does 'Bias' in a machine learning model represent?",
+    "option_a": "Error from erroneous assumptions in the learning algorithm",
+    "option_b": "Sensitivity to small fluctuations in the training set",
+    "option_c": "The speed of training",
+    "option_d": "The size of the dataset",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Machine Learning",
+    "question_text": "In a Decision Tree, what is 'Information Gain' used for?",
+    "option_a": "Choosing the best attribute to split the data",
+    "option_b": "Pruning the tree",
+    "option_c": "Calculating accurate depth",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Machine Learning",
+    "question_text": "Which algorithm uses the concept of 'Hyperplanes' to separate data?",
+    "option_a": "Logistic Regression",
+    "option_b": "Support Vector Machines (SVM)",
+    "option_c": "K-Means",
+    "option_d": "Naive Bayes",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Machine Learning",
+    "question_text": "What is the primary goal of Principle Component Analysis (PCA)?",
+    "option_a": "Classification",
+    "option_b": "Dimensionality Reduction",
+    "option_c": "Clustering",
+    "option_d": "Regression",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Neural Networks",
+    "question_text": "In a neural network, what is the 'Epoch'?",
+    "option_a": "One full pass of the entire training dataset through the network",
+    "option_b": "One weight update",
+    "option_c": "One layer",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Neural Networks",
+    "question_text": "What is the 'Learning Rate' in training?",
+    "option_a": "The time it takes to train",
+    "option_b": "A hyperparameter that controls how much to change the model in response to the estimated error",
+    "option_c": "The number of neurons",
+    "option_d": "The accuracy of the model",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Neural Networks",
+    "question_text": "Which activation function helps solve the vanishing gradient problem?",
+    "option_a": "Sigmoid",
+    "option_b": "Tanh",
+    "option_c": "ReLU",
+    "option_d": "None",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Deep Learning",
+    "question_text": "What is 'Data Augmentation'?",
+    "option_a": "Deleting bad data",
+    "option_b": "Artificially increasing the diversity of training data by applying transformations",
+    "option_c": "Buying more data",
+    "option_d": "Collecting data from users",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Deep Learning",
+    "question_text": "Which optimizer is known for using adaptive learning rates?",
+    "option_a": "SGD",
+    "option_b": "Adam",
+    "option_c": "Momentum",
+    "option_d": "None",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "NLP",
+    "question_text": "What is 'Bag of Words'?",
+    "option_a": "A representation of text that describes the occurrence of words within a document",
+    "option_b": "A list of stop words",
+    "option_c": "A grammar checker",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "NLP",
+    "question_text": "What is 'Word Embedding'?",
+    "option_a": "Translating words to another language",
+    "option_b": "Representing words as dense vectors of real numbers",
+    "option_c": "Alphabetical sorting",
+    "option_d": "None",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "NLP",
+    "question_text": "What is 'N-gram'?",
+    "option_a": "A weight in grams",
+    "option_b": "A contiguous sequence of n items from a given sample of text",
+    "option_c": "A type of plot",
+    "option_d": "None",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Computer Vision",
+    "question_text": "What is 'Bounding Box' in object detection?",
+    "option_a": "A box that stores image data",
+    "option_b": "A rectangular box that encloses an object within an image",
+    "option_c": "The screen size",
+    "option_d": "None",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Computer Vision",
+    "question_text": "What does OCR stand for?",
+    "option_a": "Optical Character Recognition",
+    "option_b": "Object Color Rendering",
+    "option_c": "Original Code Repository",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Computer Vision",
+    "question_text": "Which technique is used to track an object across multiple video frames?",
+    "option_a": "Image Compression",
+    "option_b": "Object Tracking",
+    "option_c": "Color Correction",
+    "option_d": "None",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Robotics",
+    "question_text": "What is 'Lidar' primarily used for in autonomous vehicles?",
+    "option_a": "Measuring fuel levels",
+    "option_b": "Mapping and obstacle detection using lasers",
+    "option_c": "Playing music",
+    "option_d": "None",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Robotics",
+    "question_text": "What is an 'Actuator' in robotics?",
+    "option_a": "A sensor that receives input",
+    "option_b": "A component that moves or controls a mechanism",
+    "option_c": "The robot's memory",
+    "option_d": "None",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Agents",
+    "question_text": "What is an 'Environment' in the context of agent-based systems?",
+    "option_a": "The computer hardware",
+    "option_b": "The world in which the agent lives and interacts",
+    "option_c": "The code editor",
+    "option_d": "None",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Agents",
+    "question_text": "What does it mean if an environment is 'Deterministic'?",
+    "option_a": "The next state is determined by the current state and action",
+    "option_b": "The next state is random",
+    "option_c": "The agent never stops",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Uncertainty",
+    "question_text": "What is 'Fuzzy Logic'?",
+    "option_a": "Logic that only uses 0 and 1",
+    "option_b": "Logic that deals with degrees of truth (ranges between 0 and 1)",
+    "option_c": "A bug in the code",
+    "option_d": "None",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Cross-Validation'?",
+    "option_a": "A technique to assess how the results of a statistical analysis will generalize to an independent dataset",
+    "option_b": "Checking if the data is valid",
+    "option_c": "Entering the data twice",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Deep Learning",
+    "question_text": "What is a 'Generative Adversarial Network' (GAN)?",
+    "option_a": "A single network that learns to classify data",
+    "option_b": "Two networks (generator and discriminator) competing with each other",
+    "option_c": "A type of decision tree",
+    "option_d": "None",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Search Algorithms",
+    "question_text": "Which algorithm is used for optimizing a function by simulating natural selection?",
+    "option_a": "Genetic Algorithm",
+    "option_b": "A*",
+    "option_c": "BFS",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Reinforcement Learning",
+    "question_text": "What is 'Q-Learning'?",
+    "option_a": "A model-free RL algorithm to learn the value of an action in a state",
+    "option_b": "A search algorithm",
+    "option_c": "A supervised learning technique",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Logic",
+    "question_text": "What is 'Resolution' in logic?",
+    "option_a": "The screen pixels",
+    "option_b": "An inference rule used in propositional and predicate logic",
+    "option_c": "A way to fix bugs",
+    "option_d": "None",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Over-sampling' used for in classification?",
+    "option_a": "Dealing with imbalanced datasets",
+    "option_b": "Increasing the number of features",
+    "option_c": "Clearing the cache",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Deep Learning",
+    "question_text": "What is 'Fine-tuning'?",
+    "option_a": "Making the model run faster",
+    "option_b": "Adjusting a pre-trained model for a target task",
+    "option_c": "Deleting the model",
+    "option_d": "None",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Expert Systems",
+    "question_text": "What is the 'Explanation Facility' in an expert system?",
+    "option_a": "It allows the system to explain its reasoning to the user",
+    "option_b": "It stores user data",
+    "option_c": "It's the help manual",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Planning",
+    "question_text": "What is 'Backward Chaining'?",
+    "option_a": "Starting from the goal and working backwards to find initial facts",
+    "option_b": "Starting from facts and working towards a goal",
+    "option_c": "A type of loops",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "NLP",
+    "question_text": "What is 'Topic Modeling'?",
+    "option_a": "Summarizing a document",
+    "option_b": "Uncovering abstract topics within a collection of documents",
+    "option_c": "Checking word count",
+    "option_d": "None",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "History",
+    "question_text": "Who developed the first AI program, the 'Logic Theorist'?",
+    "option_a": "Newell and Simon",
+    "option_b": "Alan Turing",
+    "option_c": "Bill Gates",
+    "option_d": "John McCarthy",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Deep Learning",
+    "question_text": "What is the main advantage of LSTMs over simple RNNs?",
+    "option_a": "They use fewer neurons",
+    "option_b": "They can capture long-term dependencies",
+    "option_c": "They are faster to train",
+    "option_d": "None",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Robotics",
+    "question_text": "What is a 'Proximity Sensor'?",
+    "option_a": "A sensor that measures temperature",
+    "option_b": "A sensor that detects the presence of nearby objects without any physical contact",
+    "option_c": "A microphone",
+    "option_d": "None",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Search Algorithms",
+    "question_text": "What is 'Simulated Annealing'?",
+    "option_a": "A probabilistic technique for approximating the global optimum of a given function",
+    "option_b": "A way to sort numbers",
+    "option_c": "A hardware test",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Lazy Learning'?",
+    "option_a": "Learning that happens only when a query is made (e.g., KNN)",
+    "option_b": "Learning that takes a long time",
+    "option_c": "An algorithm that doesn't learn",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Neural Networks",
+    "question_text": "What is 'Weight Initialization'?",
+    "option_a": "Setting the initial values of weights in a neural network",
+    "option_b": "Deleting the weights",
+    "option_c": "Calculating accurate accuracy",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "NLP",
+    "question_text": "What is 'Part-of-Speech (POS) Tagging'?",
+    "option_a": "Identifying the grammatical group of each word in a text",
+    "option_b": "Identifying names",
+    "option_c": "Summarizing text",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Computer Vision",
+    "question_text": "What is a 'Kernel' in image convolution?",
+    "option_a": "The operating system kernel",
+    "option_b": "A small matrix used for blurring, sharpening, embossing, edge detection, etc.",
+    "option_c": "The image file format",
+    "option_d": "None",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Agents",
+    "question_text": "What is a 'Multi-Agent System' (MAS)?",
+    "option_a": "A system with multiple users",
+    "option_b": "A system composed of multiple interacting intelligent agents",
+    "option_c": "A system with many CPU cores",
+    "option_d": "None",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Reinforcement Learning",
+    "question_text": "What is an 'Agent State' in RL?",
+    "option_a": "The internal representation of the agent at a given time",
+    "option_b": "The score",
+    "option_c": "The battery level",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Ridge Regression' used for?",
+    "option_a": "Reducing overfitting by adding a penalty term (L2 regularization)",
+    "option_b": "Cleaning the dataset",
+    "option_c": "Clustering",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Neural Networks",
+    "question_text": "What does Gated Recurrent Unit (GRU) aim to do?",
+    "option_a": "It's a simpler version of LSTM that also addresses the vanishing gradient",
+    "option_b": "It captures only short term memory",
+    "option_c": "It doesn't use gates",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Search Algorithms",
+    "question_text": "Which property of BFS ensures finding the shortest path?",
+    "option_a": "Completeness",
+    "option_b": "Optimality in unweighted graphs",
+    "option_c": "Admissibility",
+    "option_d": "None",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Computer Vision",
+    "question_text": "What is 'Feature Extraction' in vision?",
+    "option_a": "Transforming input data into a set of features (e.g., edges, corners)",
+    "option_b": "Saving features to a database",
+    "option_c": "Modifying raw pixels",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Knowledge Representation",
+    "question_text": "What is an 'Ontology' in AI?",
+    "option_a": "A study of plants",
+    "option_b": "A formal naming and definition of the types, properties, and relationships of the entities for a particular domain",
+    "option_c": "A type of database",
+    "option_d": "None",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Uncertainty",
+    "question_text": "What does a 'Prior' represent in Bayesian reasoning?",
+    "option_a": "Probability before any evidence is seen",
+    "option_b": "Probability after evidence is seen",
+    "option_c": "The outcome",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Reinforcement Learning",
+    "question_text": "What is 'Exploitation' in RL?",
+    "option_a": "Trying new actions",
+    "option_b": "Using known information to maximize reward",
+    "option_c": "Deleting the model",
+    "option_d": "None",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Reinforcement Learning",
+    "question_text": "What is 'Exploration' in RL?",
+    "option_a": "Using known information",
+    "option_b": "Trying new actions to gather more information about the environment",
+    "option_c": "Saving the model",
+    "option_d": "None",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Search Algorithms",
+    "question_text": "What is the 'Branching Factor' in tree search?",
+    "option_a": "The maximum number of successors of any node",
+    "option_b": "The total nodes",
+    "option_c": "The depth",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Search Algorithms",
+    "question_text": "What does BFS use as its primary data structure for the fringe?",
+    "option_a": "Stack",
+    "option_b": "Queue",
+    "option_c": "Priority Queue",
+    "option_d": "Hash Table",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Search Algorithms",
+    "question_text": "What does DFS use as its primary data structure for the fringe?",
+    "option_a": "Stack",
+    "option_b": "Queue",
+    "option_c": "Priority Queue",
+    "option_d": "Linked List",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Lasso Regression' used for?",
+    "option_a": "Reducing overfitting by L1 regularization, which can lead to feature selection",
+    "option_b": "Clustering data",
+    "option_c": "Increasing bias",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Neural Networks",
+    "question_text": "In a CNN, what is 'Stride'?",
+    "option_a": "The number of pixels by which the filter matrix moves over the input matrix",
+    "option_b": "The total layers",
+    "option_c": "The activation value",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Neural Networks",
+    "question_text": "In a CNN, what is 'Padding' used for?",
+    "option_a": "To preserve the spatial dimensions of the input",
+    "option_b": "To make the image brighter",
+    "option_c": "To reduce noise",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Deep Learning",
+    "question_text": "What is a 'Tensor' in Deep Learning?",
+    "option_a": "A multi-dimensional array of numbers",
+    "option_b": "A hardware component",
+    "option_c": "A type of loss function",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Robotics",
+    "question_text": "What is 'Force Sensing' in robotics?",
+    "option_a": "Sensing the force or pressure applied by/to the robot",
+    "option_b": "Sensing the light",
+    "option_c": "Sensing the sound",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "NLP",
+    "question_text": "What is 'Language Modeling'?",
+    "option_a": "Predicting the next word in a sequence",
+    "option_b": "Correcting grammar",
+    "option_c": "Translating text",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Ethics",
+    "question_text": "What is the 'Black Box' problem in AI?",
+    "option_a": "AI models being physically black",
+    "option_b": "The difficulty in explaining how a complex AI model reached its decision",
+    "option_c": "AI taking over the world",
+    "option_d": "None",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Computer Vision",
+    "question_text": "What is 'Stereo Vision'?",
+    "option_a": "Viewing images in black and white",
+    "option_b": "Using two or more cameras to perceive depth",
+    "option_c": "Viewing 3D movies",
+    "option_d": "None",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Machine Learning",
+    "question_text": "Which performance metric is best for class imbalance when accuracy is misleading?",
+    "option_a": "F1-Score",
+    "option_b": "Mean Squared Error",
+    "option_c": "R-Squared",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Logic",
+    "question_text": "What is a 'Horn Clause'?",
+    "option_a": "A clause with at most one positive literal",
+    "option_b": "A type of database query",
+    "option_c": "A sound made by robots",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Search Algorithms",
+    "question_text": "What does IDA* stand for?",
+    "option_a": "Iterative Deepening A*",
+    "option_b": "Internal Data Analysis*",
+    "option_c": "Infinite Depth A*",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Curse of Dimensionality'?",
+    "option_a": "The problem of having too many features which makes data sparse",
+    "option_b": "Having too much data",
+    "option_c": "Running out of disk space",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Search Algorithms",
+    "question_text": "In Alpha-Beta pruning, what does 'Beta' represent?",
+    "option_a": "The best value found so far for a Maximizer",
+    "option_b": "The best value found so far for a Minimizer",
+    "option_c": "The depth limit",
+    "option_d": "None",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Knowledge Representation",
+    "question_text": "What are 'Semantic Networks'?",
+    "option_a": "Networks that represent knowledge as a graph of nodes and edges",
+    "option_b": "Internet protocols",
+    "option_c": "Neural networks",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Uncertainty",
+    "question_text": "What is 'Hidden Markov Model' (HMM) often used for?",
+    "option_a": "Speech and handwriting recognition",
+    "option_b": "Sorting files",
+    "option_c": "Rendering 3D graphics",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Deep Learning",
+    "question_text": "What is a 'Residual Connection' (Skip Connection)?",
+    "option_a": "A connection that bypasses one or more layers, helping train deeper networks",
+    "option_b": "A connection that deletes data",
+    "option_c": "A connection to the internet",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Reinforcement Learning",
+    "question_text": "What is 'Temporal Difference' (TD) learning?",
+    "option_a": "A mix of Monte Carlo and dynamic programming methods in RL",
+    "option_b": "Learning about time travel",
+    "option_c": "A type of sorting",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Computer Vision",
+    "question_text": "What is 'Homography' in computer vision?",
+    "option_a": "Mapping between two projections of a planar surface",
+    "option_b": "Color matching",
+    "option_c": "Image compression",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "NLP",
+    "question_text": "What is 'BLEU Score' used for?",
+    "option_a": "Evaluating the quality of machine-translated text",
+    "option_b": "Measuring grammar speed",
+    "option_c": "Checking spelling",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Agents",
+    "question_text": "What is 'BDI Architecture' in agents?",
+    "option_a": "Belief, Desire, Intention",
+    "option_b": "Basic Data Interface",
+    "option_c": "Binary Decision Integration",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Planning",
+    "question_text": "What is 'Hierarchical Task Network' (HTN)?",
+    "option_a": "A planning system that decomposes tasks into subtasks",
+    "option_b": "A type of CPU architecture",
+    "option_c": "A data structure for lists",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Robotics",
+    "question_text": "What is 'Proprioception' in a robot?",
+    "option_a": "Sensing its own internal state (joint angles, battery, etc.)",
+    "option_b": "Sensing the temperature of the room",
+    "option_c": "Sensing the presence of humans",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Neural Networks",
+    "question_text": "What does the 'Vanishing Gradient Problem' hinder?",
+    "option_a": "The training of deep networks using backpropagation",
+    "option_b": "The inference speed",
+    "option_c": "The data loading",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Deep Learning",
+    "question_text": "Which architecture is primarily used for 'Text-to-Image' generation?",
+    "option_a": "Diffusion Models",
+    "option_b": "Dijkstra's Algorithm",
+    "option_c": "Decision Trees",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Bootstrapping' in Ensemble Learning?",
+    "option_a": "Random sampling with replacement",
+    "option_b": "Starting the computer",
+    "option_c": "Deleting data",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Uncertainty",
+    "question_text": "What is an 'Evidence' in Bayes Theorem?",
+    "option_a": "The observed data",
+    "option_b": "The theory being tested",
+    "option_c": "The final conclusion",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Logic",
+    "question_text": "What is 'Modus Ponens'?",
+    "option_a": "A rule of inference: If P then Q; P is true; therefore Q is true",
+    "option_b": "A type of sorting",
+    "option_c": "A neural network layer",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Expert Systems",
+    "question_text": "Which language was traditionally used to build expert systems?",
+    "option_a": "LISP",
+    "option_b": "HTML",
+    "option_c": "SQL",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Regularization' in ML?",
+    "option_a": "Technique to prevent overfitting by penalizing complex models",
+    "option_b": "Normalizing the data",
+    "option_c": "Sorting the data",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Neural Networks",
+    "question_text": "What is the 'Bias' term in a single neuron calculation?",
+    "option_a": "A constant added to the weighted input sum to shift the activation function",
+    "option_b": "The error rate",
+    "option_c": "The input value",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "NLP",
+    "question_text": "What is 'Word2Vec'?",
+    "option_a": "A technique to produce word embeddings",
+    "option_b": "A type of grammar",
+    "option_c": "A translation tool",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Computer Vision",
+    "question_text": "What is 'Feature Matching' in vision?",
+    "option_a": "Identifying corresponding features between two images",
+    "option_b": "Deleting duplicates",
+    "option_c": "Increasing resolution",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Robotics",
+    "question_text": "What is 'Trajectory Planning'?",
+    "option_a": "Finding a path and timing for the robot to move from start to goal",
+    "option_b": "Calculating battery usage",
+    "option_c": "Designing the exterior",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Agents",
+    "question_text": "What is 'Social Ability' in an intelligent agent?",
+    "option_a": "Ability to interact with other agents or humans",
+    "option_b": "Ability to post on social media",
+    "option_c": "Ability to move fast",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Knowledge Representation",
+    "question_text": "What is a 'Frame' in AI?",
+    "option_a": "A data structure for representing stereotypical situations",
+    "option_b": "A picture frame",
+    "option_c": "A network frame",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Reinforcement Learning",
+    "question_text": "What is 'SARSA'?",
+    "option_a": "State-Action-Reward-State-Action, an on-policy RL algorithm",
+    "option_b": "A type of virus",
+    "option_c": "A search technique",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Ethics",
+    "question_text": "What is the 'Trolley Problem' often used to discuss?",
+    "option_a": "AI ethics and decision-making in life-or-death scenarios",
+    "option_b": "CPU overheating",
+    "option_c": "Database management",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Search Algorithms",
+    "question_text": "What is 'Depth-Limited Search'?",
+    "option_a": "DFS with a maximum depth limit to avoid infinite loops",
+    "option_b": "Searching only at deep levels",
+    "option_c": "A very fast search",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Data Mining'?",
+    "option_a": "Discovering patterns in large datasets using ML and statistics",
+    "option_b": "Collecting gold",
+    "option_c": "Storing data on hard drives",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Machine Learning",
+    "question_text": "Which algorithm is most sensitive to outliers?",
+    "option_a": "K-Means",
+    "option_b": "Decision Trees",
+    "option_c": "Random Forest",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Neural Networks",
+    "question_text": "What is 'Stochastic' in neural network training context?",
+    "option_a": "Involving randomness",
+    "option_b": "Very fast",
+    "option_c": "Deterministic",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "NLP",
+    "question_text": "What is 'Entity Linking'?",
+    "option_a": "Connecting mentions of entities in text to entries in a knowledge base",
+    "option_b": "Typing names",
+    "option_c": "Searching Google",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Deep Learning",
+    "question_text": "What is 'Self-Attention' used in transformers?",
+    "option_a": "Mechanism to weight the importance of different words in a sequence regardless of distance",
+    "option_b": "Mechanism to delete words",
+    "option_c": "Mechanism to hide data",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Logic",
+    "question_text": "What is 'Propositional Logic'?",
+    "option_a": "A branch of logic that deals with propositions that can be true or false",
+    "option_b": "Logic for building buildings",
+    "option_c": "A complex math system",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Search Algorithms",
+    "question_text": "What is the 'Horizon Effect' in game tree search?",
+    "option_a": "A problem where a moves impact is just beyond the search limit",
+    "option_b": "A graphics bug",
+    "option_c": "A speed limit",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Robotics",
+    "question_text": "What is 'Motion Planning'?",
+    "option_a": "Finding a sequence of valid configurations for a robot to reach a goal",
+    "option_b": "Buying robot parts",
+    "option_c": "Drawing a robot",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Knowledge Representation",
+    "question_text": "What is a 'Script' in AI representation?",
+    "option_a": "A knowledge structure that describes a typical sequence of events",
+    "option_b": "A movie script",
+    "option_c": "A python file",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Reinforcement Learning",
+    "question_text": "What is 'Function Approximation' in RL?",
+    "option_a": "Using a parameterised function (like a NN) to represent value functions or policies",
+    "option_b": "Estimating π",
+    "option_c": "Rounding numbers",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Machine Learning",
+    "question_text": "What is 'One-Hot Encoding'?",
+    "option_a": "Representing categorical variables as binary vectors",
+    "option_b": "Encrypting data",
+    "option_c": "Sorting data",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Neural Networks",
+    "question_text": "What is 'Minibatch' gradient descent?",
+    "option_a": "Updating weights after processing a small subset of the training data",
+    "option_b": "Updating weights after one sample",
+    "option_c": "Updating weights after full dataset",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Computer Vision",
+    "question_text": "What is 'Point Cloud'?",
+    "option_a": "A set of data points in space, usually produced by 3D scanners",
+    "option_b": "A drawing app",
+    "option_c": "Cloud storage",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Uncertainty",
+    "question_text": "What is 'Conditional Probability'?",
+    "option_a": "The probability of an event given that another event has occurred",
+    "option_b": "The total probability",
+    "option_c": "The random probability",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Search Algorithms",
+    "question_text": "Which algorithm finds the shortest path in an UNWEIGHTED graph?",
+    "option_a": "Breadth-First Search",
+    "option_b": "Depth-First Search",
+    "option_c": "Hill Climbing",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Underfitting'?",
+    "option_a": "When a model is too simple to capture the underlying structure of data",
+    "option_b": "When a model is too complex",
+    "option_c": "When data is missing",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "NLP",
+    "question_text": "What is 'Coreference Resolution'?",
+    "option_a": "Finding all expressions that refer to the same entity in a text",
+    "option_b": "Correcting errors",
+    "option_c": "Deleting names",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Deep Learning",
+    "question_text": "What is 'Autoencoder' used for?",
+    "option_a": "Unsupervised feature learning and dimensionality reduction",
+    "option_b": "Classification",
+    "option_c": "Sorting images",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "History",
+    "question_text": "Who is the 'Father of Deep Learning' often credited as?",
+    "option_a": "Geoffrey Hinton",
+    "option_b": "Elon Musk",
+    "option_c": "Mark Zuckerberg",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Robotics",
+    "question_text": "What is 'Pathfinding'?",
+    "option_a": "The process of determining a path through space from start to goal while avoiding obstacles",
+    "option_b": "Cleaning the floor",
+    "option_c": "Designing wheels",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Reinforcement Learning",
+    "question_text": "What is 'Monte Carlo' simulation in RL?",
+    "option_a": "Technique that learns from complete episodes of experience",
+    "option_b": "A type of casino game",
+    "option_c": "A search technique",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Experts",
+    "question_text": "What are 'Production Rules'?",
+    "option_a": "IF-THEN rules used in expert systems",
+    "option_b": "Rules for manufacturing",
+    "option_c": "Legal rules",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Deep Learning",
+    "question_text": "What is 'Pooling' in CNN?",
+    "option_a": "Down-sampling the spatial dimensions of an input",
+    "option_b": "Adding more neurons",
+    "option_c": "Correcting colors",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Label Encoding'?",
+    "option_a": "Converting categorical labels into numerical values",
+    "option_b": "Deleting labels",
+    "option_c": "Sorting data",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Machine Learning",
+    "question_text": "What is 'K-Fold' Cross Validation?",
+    "option_a": "Splitting data into K folds and training K times",
+    "option_b": "Folding the paper K times",
+    "option_c": "Doing K search steps",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "NLP",
+    "question_text": "What is 'Synonymy' in NLP?",
+    "option_a": "Relationship between words with similar meanings",
+    "option_b": "Difference in meanings",
+    "option_c": "Word length",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Search Algorithms",
+    "question_text": "What is 'Uniform-Cost Search'?",
+    "option_a": "An uninformed search that explores the path with the lowest cumulative cost",
+    "option_b": "Search with no cost",
+    "option_c": "BFS with a twist",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Computer Vision",
+    "question_text": "What is 'Global Descriptor'?",
+    "option_a": "A high-level representation of an entire image",
+    "option_b": "A description of the sun",
+    "option_c": "The file size",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Robotics",
+    "question_text": "What is 'Joint Space'?",
+    "option_a": "The multi-dimensional space formed by the coordinates of robot joints",
+    "option_b": "The room layout",
+    "option_c": "The internet",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Logic",
+    "question_text": "What is 'Inference' in logic?",
+    "option_a": "The process of deriving new facts from existing ones",
+    "option_b": "The process of deleting facts",
+    "option_c": "Writing code",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Planning",
+    "question_text": "What is 'State-Space Search' in planning?",
+    "option_a": "Finding a sequence of actions that leads from start state to goal state",
+    "option_b": "Searching for aliens",
+    "option_c": "Finding a location on a map",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Search Algorithms",
+    "question_text": "What is the 'Closed List' in graph search?",
+    "option_a": "A set of nodes that have already been expanded",
+    "option_b": "A list of nodes to explore",
+    "option_c": "A list of goal nodes",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Feature Scaling'?",
+    "option_a": "Normalizing the range of independent variables",
+    "option_b": "Deleting features",
+    "option_c": "Adding more features",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Neural Networks",
+    "question_text": "What is a 'Layer' in NN?",
+    "option_a": "A collection of neurons that operate together at a specific depth in the network",
+    "option_b": "A thin sheet",
+    "option_c": "The OS kernel",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Computer Vision",
+    "question_text": "What is 'Noise' in an image?",
+    "option_a": "Random variation of brightness or color info that isn't part of the target image",
+    "option_b": "The sound of the camera",
+    "option_c": "The image resolution",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Planning",
+    "question_text": "What is 'Operator' in planning?",
+    "option_a": "A definition of an action including preconditions and effects",
+    "option_b": "A person using AI",
+    "option_c": "A math symbol",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Decision Theory",
+    "question_text": "What does 'Expected Utility' maximize?",
+    "option_a": "The weighted average of utilities of all possible outcomes",
+    "option_b": "The score in a game",
+    "option_c": "The speed",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "NLP",
+    "question_text": "What is 'Transformer' architecture predominantly based on?",
+    "option_a": "Self-attention mechanism",
+    "option_b": "Recursion",
+    "option_c": "Convolutions",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "History",
+    "question_text": "Who is the author of 'Computing Machinery and Intelligence' (1950)?",
+    "option_a": "Alan Turing",
+    "option_b": "John McCarthy",
+    "option_c": "Claude Shannon",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Ethics",
+    "question_text": "What is 'Human-in-the-loop'?",
+    "option_a": "A requirement for human intervention in an automated process",
+    "option_b": "A ride at a theme park",
+    "option_c": "A bug in the loop",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Deep Learning",
+    "question_text": "What does a 'ReLU' activation do to negative inputs?",
+    "option_a": "Outputs zero",
+    "option_b": "Outputs the absolute value",
+    "option_c": "Outputs the same value",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Computer Vision",
+    "question_text": "What is 'Image Augmentation' typically used for?",
+    "option_a": "Increasing training set size and diversity",
+    "option_b": "Reducing image quality",
+    "option_c": "Saving storage space",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Search Algorithms",
+    "question_text": "What is 'Greedy Best-First Search'?",
+    "option_a": "A search that expands the node that appears closest to the goal according to a heuristic",
+    "option_b": "A search that expands all nodes",
+    "option_c": "A search that is always optimal",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Machine Learning",
+    "question_text": "What is 'Bagging' (Bootstrap Aggregating)?",
+    "option_a": "Technique that improves stability and accuracy by using multiple versions of a model trained on different subsets",
+    "option_b": "Putting models in a bag",
+    "option_c": "Deleting datasets",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "NLP",
+    "question_text": "What is 'Zero-shot Learning'?",
+    "option_a": "Ability of a model to perform a task without being explicitly trained on any examples of that task",
+    "option_b": "Learning with no data",
+    "option_c": "Fast learning",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Reinforcement Learning",
+    "question_text": "What is 'State Space' in RL?",
+    "option_a": "Set of all possible configurations the environment can be in",
+    "option_b": "Space where the robot moves",
+    "option_c": "Memory space",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Deep Learning",
+    "question_text": "What is 'Batch Normalization'?",
+    "option_a": "Normalizing the inputs across each layer to stabilize and speed up training",
+    "option_b": "Sorting the data in batches",
+    "option_c": "Deleting batches",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Search Algorithms",
+    "question_text": "Which search algorithm uses both g(n) and h(n)?",
+    "option_a": "A*",
+    "option_b": "BFS",
+    "option_c": "DFS",
+    "option_d": "Hill Climbing",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Uncertainty",
+    "question_text": "What is 'Probability Density Function' (PDF)?",
+    "option_a": "A function whose integral over an interval gives the probability of a continuous random variable",
+    "option_b": "A PDF document",
+    "option_c": "The total count",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "topic": "Robotics",
+    "question_text": "What is 'Task Space'?",
+    "option_a": "The space where the robots end-effector moves and operates",
+    "option_b": "The office desk",
+    "option_c": "The memory stack",
+    "option_d": "None",
+    "correct_option": "A"
+  }
+]

@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - Prolearn</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body { font-family: 'Outfit', sans-serif; }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+    </style>
+</head>
+<body class="bg-indigo-50/30 min-h-screen">
+    <nav class="bg-white border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex justify-between items-center">
+            <div class="flex items-center gap-2 cursor-pointer" onclick="window.location.href='/dashboard'">
+                <div class="w-8 h-8 bg-indigo-600 rounded-lg flex items-center justify-center text-white font-bold">P</div>
+                <span class="text-xl font-bold">Prolearn</span>
+            </div>
+            <div class="flex items-center gap-6">
+                <a href="/dashboard" class="text-slate-600 hover:text-indigo-600 font-medium transition-colors">Dashboard</a>
+                <a href="/profile" class="text-slate-600 hover:text-indigo-600 font-medium transition-colors font-bold border-b-2 border-indigo-600 pb-1">Profile</a>
+                <div class="flex items-center gap-4">
+                    <span id="nav-username" class="text-slate-600 font-medium"></span>
+                    <button onclick="logout()" class="text-slate-400 hover:text-red-500 transition-colors">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"></path></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="max-w-7xl mx-auto px-4 py-8">
+        <!-- Header Section -->
+        <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 gap-4">
+            <div>
+                <h1 class="text-4xl font-bold text-slate-900">Your Learning Journey</h1>
+                <p class="text-slate-500 mt-2">Track your progress and improve your skills.</p>
+            </div>
+            <div class="flex gap-3">
+                <div class="bg-white p-4 rounded-3xl shadow-sm border border-indigo-50 flex items-center gap-4">
+                    <div class="w-12 h-12 bg-amber-100 rounded-2xl flex items-center justify-center text-amber-600">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M12.395 2.553a1 1 0 00-1.45-.385c-.345.23-.614.558-.822.88-.214.33-.403.713-.57 1.116-.334.804-.614 1.768-.84 2.734a31.365 31.365 0 00-.613 3.58 2.64 2.64 0 01-.945-1.067c-.328-.68-.398-1.334-.398-1.817a1 1 0 00-1.488-.876 6.787 6.787 0 00-3.127 5.75c0 3.1 2.35 5.07 5.08 5.07 2.85 0 5.41-1.84 5.41-5.11 0-1.9-.94-3.39-2.04-4.516-.27-.275-.54-.527-.81-.762-.25-.216-.5-.413-.73-.594a8.93 8.93 0 01-.9-1.01c-.044-.06-.096-.146-.144-.242zm-2.012 12.394a1 1 0 001.216-1.591C10.738 12.563 9.471 12 8 12c-1.472 0-2.738.563-3.6 1.357a1 1 0 001.215 1.593L8 14.5l2.383.447z" clip-rule="evenodd"></path></svg>
+                    </div>
+                    <div>
+                        <p class="text-xs text-slate-400 font-bold uppercase tracking-wider">Current Streak</p>
+                        <p class="text-2xl font-black text-slate-800"><span id="streak-count">0</span> Days</p>
+                    </div>
+                </div>
+                <div class="bg-white p-4 rounded-3xl shadow-sm border border-indigo-50 flex items-center gap-4">
+                    <div class="w-12 h-12 bg-indigo-100 rounded-2xl flex items-center justify-center text-indigo-600">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"><path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0z"></path></svg>
+                    </div>
+                    <div>
+                        <p class="text-xs text-slate-400 font-bold uppercase tracking-wider">Total Tests</p>
+                        <p class="text-2xl font-black text-slate-800" id="total-tests">0</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Course Summary Cards -->
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+            <div class="bg-white p-5 rounded-3xl border border-slate-100 shadow-sm flex flex-col justify-between">
+                <p class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">Overall Progress</p>
+                <div class="flex items-end gap-2">
+                    <p class="text-3xl font-black text-indigo-600" id="stat-progress">0%</p>
+                </div>
+            </div>
+            <div class="bg-white p-5 rounded-3xl border border-slate-100 shadow-sm flex flex-col justify-between">
+                <p class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">Completed Courses</p>
+                <div class="flex items-end gap-2">
+                    <p class="text-3xl font-black text-emerald-600" id="stat-completed-courses">0</p>
+                </div>
+            </div>
+            <div class="bg-white p-5 rounded-3xl border border-slate-100 shadow-sm flex flex-col justify-between">
+                <p class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">Ongoing Courses</p>
+                <div class="flex items-end gap-2">
+                    <p class="text-3xl font-black text-amber-500" id="stat-ongoing-courses">0</p>
+                </div>
+            </div>
+            <div class="bg-white p-5 rounded-3xl border border-slate-100 shadow-sm flex flex-col justify-between">
+                <p class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">Uncompleted</p>
+                <div class="flex items-end gap-2">
+                    <p class="text-3xl font-black text-slate-600" id="stat-uncompleted-courses">0</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <!-- Left Column: Stats & Charts -->
+            <div class="lg:col-span-2 space-y-8">
+                <!-- Progress Line Chart -->
+                <div class="bg-white p-6 rounded-3xl border border-slate-100 shadow-sm">
+                    <h3 class="text-xl font-bold text-slate-800 mb-6">Performance Trend</h3>
+                    <div class="h-64">
+                        <canvas id="progressChart"></canvas>
+                    </div>
+                </div>
+                
+                <!-- Recent Test Scores Bar Chart -->
+                <div class="bg-white p-6 rounded-3xl border border-slate-100 shadow-sm">
+                    <h3 class="text-xl font-bold text-slate-800 mb-6">Recent Test Scores Analysis</h3>
+                    <div class="h-64">
+                        <canvas id="recentTestsChart"></canvas>
+                    </div>
+                </div>
+
+                <!-- Test History Table -->
+                <div class="bg-white rounded-3xl border border-slate-100 shadow-sm overflow-hidden">
+                    <div class="p-6 border-b border-slate-50 flex justify-between items-center">
+                        <h3 class="text-xl font-bold text-slate-800">Test History</h3>
+                        <span class="text-sm text-slate-400">Showing last 10 attempts</span>
+                    </div>
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-left">
+                            <thead class="bg-slate-50/50 text-slate-400 text-xs uppercase font-bold">
+                                <tr>
+                                    <th class="px-6 py-4">Domain</th>
+                                    <th class="px-6 py-4">Score</th>
+                                    <th class="px-6 py-4">Date</th>
+                                    <th class="px-6 py-4 text-right">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody id="history-table-body" class="divide-y divide-slate-50">
+                                <!-- Data injected here -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column: Mastery & Weak Topics -->
+            <div class="space-y-8">
+                <!-- Domain Mastery Radar -->
+                <div class="bg-white p-6 rounded-3xl border border-slate-100 shadow-sm">
+                    <h3 class="text-xl font-bold text-slate-800 mb-6">Domain Mastery</h3>
+                    <div class="h-64">
+                        <canvas id="masteryChart"></canvas>
+                    </div>
+                </div>
+
+                <!-- Course Status Overview -->
+                <div class="bg-white p-6 rounded-3xl border border-slate-100 shadow-sm">
+                    <h3 class="text-xl font-bold text-slate-800 mb-4">Course Progress</h3>
+                    <div class="space-y-4 text-sm" id="course-lists">
+                        <!-- Injected via JS -->
+                    </div>
+                </div>
+
+                <!-- Weak Topics -->
+                <div class="bg-white p-6 rounded-3xl border border-slate-100 shadow-sm">
+                    <h3 class="text-xl font-bold text-slate-800 mb-4">Focus Areas</h3>
+                    <p class="text-sm text-slate-500 mb-6">Topics where you missed most questions.</p>
+                    <div id="weak-topics-list" class="space-y-4">
+                        <!-- Data injected here -->
+                    </div>
+                </div>
+
+                <!-- Achievements -->
+                <div class="bg-gradient-to-br from-indigo-600 to-violet-700 p-6 rounded-3xl shadow-xl text-white">
+                    <h3 class="text-lg font-bold mb-4">Achievements</h3>
+                    <div id="achievements-list" class="space-y-4">
+                        <!-- Achievements injected here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        const user = JSON.parse(localStorage.getItem('user'));
+        if (!user) window.location.href = '/login';
+        document.getElementById('nav-username').innerText = user.username;
+
+        async function fetchStats() {
+            try {
+                const res = await fetch(`/api/user/stats/${user.user_id}`);
+                const data = await res.json();
+                
+                renderProfile(data);
+            } catch (err) {
+                console.error("Failed to fetch stats", err);
+            }
+        }
+
+        function renderProfile(data) {
+            document.getElementById('streak-count').innerText = data.streak;
+            document.getElementById('total-tests').innerText = data.total_tests;
+
+            // Render Course Stats
+            document.getElementById('stat-progress').innerText = Math.round(data.overall_progress) + '%';
+            document.getElementById('stat-completed-courses').innerText = data.completed_courses.length;
+            document.getElementById('stat-ongoing-courses').innerText = data.ongoing_courses.length;
+            document.getElementById('stat-uncompleted-courses').innerText = data.uncompleted_courses.length;
+
+            // Render Course Lists
+            const courseLists = document.getElementById('course-lists');
+            let courseHtml = '';
+            if (data.completed_courses.length > 0) {
+                courseHtml += `<div class="mb-3"><p class="font-bold text-emerald-600 mb-1">Completed</p>` + 
+                    data.completed_courses.map(c => `<span class="inline-block bg-emerald-50 text-emerald-700 px-2 py-1 rounded-md mb-1 mr-1 border border-emerald-100">${c}</span>`).join('') + `</div>`;
+            }
+            if (data.ongoing_courses.length > 0) {
+                courseHtml += `<div class="mb-3"><p class="font-bold text-amber-500 mb-1">Ongoing</p>` + 
+                    data.ongoing_courses.map(c => `<span class="inline-block bg-amber-50 text-amber-700 px-2 py-1 rounded-md mb-1 mr-1 border border-amber-100">${c}</span>`).join('') + `</div>`;
+            }
+            if (data.uncompleted_courses.length > 0) {
+                courseHtml += `<div class="mb-3"><p class="font-bold text-slate-500 mb-1">Uncompleted</p>` + 
+                    data.uncompleted_courses.map(c => `<span class="inline-block bg-slate-50 text-slate-600 px-2 py-1 rounded-md mb-1 mr-1 border border-slate-200">${c}</span>`).join('') + `</div>`;
+            }
+            courseLists.innerHTML = courseHtml || '<p class="text-slate-400">No courses available.</p>';
+
+            // Render Progress Chart
+            const progressCtx = document.getElementById('progressChart').getContext('2d');
+            new Chart(progressCtx, {
+                type: 'line',
+                data: {
+                    labels: data.progress_data.map(d => d.date),
+                    datasets: [{
+                        label: 'Score %',
+                        data: data.progress_data.map(d => d.score),
+                        borderColor: '#4f46e5',
+                        backgroundColor: 'rgba(79, 70, 229, 0.1)',
+                        fill: true,
+                        tension: 0.4,
+                        borderWidth: 3,
+                        pointBackgroundColor: '#fff',
+                        pointBorderColor: '#4f46e5',
+                        pointHoverRadius: 6
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { display: false } },
+                    scales: {
+                        y: { beginAtZero: true, max: 100, grid: { display: false } },
+                        x: { grid: { display: false } }
+                    }
+                }
+            });
+
+            // Render Recent Tests Bar Chart
+            const recentTestsCtx = document.getElementById('recentTestsChart').getContext('2d');
+            const recentHistory = data.test_history.slice(0, 5).reverse();
+            new Chart(recentTestsCtx, {
+                type: 'bar',
+                data: {
+                    labels: recentHistory.map(s => s.domain.length > 15 ? s.domain.substring(0,12)+'...' : s.domain),
+                    datasets: [{
+                        label: 'Score (%)',
+                        data: recentHistory.map(s => (s.score / s.total_questions) * 100),
+                        backgroundColor: 'rgba(79, 70, 229, 0.8)',
+                        borderRadius: 6
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { 
+                        legend: { display: false },
+                        tooltip: {
+                            callbacks: { label: (context) => context.raw.toFixed(1) + '%' }
+                        }
+                    },
+                    scales: {
+                        y: { beginAtZero: true, max: 100 }
+                    }
+                }
+            });
+
+            // Render Mastery Chart
+            const masteryCtx = document.getElementById('masteryChart').getContext('2d');
+            const domains = Object.keys(data.domain_mastery);
+            const scores = Object.values(data.domain_mastery);
+            
+            new Chart(masteryCtx, {
+                type: 'radar',
+                data: {
+                    labels: domains,
+                    datasets: [{
+                        data: scores,
+                        borderColor: '#4f46e5',
+                        backgroundColor: 'rgba(79, 70, 229, 0.2)',
+                        borderWidth: 2
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { display: false } },
+                    scales: {
+                        r: { beginAtZero: true, max: 100, ticks: { display: false } }
+                    }
+                }
+            });
+
+            // Render History Table
+            const historyBody = document.getElementById('history-table-body');
+            data.test_history.slice(0, 10).forEach(s => {
+                const date = new Date(s.created_at).toLocaleDateString();
+                const scorePercent = ((s.score / s.total_questions) * 100).toFixed(0);
+                const row = `
+                    <tr class="hover:bg-slate-50 transition-colors">
+                        <td class="px-6 py-4 font-bold text-slate-700">${s.domain}</td>
+                        <td class="px-6 py-4">
+                            <span class="px-3 py-1 rounded-full text-xs font-bold ${scorePercent > 70 ? 'bg-emerald-100 text-emerald-700' : 'bg-amber-100 text-amber-700'}">
+                                ${s.score}/${s.total_questions} (${scorePercent}%)
+                            </span>
+                        </td>
+                        <td class="px-6 py-4 text-slate-400 text-sm">${date}</td>
+                        <td class="px-6 py-4 text-right">
+                            <button onclick="window.location.href='/result?session_id=${s.id}'" class="text-indigo-600 hover:text-indigo-800 font-bold text-sm">View Details</button>
+                        </td>
+                    </tr>
+                `;
+                historyBody.innerHTML += row;
+            });
+
+            // Render Weak Topics
+            const topicsList = document.getElementById('weak-topics-list');
+            if (data.weak_topics.length === 0) {
+                topicsList.innerHTML = '<p class="text-slate-400 text-sm">No weak topics yet. Keep testing!</p>';
+            } else {
+                data.weak_topics.forEach(t => {
+                    topicsList.innerHTML += `
+                        <div class="flex justify-between items-center p-3 bg-slate-50 rounded-2xl">
+                            <span class="text-slate-700 font-medium">${t.topic}</span>
+                            <span class="text-xs bg-red-100 text-red-600 px-2 py-1 rounded-lg font-bold">${t.count} errors</span>
+                        </div>
+                    `;
+                });
+            }
+
+            // Render Achievements
+            const achievementsList = document.getElementById('achievements-list');
+            if (data.streak >= 3) {
+                achievementsList.innerHTML += `<div class="flex items-center gap-3"><div class="w-8 h-8 bg-white/20 rounded flex items-center justify-center">🔥</div><div><p class="font-bold text-sm">3 Day Streak</p><p class="text-xs text-indigo-100 opacity-80">You're on fire!</p></div></div>`;
+            }
+            if (data.total_tests >= 5) {
+                achievementsList.innerHTML += `<div class="flex items-center gap-3"><div class="w-8 h-8 bg-white/20 rounded flex items-center justify-center">🎓</div><div><p class="font-bold text-sm">Active Learner</p><p class="text-xs text-indigo-100 opacity-80">Completed 5+ assessments</p></div></div>`;
+            }
+            if (Math.max(...Object.values(data.domain_mastery).concat([0])) > 80) {
+                achievementsList.innerHTML += `<div class="flex items-center gap-3"><div class="w-8 h-8 bg-white/20 rounded flex items-center justify-center">⭐</div><div><p class="font-bold text-sm">Domain Specialist</p><p class="text-xs text-indigo-100 opacity-80">Scored >80% in a domain</p></div></div>`;
+            }
+            if (achievementsList.innerHTML === '') {
+                achievementsList.innerHTML = '<p class="text-indigo-200 text-sm">Complete more tests to earn badges!</p>';
+            }
+        }
+
+        function logout() {
+            localStorage.clear();
+            window.location.href = '/login';
+        }
+
+        fetchStats();
+    </script>
+</body>
+</html>

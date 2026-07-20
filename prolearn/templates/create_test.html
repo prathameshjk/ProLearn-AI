@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Custom Test - Prolearn</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Outfit', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 min-h-screen">
+    <nav class="bg-white border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <div class="w-8 h-8 bg-indigo-600 rounded-lg flex items-center justify-center text-white font-bold">P</div>
+                <span class="text-xl font-bold">Prolearn</span>
+            </div>
+            <div class="flex items-center gap-6">
+                <a href="/dashboard" class="text-slate-600 hover:text-indigo-600 font-medium transition-colors">Dashboard</a>
+                <a href="/create-test" class="text-indigo-600 font-medium transition-colors">Create Test</a>
+                <a href="/my-tests" class="text-slate-600 hover:text-indigo-600 font-medium transition-colors">My Tests</a>
+                <a href="/profile" class="text-slate-600 hover:text-indigo-600 font-medium transition-colors">Profile</a>
+                <div class="flex items-center gap-4">
+                    <span id="nav-username" class="text-slate-600 font-medium"></span>
+                    <button onclick="logout()" class="text-slate-400 hover:text-red-500 transition-colors">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"></path></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="max-w-4xl mx-auto px-4 py-12">
+        <header class="mb-10 text-center">
+            <h1 id="pageTitle" class="text-4xl font-bold text-slate-900 mb-2">Create Custom Test</h1>
+            <p id="pageSubtitle" class="text-slate-500">Design a test with your own questions and share it with others.</p>
+        </header>
+
+        <div id="successMessage" class="hidden bg-emerald-50 text-emerald-700 border border-emerald-200 p-4 rounded-xl mb-8 text-center shadow-sm">
+            <span id="successText" class="font-medium">Test created successfully! Share the access code:</span> 
+            <strong id="shareCode" class="ml-2 font-mono text-lg text-emerald-800"></strong>
+        </div>
+        <div id="errorMessage" class="hidden bg-red-50 text-red-600 border border-red-200 p-4 rounded-xl mb-8 text-center font-medium shadow-sm"></div>
+
+        <div class="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm mb-8">
+            <form id="testForm" class="space-y-6">
+                <div>
+                    <label for="testTitle" class="block text-sm font-semibold text-slate-700 mb-2">Test Title *</label>
+                    <input type="text" id="testTitle" placeholder="e.g., JavaScript Basics Quiz" required
+                        class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all">
+                </div>
+                
+                <div>
+                    <label for="testDescription" class="block text-sm font-semibold text-slate-700 mb-2">Description</label>
+                    <textarea id="testDescription" placeholder="Describe your test..." rows="3"
+                        class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all resize-y"></textarea>
+                </div>
+            </form>
+        </div>
+
+        <div class="space-y-6">
+            <div class="flex justify-between items-center mb-4">
+                <h2 class="text-2xl font-bold text-slate-800">Questions</h2>
+                <button onclick="addQuestion()" class="bg-indigo-50 text-indigo-600 px-4 py-2 rounded-lg font-semibold hover:bg-indigo-100 transition-colors">
+                    + Add Question
+                </button>
+            </div>
+
+            <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200 mb-8 flex flex-col sm:flex-row items-end gap-4">
+                <div class="flex-1 w-full">
+                    <label for="swapFrom" class="block text-sm font-semibold text-slate-700 mb-2">Swap question #</label>
+                    <input type="number" id="swapFrom" min="1" placeholder="e.g., 1" class="w-full px-4 py-2 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                </div>
+                <div class="flex-1 w-full">
+                    <label for="swapTo" class="block text-sm font-semibold text-slate-700 mb-2">With question #</label>
+                    <input type="number" id="swapTo" min="1" placeholder="e.g., 2" class="w-full px-4 py-2 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                </div>
+                <button type="button" onclick="swapQuestions()" class="w-full sm:w-auto bg-slate-800 text-white px-6 py-2 rounded-lg font-semibold hover:bg-slate-700 transition-colors">
+                    Swap
+                </button>
+            </div>
+
+            <div id="questionsContainer" class="space-y-6"></div>
+        </div>
+
+        <div class="mt-12 flex gap-4">
+            <button id="submitButton" onclick="submitTest()" class="flex-1 bg-indigo-600 text-white px-6 py-4 rounded-xl font-bold text-lg hover:bg-indigo-700 transition-colors shadow-sm">
+                Create Test
+            </button>
+            <button onclick="goBack()" class="flex-1 bg-slate-100 text-slate-700 px-6 py-4 rounded-xl font-bold text-lg hover:bg-slate-200 transition-colors">
+                Cancel
+            </button>
+        </div>
+    </main>
+
+    <script>
+        let questionCount = 0;
+        const user = JSON.parse(localStorage.getItem('user'));
+        const userId = localStorage.getItem('userId') || (user && user.user_id);
+        const editTestId = new URLSearchParams(window.location.search).get('test_id');
+        let editingAccessCode = null;
+        
+        if (userId) localStorage.setItem('userId', userId);
+        if (!user) window.location.href = '/login';
+        
+        document.getElementById('nav-username').innerText = user.username;
+
+        function addQuestion(question = null) {
+            questionCount++;
+            const questionHTML = `
+                <div class="question-card bg-white p-6 rounded-3xl border border-slate-200 shadow-sm relative group" id="question-${questionCount}">
+                    <div class="flex justify-between items-center mb-6">
+                        <h4 class="text-lg font-bold text-indigo-600 question-number">Question ${questionCount}</h4>
+                        <button type="button" class="text-slate-400 hover:text-red-500 transition-colors opacity-0 group-hover:opacity-100" onclick="removeQuestion(${questionCount})" title="Remove Question">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"></path></svg>
+                        </button>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <label class="block text-sm font-semibold text-slate-700 mb-2">Question Text *</label>
+                        <textarea class="question-text w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-500 transition-all resize-y" rows="2" placeholder="Enter your question..." required>${escapeHtml(question?.question_text || '')}</textarea>
+                    </div>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-500 mb-1">Option A *</label>
+                            <input type="text" class="option-a w-full px-4 py-2 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500" placeholder="Option A" value="${escapeHtml(question?.option_a || '')}" required>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-500 mb-1">Option B *</label>
+                            <input type="text" class="option-b w-full px-4 py-2 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500" placeholder="Option B" value="${escapeHtml(question?.option_b || '')}" required>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-500 mb-1">Option C *</label>
+                            <input type="text" class="option-c w-full px-4 py-2 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500" placeholder="Option C" value="${escapeHtml(question?.option_c || '')}" required>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-500 mb-1">Option D *</label>
+                            <input type="text" class="option-d w-full px-4 py-2 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500" placeholder="Option D" value="${escapeHtml(question?.option_d || '')}" required>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-indigo-50/50 p-4 rounded-xl border border-indigo-100">
+                        <label class="block text-sm font-bold text-indigo-900 mb-3">Correct Answer *</label>
+                        <div class="flex flex-wrap gap-4">
+                            <label class="flex items-center cursor-pointer">
+                                <input type="radio" name="correct-${questionCount}" value="A" class="w-4 h-4 text-indigo-600 focus:ring-indigo-500 border-gray-300" ${question?.correct_option === 'A' ? 'checked' : ''} required>
+                                <span class="ml-2 text-sm font-medium text-slate-700">A</span>
+                            </label>
+                            <label class="flex items-center cursor-pointer">
+                                <input type="radio" name="correct-${questionCount}" value="B" class="w-4 h-4 text-indigo-600 focus:ring-indigo-500 border-gray-300" ${question?.correct_option === 'B' ? 'checked' : ''}>
+                                <span class="ml-2 text-sm font-medium text-slate-700">B</span>
+                            </label>
+                            <label class="flex items-center cursor-pointer">
+                                <input type="radio" name="correct-${questionCount}" value="C" class="w-4 h-4 text-indigo-600 focus:ring-indigo-500 border-gray-300" ${question?.correct_option === 'C' ? 'checked' : ''}>
+                                <span class="ml-2 text-sm font-medium text-slate-700">C</span>
+                            </label>
+                            <label class="flex items-center cursor-pointer">
+                                <input type="radio" name="correct-${questionCount}" value="D" class="w-4 h-4 text-indigo-600 focus:ring-indigo-500 border-gray-300" ${question?.correct_option === 'D' ? 'checked' : ''}>
+                                <span class="ml-2 text-sm font-medium text-slate-700">D</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            `;
+            document.getElementById('questionsContainer').insertAdjacentHTML('beforeend', questionHTML);
+            renumberQuestions();
+        }
+
+        function removeQuestion(id) {
+            const element = document.getElementById(`question-${id}`);
+            if (element) {
+                element.remove();
+                renumberQuestions();
+            }
+        }
+
+        function renumberQuestions() {
+            document.querySelectorAll('.question-card').forEach((card, index) => {
+                card.querySelector('.question-number').textContent = `Question ${index + 1}`;
+            });
+        }
+
+        function showError(message) {
+            const errorDiv = document.getElementById('errorMessage');
+            errorDiv.textContent = message;
+            errorDiv.classList.remove('hidden');
+            errorDiv.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+
+        function escapeHtml(value) {
+            return String(value || '').replace(/[&<>"']/g, char => ({
+                '&': '&amp;',
+                '<': '&lt;',
+                '>': '&gt;',
+                '"': '&quot;',
+                "'": '&#039;'
+            }[char]));
+        }
+
+        function swapQuestions() {
+            const from = parseInt(document.getElementById('swapFrom').value, 10);
+            const to = parseInt(document.getElementById('swapTo').value, 10);
+            const cards = Array.from(document.querySelectorAll('.question-card'));
+
+            if (!from || !to || from < 1 || to < 1 || from > cards.length || to > cards.length) {
+                showError(`Enter question numbers between 1 and ${cards.length}.`);
+                return;
+            }
+
+            if (from === to) {
+                showError('Choose two different question numbers to swap.');
+                return;
+            }
+
+            const firstCard = cards[from - 1];
+            const secondCard = cards[to - 1];
+            const marker = document.createElement('div');
+
+            firstCard.before(marker);
+            secondCard.before(firstCard);
+            marker.replaceWith(secondCard);
+
+            document.getElementById('swapFrom').value = '';
+            document.getElementById('swapTo').value = '';
+            document.getElementById('errorMessage').classList.add('hidden');
+            renumberQuestions();
+        }
+
+        function getFormData() {
+            const testTitle = document.getElementById('testTitle').value.trim();
+            const testDescription = document.getElementById('testDescription').value.trim();
+            const questionCards = document.querySelectorAll('.question-card');
+            
+            if (!testTitle) {
+                throw new Error('Test Title is required');
+            }
+
+            const questions = [];
+            questionCards.forEach((card, index) => {
+                const questionText = card.querySelector('.question-text').value.trim();
+                const optionA = card.querySelector('.option-a').value.trim();
+                const optionB = card.querySelector('.option-b').value.trim();
+                const optionC = card.querySelector('.option-c').value.trim();
+                const optionD = card.querySelector('.option-d').value.trim();
+                const correctOption = card.querySelector('input[type="radio"]:checked')?.value;
+                
+                if (!questionText || !optionA || !optionB || !optionC || !optionD || !correctOption) {
+                    throw new Error(`All fields are required for Question ${index + 1}`);
+                }
+                
+                questions.push({
+                    question_text: questionText,
+                    option_a: optionA,
+                    option_b: optionB,
+                    option_c: optionC,
+                    option_d: optionD,
+                    correct_option: correctOption
+                });
+            });
+            
+            if (questions.length === 0) {
+                throw new Error('Please add at least one question');
+            }
+            
+            return {
+                title: testTitle,
+                description: testDescription,
+                questions: questions
+            };
+        }
+
+        function submitTest() {
+            const errorDiv = document.getElementById('errorMessage');
+            errorDiv.classList.add('hidden');
+            
+            try {
+                const formData = getFormData();
+                
+                if (!userId) {
+                    throw new Error('User not logged in');
+                }
+
+                const url = editTestId
+                    ? `/api/custom-tests/${editTestId}?user_id=${userId}`
+                    : '/api/custom-tests?user_id=' + userId;
+                const method = editTestId ? 'PUT' : 'POST';
+
+                // Change button state
+                const submitBtn = document.getElementById('submitButton');
+                const originalText = submitBtn.innerText;
+                submitBtn.innerText = 'Saving...';
+                submitBtn.disabled = true;
+
+                fetch(url, {
+                    method,
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(formData)
+                })
+                .then(response => {
+                    if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+                    return response.json();
+                })
+                .then(data => {
+                    const successDiv = document.getElementById('successMessage');
+                    document.getElementById('successText').textContent = editTestId
+                        ? 'Test updated successfully! Access code:'
+                        : 'Test created successfully! Share the access code:';
+                    document.getElementById('shareCode').textContent = data.access_code;
+                    successDiv.classList.remove('hidden');
+                    successDiv.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    
+                    setTimeout(() => {
+                        window.location.href = '/my-tests';
+                    }, 2000);
+                })
+                .catch(error => {
+                    submitBtn.innerText = originalText;
+                    submitBtn.disabled = false;
+                    showError('Error: ' + error.message);
+                    console.error('Error:', error);
+                });
+            } catch (error) {
+                showError('Error: ' + error.message);
+            }
+        }
+
+        function goBack() {
+            window.location.href = '/my-tests';
+        }
+
+        function loadTestForEdit() {
+            document.getElementById('pageTitle').textContent = 'Edit Custom Test';
+            document.getElementById('pageSubtitle').textContent = 'Update your test details and questions.';
+            document.getElementById('submitButton').textContent = 'Save Changes';
+
+            fetch(`/api/custom-tests/manage/${editTestId}?user_id=${userId}`)
+                .then(response => {
+                    if (!response.ok) {
+                        return response.json().then(data => {
+                            throw new Error(data.detail || 'Could not load test');
+                        });
+                    }
+                    return response.json();
+                })
+                .then(test => {
+                    editingAccessCode = test.access_code;
+                    document.getElementById('testTitle').value = test.title;
+                    document.getElementById('testDescription').value = test.description || '';
+                    document.getElementById('questionsContainer').innerHTML = '';
+                    questionCount = 0;
+                    test.questions.forEach(question => addQuestion(question));
+                })
+                .catch(error => showError('Error loading test: ' + error.message));
+        }
+
+        function logout() {
+            localStorage.clear();
+            window.location.href = '/login';
+        }
+
+        if (editTestId) {
+            loadTestForEdit();
+        } else {
+            addQuestion();
+        }
+    </script>
+</body>
+</html>

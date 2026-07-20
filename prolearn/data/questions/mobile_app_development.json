@@ -1,0 +1,2002 @@
+[
+  {
+    "domain": "Mobile App Development",
+    "topic": "Android Basics",
+    "question_text": "What is the primary language recommended by Google for modern Android development?",
+    "option_a": "Java",
+    "option_b": "Kotlin",
+    "option_c": "C++",
+    "option_d": "Python",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Android Basics",
+    "question_text": "Which tag is the root of the AndroidManifest.xml file?",
+    "option_a": "<manifest>",
+    "option_b": "<application>",
+    "option_c": "<activity>",
+    "option_d": "<intent-filter>",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Android Basics",
+    "question_text": "What is the purpose of 'R.java' in Android?",
+    "option_a": "To run the app",
+    "option_b": "To store resource IDs",
+    "option_c": "To manage remote data",
+    "option_d": "To handle routing",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Android Basics",
+    "question_text": "Which component is NOT one of the four main components of an Android app?",
+    "option_a": "Activity",
+    "option_b": "Service",
+    "option_c": "Fragment",
+    "option_d": "Content Provider",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Android Basics",
+    "question_text": "In Android, which lifecycle method is called when an activity starts interacting with the user?",
+    "option_a": "onStart()",
+    "option_b": "onResume()",
+    "option_c": "onCreate()",
+    "option_d": "onRestart()",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "iOS Basics",
+    "question_text": "Which IDE is exclusively used for developing official iOS applications?",
+    "option_a": "Android Studio",
+    "option_b": "Xcode",
+    "option_c": "Visual Studio",
+    "option_d": "Eclipse",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "iOS Basics",
+    "question_text": "What is the primary programming language for modern iOS development?",
+    "option_a": "Objective-C",
+    "option_b": "Swift",
+    "option_c": "Ruby",
+    "option_d": "Dart",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "iOS Basics",
+    "question_text": "What does 'IPA' stand for in iOS development?",
+    "option_a": "Internal Program Archive",
+    "option_b": "iOS App Store Package",
+    "option_c": "Internet Protocol Address",
+    "option_d": "iPhone Application",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "iOS Basics",
+    "question_text": "Which keyword is used to declare a constant in Swift?",
+    "option_a": "var",
+    "option_b": "let",
+    "option_c": "const",
+    "option_d": "val",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "iOS Basics",
+    "question_text": "What is the purpose of a xib file in iOS?",
+    "option_a": "Data storage",
+    "option_b": "UI layout design",
+    "option_c": "Network configuration",
+    "option_d": "Package management",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Flutter",
+    "question_text": "Which language is used to build Flutter apps?",
+    "option_a": "JavaScript",
+    "option_b": "Kotlin",
+    "option_c": "Dart",
+    "option_d": "Java",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Flutter",
+    "question_text": "What command checks if your Flutter environment is set up correctly?",
+    "option_a": "flutter check",
+    "option_b": "flutter test",
+    "option_c": "flutter doctor",
+    "option_d": "flutter help",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "React Native",
+    "question_text": "Which company developed and maintains React Native?",
+    "option_a": "Google",
+    "option_b": "Facebook (Meta)",
+    "option_c": "Microsoft",
+    "option_d": "Apple",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "React Native",
+    "question_text": "React Native uses which language for building mobile UIs?",
+    "option_a": "Swift",
+    "option_b": "Kotlin",
+    "option_c": "JavaScript",
+    "option_d": "Haskell",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Flutter",
+    "question_text": "In Flutter, what is the root of everything in the UI?",
+    "option_a": "Component",
+    "option_b": "Widget",
+    "option_c": "Element",
+    "option_d": "Module",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Architecture",
+    "question_text": "What does MVVM stand for?",
+    "option_a": "Model-View-ViewManager",
+    "option_b": "Model-View-ViewModel",
+    "option_c": "Main-View-VirtualMachine",
+    "option_d": "Model-Value-ViewManager",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Architecture",
+    "question_text": "In Clean Architecture, which layer should contain Business Logic?",
+    "option_a": "Data Layer",
+    "option_b": "Domain Layer",
+    "option_c": "Presentation Layer",
+    "option_d": "UI Layer",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Architecture",
+    "question_text": "What is Dependency Injection primarily used for?",
+    "option_a": "Faster data loading",
+    "option_b": "Decoupling components and improving testability",
+    "option_c": "Securing common APIs",
+    "option_d": "Designing layouts",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Architecture",
+    "question_text": "What does the Single Responsibility Principle state?",
+    "option_a": "A class should have only one user",
+    "option_b": "A class should have only one reason to change",
+    "option_c": "A function should have only one line",
+    "option_d": "A variable should have only one value",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Architecture",
+    "question_text": "Which pattern is common in Android to handle UI state across lifecycle changes?",
+    "option_a": "Singleton",
+    "option_b": "ViewModel",
+    "option_c": "Factory",
+    "option_d": "Observer",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Networking",
+    "question_text": "Which status code represents a successful GET request?",
+    "option_a": "200",
+    "option_b": "404",
+    "option_c": "500",
+    "option_d": "201",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Networking",
+    "question_text": "What is a 'JSON' format mainly used for?",
+    "option_a": "Compiling code",
+    "option_b": "Exchanging data between server and client",
+    "option_c": "Storing binaries",
+    "option_d": "Designing icons",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Networking",
+    "question_text": "What does SSL Pinning prevent?",
+    "option_a": "SQL Injection",
+    "option_b": "Man-in-the-Middle (MITM) attacks",
+    "option_c": "Cross-site scripting",
+    "option_d": "DDoS attacks",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Networking",
+    "question_text": "Which library is most popular for networking in iOS using Swift?",
+    "option_a": "Retrofit",
+    "option_b": "Alamofire",
+    "option_c": "Axios",
+    "option_d": "Volley",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Networking",
+    "question_text": "What mechanism is used to send data from server to client in real-time?",
+    "option_a": "HTTP GET",
+    "option_b": "WebSockets",
+    "option_c": "JSONP",
+    "option_d": "FTP",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Security",
+    "question_text": "What is 'Obfuscation' in mobile development?",
+    "option_a": "Removing unused code",
+    "option_b": "Making the code difficult for humans to read/reverse engineer",
+    "option_c": "Compressing images",
+    "option_d": "Encrypting the database",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Security",
+    "question_text": "Where should sensitive passwords be stored on iOS?",
+    "option_a": "UserDefaults",
+    "option_b": "Keychain",
+    "option_c": "Text file",
+    "option_d": "Core Data",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Security",
+    "question_text": "What is the Android equivalent of iOS Keychain for storing small sensitive data?",
+    "option_a": "SharedPreferences",
+    "option_b": "Android Keystore System",
+    "option_c": "Internal Storage",
+    "option_d": "External SD Card",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Security",
+    "question_text": "What is 'Jailbreaking' on iOS?",
+    "option_a": "Updating the OS",
+    "option_b": "Removing restrictions imposed by Apple on the device",
+    "option_c": "Installing an app from App Store",
+    "option_d": "Repairing a broken screen",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Security",
+    "question_text": "Rooting an Android device gives the user what type of access?",
+    "option_a": "Limited access",
+    "option_b": "Superuser (Root) access",
+    "option_c": "Guest access",
+    "option_d": "Developer access",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Storage",
+    "question_text": "In Storage, what is a key concept related to SQLite? (Ref: 31)",
+    "option_a": "Random technical term 0",
+    "option_b": "The primary implementation of SQLite (Correct)",
+    "option_c": "A legacy version of SQLite",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "UI/UX",
+    "question_text": "In UI/UX, what is a key concept related to Material Design? (Ref: 32)",
+    "option_a": "Random technical term 1",
+    "option_b": "The primary implementation of Material Design (Correct)",
+    "option_c": "A legacy version of Material Design",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Testing",
+    "question_text": "In Testing, what is a key concept related to JUnit? (Ref: 33)",
+    "option_a": "Random technical term 2",
+    "option_b": "The primary implementation of JUnit (Correct)",
+    "option_c": "A legacy version of JUnit",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Deployment",
+    "question_text": "In Deployment, what is a key concept related to Play Store? (Ref: 34)",
+    "option_a": "Random technical term 3",
+    "option_b": "The primary implementation of Play Store (Correct)",
+    "option_c": "A legacy version of Play Store",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Android Advanced",
+    "question_text": "In Android Advanced, what is a key concept related to Coroutines? (Ref: 35)",
+    "option_a": "Random technical term 4",
+    "option_b": "The primary implementation of Coroutines (Correct)",
+    "option_c": "A legacy version of Coroutines",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "iOS Advanced",
+    "question_text": "In iOS Advanced, what is a key concept related to Combine? (Ref: 36)",
+    "option_a": "Random technical term 5",
+    "option_b": "The primary implementation of Combine (Correct)",
+    "option_c": "A legacy version of Combine",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Performance",
+    "question_text": "In Performance, what is a key concept related to Memory Leaks? (Ref: 37)",
+    "option_a": "Random technical term 6",
+    "option_b": "The primary implementation of Memory Leaks (Correct)",
+    "option_c": "A legacy version of Memory Leaks",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Notifications",
+    "question_text": "In Notifications, what is a key concept related to Push Notifications? (Ref: 38)",
+    "option_a": "Random technical term 7",
+    "option_b": "The primary implementation of Push Notifications (Correct)",
+    "option_c": "A legacy version of Push Notifications",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Storage",
+    "question_text": "In Storage, what is a key concept related to SQLite? (Ref: 39)",
+    "option_a": "Random technical term 8",
+    "option_b": "The primary implementation of SQLite (Correct)",
+    "option_c": "A legacy version of SQLite",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "UI/UX",
+    "question_text": "In UI/UX, what is a key concept related to Material Design? (Ref: 40)",
+    "option_a": "Random technical term 9",
+    "option_b": "The primary implementation of Material Design (Correct)",
+    "option_c": "A legacy version of Material Design",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Testing",
+    "question_text": "In Testing, what is a key concept related to Espresso? (Ref: 41)",
+    "option_a": "Random technical term 10",
+    "option_b": "The primary implementation of Espresso (Correct)",
+    "option_c": "A legacy version of Espresso",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Deployment",
+    "question_text": "In Deployment, what is a key concept related to App Store? (Ref: 42)",
+    "option_a": "Random technical term 11",
+    "option_b": "The primary implementation of App Store (Correct)",
+    "option_c": "A legacy version of App Store",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Android Advanced",
+    "question_text": "In Android Advanced, what is a key concept related to Flow? (Ref: 43)",
+    "option_a": "Random technical term 12",
+    "option_b": "The primary implementation of Flow (Correct)",
+    "option_c": "A legacy version of Flow",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "iOS Advanced",
+    "question_text": "In iOS Advanced, what is a key concept related to GCD? (Ref: 44)",
+    "option_a": "Random technical term 13",
+    "option_b": "The primary implementation of GCD (Correct)",
+    "option_c": "A legacy version of GCD",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Performance",
+    "question_text": "In Performance, what is a key concept related to Jank? (Ref: 45)",
+    "option_a": "Random technical term 14",
+    "option_b": "The primary implementation of Jank (Correct)",
+    "option_c": "A legacy version of Jank",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Notifications",
+    "question_text": "In Notifications, what is a key concept related to Local Notifications? (Ref: 46)",
+    "option_a": "Random technical term 15",
+    "option_b": "The primary implementation of Local Notifications (Correct)",
+    "option_c": "A legacy version of Local Notifications",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Storage",
+    "question_text": "In Storage, what is a key concept related to Room? (Ref: 47)",
+    "option_a": "Random technical term 16",
+    "option_b": "The primary implementation of Room (Correct)",
+    "option_c": "A legacy version of Room",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "UI/UX",
+    "question_text": "In UI/UX, what is a key concept related to Auto Layout? (Ref: 48)",
+    "option_a": "Random technical term 17",
+    "option_b": "The primary implementation of Auto Layout (Correct)",
+    "option_c": "A legacy version of Auto Layout",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Testing",
+    "question_text": "In Testing, what is a key concept related to Espresso? (Ref: 49)",
+    "option_a": "Random technical term 18",
+    "option_b": "The primary implementation of Espresso (Correct)",
+    "option_c": "A legacy version of Espresso",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Deployment",
+    "question_text": "In Deployment, what is a key concept related to App Store? (Ref: 50)",
+    "option_a": "Random technical term 19",
+    "option_b": "The primary implementation of App Store (Correct)",
+    "option_c": "A legacy version of App Store",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Android Advanced",
+    "question_text": "In Android Advanced, what is a key concept related to Hilt? (Ref: 51)",
+    "option_a": "Random technical term 20",
+    "option_b": "The primary implementation of Hilt (Correct)",
+    "option_c": "A legacy version of Hilt",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "iOS Advanced",
+    "question_text": "In iOS Advanced, what is a key concept related to ARC? (Ref: 52)",
+    "option_a": "Random technical term 21",
+    "option_b": "The primary implementation of ARC (Correct)",
+    "option_c": "A legacy version of ARC",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Performance",
+    "question_text": "In Performance, what is a key concept related to CPU Usage? (Ref: 53)",
+    "option_a": "Random technical term 22",
+    "option_b": "The primary implementation of CPU Usage (Correct)",
+    "option_c": "A legacy version of CPU Usage",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Notifications",
+    "question_text": "In Notifications, what is a key concept related to FCM? (Ref: 54)",
+    "option_a": "Random technical term 23",
+    "option_b": "The primary implementation of FCM (Correct)",
+    "option_c": "A legacy version of FCM",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Storage",
+    "question_text": "In Storage, what is a key concept related to Core Data? (Ref: 55)",
+    "option_a": "Random technical term 24",
+    "option_b": "The primary implementation of Core Data (Correct)",
+    "option_c": "A legacy version of Core Data",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "UI/UX",
+    "question_text": "In UI/UX, what is a key concept related to SwiftUI? (Ref: 56)",
+    "option_a": "Random technical term 25",
+    "option_b": "The primary implementation of SwiftUI (Correct)",
+    "option_c": "A legacy version of SwiftUI",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Testing",
+    "question_text": "In Testing, what is a key concept related to XCTest? (Ref: 57)",
+    "option_a": "Random technical term 26",
+    "option_b": "The primary implementation of XCTest (Correct)",
+    "option_c": "A legacy version of XCTest",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Deployment",
+    "question_text": "In Deployment, what is a key concept related to Fastlane? (Ref: 58)",
+    "option_a": "Random technical term 27",
+    "option_b": "The primary implementation of Fastlane (Correct)",
+    "option_c": "A legacy version of Fastlane",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Android Advanced",
+    "question_text": "In Android Advanced, what is a key concept related to Hilt? (Ref: 59)",
+    "option_a": "Random technical term 28",
+    "option_b": "The primary implementation of Hilt (Correct)",
+    "option_c": "A legacy version of Hilt",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "iOS Advanced",
+    "question_text": "In iOS Advanced, what is a key concept related to ARC? (Ref: 60)",
+    "option_a": "Random technical term 29",
+    "option_b": "The primary implementation of ARC (Correct)",
+    "option_c": "A legacy version of ARC",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Performance",
+    "question_text": "In Performance, what is a key concept related to Profiling? (Ref: 61)",
+    "option_a": "Random technical term 30",
+    "option_b": "The primary implementation of Profiling (Correct)",
+    "option_c": "A legacy version of Profiling",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Notifications",
+    "question_text": "In Notifications, what is a key concept related to APNs? (Ref: 62)",
+    "option_a": "Random technical term 31",
+    "option_b": "The primary implementation of APNs (Correct)",
+    "option_c": "A legacy version of APNs",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Storage",
+    "question_text": "In Storage, what is a key concept related to Realm? (Ref: 63)",
+    "option_a": "Random technical term 32",
+    "option_b": "The primary implementation of Realm (Correct)",
+    "option_c": "A legacy version of Realm",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "UI/UX",
+    "question_text": "In UI/UX, what is a key concept related to Jetpack Compose? (Ref: 64)",
+    "option_a": "Random technical term 33",
+    "option_b": "The primary implementation of Jetpack Compose (Correct)",
+    "option_c": "A legacy version of Jetpack Compose",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Testing",
+    "question_text": "In Testing, what is a key concept related to Appium? (Ref: 65)",
+    "option_a": "Random technical term 34",
+    "option_b": "The primary implementation of Appium (Correct)",
+    "option_c": "A legacy version of Appium",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Deployment",
+    "question_text": "In Deployment, what is a key concept related to Bundles? (Ref: 66)",
+    "option_a": "Random technical term 35",
+    "option_b": "The primary implementation of Bundles (Correct)",
+    "option_c": "A legacy version of Bundles",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Android Advanced",
+    "question_text": "In Android Advanced, what is a key concept related to WorkManager? (Ref: 67)",
+    "option_a": "Random technical term 36",
+    "option_b": "The primary implementation of WorkManager (Correct)",
+    "option_c": "A legacy version of WorkManager",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "iOS Advanced",
+    "question_text": "In iOS Advanced, what is a key concept related to SwiftUI? (Ref: 68)",
+    "option_a": "Random technical term 37",
+    "option_b": "The primary implementation of SwiftUI (Correct)",
+    "option_c": "A legacy version of SwiftUI",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Performance",
+    "question_text": "In Performance, what is a key concept related to Profiling? (Ref: 69)",
+    "option_a": "Random technical term 38",
+    "option_b": "The primary implementation of Profiling (Correct)",
+    "option_c": "A legacy version of Profiling",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Notifications",
+    "question_text": "In Notifications, what is a key concept related to APNs? (Ref: 70)",
+    "option_a": "Random technical term 39",
+    "option_b": "The primary implementation of APNs (Correct)",
+    "option_c": "A legacy version of APNs",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Storage",
+    "question_text": "In Storage, what is a key concept related to Firebase? (Ref: 71)",
+    "option_a": "Random technical term 40",
+    "option_b": "The primary implementation of Firebase (Correct)",
+    "option_c": "A legacy version of Firebase",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "UI/UX",
+    "question_text": "In UI/UX, what is a key concept related to RecyclerView? (Ref: 72)",
+    "option_a": "Random technical term 41",
+    "option_b": "The primary implementation of RecyclerView (Correct)",
+    "option_c": "A legacy version of RecyclerView",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Testing",
+    "question_text": "In Testing, what is a key concept related to Unit Tests? (Ref: 73)",
+    "option_a": "Random technical term 42",
+    "option_b": "The primary implementation of Unit Tests (Correct)",
+    "option_c": "A legacy version of Unit Tests",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Deployment",
+    "question_text": "In Deployment, what is a key concept related to Keystores? (Ref: 74)",
+    "option_a": "Random technical term 43",
+    "option_b": "The primary implementation of Keystores (Correct)",
+    "option_c": "A legacy version of Keystores",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Android Advanced",
+    "question_text": "In Android Advanced, what is a key concept related to ViewBinding? (Ref: 75)",
+    "option_a": "Random technical term 44",
+    "option_b": "The primary implementation of ViewBinding (Correct)",
+    "option_c": "A legacy version of ViewBinding",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "iOS Advanced",
+    "question_text": "In iOS Advanced, what is a key concept related to UIKit? (Ref: 76)",
+    "option_a": "Random technical term 45",
+    "option_b": "The primary implementation of UIKit (Correct)",
+    "option_c": "A legacy version of UIKit",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Performance",
+    "question_text": "In Performance, what is a key concept related to Caching? (Ref: 77)",
+    "option_a": "Random technical term 46",
+    "option_b": "The primary implementation of Caching (Correct)",
+    "option_c": "A legacy version of Caching",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Notifications",
+    "question_text": "In Notifications, what is a key concept related to Payloads? (Ref: 78)",
+    "option_a": "Random technical term 47",
+    "option_b": "The primary implementation of Payloads (Correct)",
+    "option_c": "A legacy version of Payloads",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Storage",
+    "question_text": "In Storage, what is a key concept related to Firebase? (Ref: 79)",
+    "option_a": "Random technical term 48",
+    "option_b": "The primary implementation of Firebase (Correct)",
+    "option_c": "A legacy version of Firebase",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "UI/UX",
+    "question_text": "In UI/UX, what is a key concept related to RecyclerView? (Ref: 80)",
+    "option_a": "Random technical term 49",
+    "option_b": "The primary implementation of RecyclerView (Correct)",
+    "option_c": "A legacy version of RecyclerView",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Testing",
+    "question_text": "In Testing, what is a key concept related to UI Tests? (Ref: 81)",
+    "option_a": "Random technical term 50",
+    "option_b": "The primary implementation of UI Tests (Correct)",
+    "option_c": "A legacy version of UI Tests",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Deployment",
+    "question_text": "In Deployment, what is a key concept related to Certificates? (Ref: 82)",
+    "option_a": "Random technical term 51",
+    "option_b": "The primary implementation of Certificates (Correct)",
+    "option_c": "A legacy version of Certificates",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Android Advanced",
+    "question_text": "In Android Advanced, what is a key concept related to DataBinding? (Ref: 83)",
+    "option_a": "Random technical term 52",
+    "option_b": "The primary implementation of DataBinding (Correct)",
+    "option_c": "A legacy version of DataBinding",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "iOS Advanced",
+    "question_text": "In iOS Advanced, what is a key concept related to Storyboards? (Ref: 84)",
+    "option_a": "Random technical term 53",
+    "option_b": "The primary implementation of Storyboards (Correct)",
+    "option_c": "A legacy version of Storyboards",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Performance",
+    "question_text": "In Performance, what is a key concept related to Binary Size? (Ref: 85)",
+    "option_a": "Random technical term 54",
+    "option_b": "The primary implementation of Binary Size (Correct)",
+    "option_c": "A legacy version of Binary Size",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Notifications",
+    "question_text": "In Notifications, what is a key concept related to Deep Linking? (Ref: 86)",
+    "option_a": "Random technical term 55",
+    "option_b": "The primary implementation of Deep Linking (Correct)",
+    "option_c": "A legacy version of Deep Linking",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Storage",
+    "question_text": "In Storage, what is a key concept related to Shared Preferences? (Ref: 87)",
+    "option_a": "Random technical term 56",
+    "option_b": "The primary implementation of Shared Preferences (Correct)",
+    "option_c": "A legacy version of Shared Preferences",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "UI/UX",
+    "question_text": "In UI/UX, what is a key concept related to Animations? (Ref: 88)",
+    "option_a": "Random technical term 57",
+    "option_b": "The primary implementation of Animations (Correct)",
+    "option_c": "A legacy version of Animations",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Testing",
+    "question_text": "In Testing, what is a key concept related to UI Tests? (Ref: 89)",
+    "option_a": "Random technical term 58",
+    "option_b": "The primary implementation of UI Tests (Correct)",
+    "option_c": "A legacy version of UI Tests",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Deployment",
+    "question_text": "In Deployment, what is a key concept related to Certificates? (Ref: 90)",
+    "option_a": "Random technical term 59",
+    "option_b": "The primary implementation of Certificates (Correct)",
+    "option_c": "A legacy version of Certificates",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Android Advanced",
+    "question_text": "In Android Advanced, what is a key concept related to Fragments? (Ref: 91)",
+    "option_a": "Random technical term 60",
+    "option_b": "The primary implementation of Fragments (Correct)",
+    "option_c": "A legacy version of Fragments",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "iOS Advanced",
+    "question_text": "In iOS Advanced, what is a key concept related to SwiftPM? (Ref: 92)",
+    "option_a": "Random technical term 61",
+    "option_b": "The primary implementation of SwiftPM (Correct)",
+    "option_c": "A legacy version of SwiftPM",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Performance",
+    "question_text": "In Performance, what is a key concept related to Network Latency? (Ref: 93)",
+    "option_a": "Random technical term 62",
+    "option_b": "The primary implementation of Network Latency (Correct)",
+    "option_c": "A legacy version of Network Latency",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Notifications",
+    "question_text": "In Notifications, what is a key concept related to Tokens? (Ref: 94)",
+    "option_a": "Random technical term 63",
+    "option_b": "The primary implementation of Tokens (Correct)",
+    "option_c": "A legacy version of Tokens",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Storage",
+    "question_text": "In Storage, what is a key concept related to UserDefaults? (Ref: 95)",
+    "option_a": "Random technical term 64",
+    "option_b": "The primary implementation of UserDefaults (Correct)",
+    "option_c": "A legacy version of UserDefaults",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "UI/UX",
+    "question_text": "In UI/UX, what is a key concept related to Accessibility? (Ref: 96)",
+    "option_a": "Random technical term 65",
+    "option_b": "The primary implementation of Accessibility (Correct)",
+    "option_c": "A legacy version of Accessibility",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Testing",
+    "question_text": "In Testing, what is a key concept related to Integration? (Ref: 97)",
+    "option_a": "Random technical term 66",
+    "option_b": "The primary implementation of Integration (Correct)",
+    "option_c": "A legacy version of Integration",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Deployment",
+    "question_text": "In Deployment, what is a key concept related to Profiles? (Ref: 98)",
+    "option_a": "Random technical term 67",
+    "option_b": "The primary implementation of Profiles (Correct)",
+    "option_c": "A legacy version of Profiles",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Android Advanced",
+    "question_text": "In Android Advanced, what is a key concept related to Fragments? (Ref: 99)",
+    "option_a": "Random technical term 68",
+    "option_b": "The primary implementation of Fragments (Correct)",
+    "option_c": "A legacy version of Fragments",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "iOS Advanced",
+    "question_text": "In iOS Advanced, what is a key concept related to SwiftPM? (Ref: 100)",
+    "option_a": "Random technical term 69",
+    "option_b": "The primary implementation of SwiftPM (Correct)",
+    "option_c": "A legacy version of SwiftPM",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Performance",
+    "question_text": "In Performance, what is a key concept related to Frame Rate? (Ref: 101)",
+    "option_a": "Random technical term 70",
+    "option_b": "The primary implementation of Frame Rate (Correct)",
+    "option_c": "A legacy version of Frame Rate",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Notifications",
+    "question_text": "In Notifications, what is a key concept related to Silent Notifications? (Ref: 102)",
+    "option_a": "Random technical term 71",
+    "option_b": "The primary implementation of Silent Notifications (Correct)",
+    "option_c": "A legacy version of Silent Notifications",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Storage",
+    "question_text": "In Storage, what is a key concept related to Migrations? (Ref: 103)",
+    "option_a": "Random technical term 72",
+    "option_b": "The primary implementation of Migrations (Correct)",
+    "option_c": "A legacy version of Migrations",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "UI/UX",
+    "question_text": "In UI/UX, what is a key concept related to Gestures? (Ref: 104)",
+    "option_a": "Random technical term 73",
+    "option_b": "The primary implementation of Gestures (Correct)",
+    "option_c": "A legacy version of Gestures",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Testing",
+    "question_text": "In Testing, what is a key concept related to Mocking? (Ref: 105)",
+    "option_a": "Random technical term 74",
+    "option_b": "The primary implementation of Mocking (Correct)",
+    "option_c": "A legacy version of Mocking",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Deployment",
+    "question_text": "In Deployment, what is a key concept related to Versioning? (Ref: 106)",
+    "option_a": "Random technical term 75",
+    "option_b": "The primary implementation of Versioning (Correct)",
+    "option_c": "A legacy version of Versioning",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Android Advanced",
+    "question_text": "In Android Advanced, what is a key concept related to Intents? (Ref: 107)",
+    "option_a": "Random technical term 76",
+    "option_b": "The primary implementation of Intents (Correct)",
+    "option_c": "A legacy version of Intents",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "iOS Advanced",
+    "question_text": "In iOS Advanced, what is a key concept related to CocoaPods? (Ref: 108)",
+    "option_a": "Random technical term 77",
+    "option_b": "The primary implementation of CocoaPods (Correct)",
+    "option_c": "A legacy version of CocoaPods",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Performance",
+    "question_text": "In Performance, what is a key concept related to Frame Rate? (Ref: 109)",
+    "option_a": "Random technical term 78",
+    "option_b": "The primary implementation of Frame Rate (Correct)",
+    "option_c": "A legacy version of Frame Rate",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Notifications",
+    "question_text": "In Notifications, what is a key concept related to Silent Notifications? (Ref: 110)",
+    "option_a": "Random technical term 79",
+    "option_b": "The primary implementation of Silent Notifications (Correct)",
+    "option_c": "A legacy version of Silent Notifications",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Storage",
+    "question_text": "In Storage, what is a key concept related to Indices? (Ref: 111)",
+    "option_a": "Random technical term 80",
+    "option_b": "The primary implementation of Indices (Correct)",
+    "option_c": "A legacy version of Indices",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "UI/UX",
+    "question_text": "In UI/UX, what is a key concept related to Responsive? (Ref: 112)",
+    "option_a": "Random technical term 81",
+    "option_b": "The primary implementation of Responsive (Correct)",
+    "option_c": "A legacy version of Responsive",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Testing",
+    "question_text": "In Testing, what is a key concept related to Mocks? (Ref: 113)",
+    "option_a": "Random technical term 82",
+    "option_b": "The primary implementation of Mocks (Correct)",
+    "option_c": "A legacy version of Mocks",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Deployment",
+    "question_text": "In Deployment, what is a key concept related to OTA Updates? (Ref: 114)",
+    "option_a": "Random technical term 83",
+    "option_b": "The primary implementation of OTA Updates (Correct)",
+    "option_c": "A legacy version of OTA Updates",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Android Advanced",
+    "question_text": "In Android Advanced, what is a key concept related to Services? (Ref: 115)",
+    "option_a": "Random technical term 84",
+    "option_b": "The primary implementation of Services (Correct)",
+    "option_c": "A legacy version of Services",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "iOS Advanced",
+    "question_text": "In iOS Advanced, what is a key concept related to CoreML? (Ref: 116)",
+    "option_a": "Random technical term 85",
+    "option_b": "The primary implementation of CoreML (Correct)",
+    "option_c": "A legacy version of CoreML",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Performance",
+    "question_text": "In Performance, what is a key concept related to Startup Time? (Ref: 117)",
+    "option_a": "Random technical term 86",
+    "option_b": "The primary implementation of Startup Time (Correct)",
+    "option_c": "A legacy version of Startup Time",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Notifications",
+    "question_text": "In Notifications, what is a key concept related to Badges? (Ref: 118)",
+    "option_a": "Random technical term 87",
+    "option_b": "The primary implementation of Badges (Correct)",
+    "option_c": "A legacy version of Badges",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Storage",
+    "question_text": "In Storage, what is a key concept related to Indices? (Ref: 119)",
+    "option_a": "Random technical term 88",
+    "option_b": "The primary implementation of Indices (Correct)",
+    "option_c": "A legacy version of Indices",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "UI/UX",
+    "question_text": "In UI/UX, what is a key concept related to Responsive? (Ref: 120)",
+    "option_a": "Random technical term 89",
+    "option_b": "The primary implementation of Responsive (Correct)",
+    "option_c": "A legacy version of Responsive",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Testing",
+    "question_text": "In Testing, what is a key concept related to CI/CD? (Ref: 121)",
+    "option_a": "Random technical term 90",
+    "option_b": "The primary implementation of CI/CD (Correct)",
+    "option_c": "A legacy version of CI/CD",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Deployment",
+    "question_text": "In Deployment, what is a key concept related to Analytics? (Ref: 122)",
+    "option_a": "Random technical term 91",
+    "option_b": "The primary implementation of Analytics (Correct)",
+    "option_c": "A legacy version of Analytics",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Android Advanced",
+    "question_text": "In Android Advanced, what is a key concept related to Background? (Ref: 123)",
+    "option_a": "Random technical term 92",
+    "option_b": "The primary implementation of Background (Correct)",
+    "option_c": "A legacy version of Background",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "iOS Advanced",
+    "question_text": "In iOS Advanced, what is a key concept related to ARKit? (Ref: 124)",
+    "option_a": "Random technical term 93",
+    "option_b": "The primary implementation of ARKit (Correct)",
+    "option_c": "A legacy version of ARKit",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Performance",
+    "question_text": "In Performance, what is a key concept related to Energy Usage? (Ref: 125)",
+    "option_a": "Random technical term 94",
+    "option_b": "The primary implementation of Energy Usage (Correct)",
+    "option_c": "A legacy version of Energy Usage",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Notifications",
+    "question_text": "In Notifications, what is a key concept related to Sounds? (Ref: 126)",
+    "option_a": "Random technical term 95",
+    "option_b": "The primary implementation of Sounds (Correct)",
+    "option_c": "A legacy version of Sounds",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Storage",
+    "question_text": "In Storage, what is a key concept related to NoSQL? (Ref: 127)",
+    "option_a": "Random technical term 96",
+    "option_b": "The primary implementation of NoSQL (Correct)",
+    "option_c": "A legacy version of NoSQL",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "UI/UX",
+    "question_text": "In UI/UX, what is a key concept related to Prototyping? (Ref: 128)",
+    "option_a": "Random technical term 97",
+    "option_b": "The primary implementation of Prototyping (Correct)",
+    "option_c": "A legacy version of Prototyping",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Testing",
+    "question_text": "In Testing, what is a key concept related to CI/CD? (Ref: 129)",
+    "option_a": "Random technical term 98",
+    "option_b": "The primary implementation of CI/CD (Correct)",
+    "option_c": "A legacy version of CI/CD",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Deployment",
+    "question_text": "In Deployment, what is a key concept related to Analytics? (Ref: 130)",
+    "option_a": "Random technical term 99",
+    "option_b": "The primary implementation of Analytics (Correct)",
+    "option_c": "A legacy version of Analytics",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Android Advanced",
+    "question_text": "In Android Advanced, what is a key concept related to Coroutines? (Ref: 131)",
+    "option_a": "Random technical term 100",
+    "option_b": "The primary implementation of Coroutines (Correct)",
+    "option_c": "A legacy version of Coroutines",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "iOS Advanced",
+    "question_text": "In iOS Advanced, what is a key concept related to Combine? (Ref: 132)",
+    "option_a": "Random technical term 101",
+    "option_b": "The primary implementation of Combine (Correct)",
+    "option_c": "A legacy version of Combine",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Performance",
+    "question_text": "In Performance, what is a key concept related to Memory Leaks? (Ref: 133)",
+    "option_a": "Random technical term 102",
+    "option_b": "The primary implementation of Memory Leaks (Correct)",
+    "option_c": "A legacy version of Memory Leaks",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Notifications",
+    "question_text": "In Notifications, what is a key concept related to Push Notifications? (Ref: 134)",
+    "option_a": "Random technical term 103",
+    "option_b": "The primary implementation of Push Notifications (Correct)",
+    "option_c": "A legacy version of Push Notifications",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Storage",
+    "question_text": "In Storage, what is a key concept related to SQLite? (Ref: 135)",
+    "option_a": "Random technical term 104",
+    "option_b": "The primary implementation of SQLite (Correct)",
+    "option_c": "A legacy version of SQLite",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "UI/UX",
+    "question_text": "In UI/UX, what is a key concept related to Material Design? (Ref: 136)",
+    "option_a": "Random technical term 105",
+    "option_b": "The primary implementation of Material Design (Correct)",
+    "option_c": "A legacy version of Material Design",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Testing",
+    "question_text": "In Testing, what is a key concept related to JUnit? (Ref: 137)",
+    "option_a": "Random technical term 106",
+    "option_b": "The primary implementation of JUnit (Correct)",
+    "option_c": "A legacy version of JUnit",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Deployment",
+    "question_text": "In Deployment, what is a key concept related to Play Store? (Ref: 138)",
+    "option_a": "Random technical term 107",
+    "option_b": "The primary implementation of Play Store (Correct)",
+    "option_c": "A legacy version of Play Store",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Android Advanced",
+    "question_text": "In Android Advanced, what is a key concept related to Coroutines? (Ref: 139)",
+    "option_a": "Random technical term 108",
+    "option_b": "The primary implementation of Coroutines (Correct)",
+    "option_c": "A legacy version of Coroutines",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "iOS Advanced",
+    "question_text": "In iOS Advanced, what is a key concept related to Combine? (Ref: 140)",
+    "option_a": "Random technical term 109",
+    "option_b": "The primary implementation of Combine (Correct)",
+    "option_c": "A legacy version of Combine",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Performance",
+    "question_text": "In Performance, what is a key concept related to Jank? (Ref: 141)",
+    "option_a": "Random technical term 110",
+    "option_b": "The primary implementation of Jank (Correct)",
+    "option_c": "A legacy version of Jank",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Notifications",
+    "question_text": "In Notifications, what is a key concept related to Local Notifications? (Ref: 142)",
+    "option_a": "Random technical term 111",
+    "option_b": "The primary implementation of Local Notifications (Correct)",
+    "option_c": "A legacy version of Local Notifications",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Storage",
+    "question_text": "In Storage, what is a key concept related to Room? (Ref: 143)",
+    "option_a": "Random technical term 112",
+    "option_b": "The primary implementation of Room (Correct)",
+    "option_c": "A legacy version of Room",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "UI/UX",
+    "question_text": "In UI/UX, what is a key concept related to Auto Layout? (Ref: 144)",
+    "option_a": "Random technical term 113",
+    "option_b": "The primary implementation of Auto Layout (Correct)",
+    "option_c": "A legacy version of Auto Layout",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Testing",
+    "question_text": "In Testing, what is a key concept related to Espresso? (Ref: 145)",
+    "option_a": "Random technical term 114",
+    "option_b": "The primary implementation of Espresso (Correct)",
+    "option_c": "A legacy version of Espresso",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Deployment",
+    "question_text": "In Deployment, what is a key concept related to App Store? (Ref: 146)",
+    "option_a": "Random technical term 115",
+    "option_b": "The primary implementation of App Store (Correct)",
+    "option_c": "A legacy version of App Store",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Android Advanced",
+    "question_text": "In Android Advanced, what is a key concept related to Flow? (Ref: 147)",
+    "option_a": "Random technical term 116",
+    "option_b": "The primary implementation of Flow (Correct)",
+    "option_c": "A legacy version of Flow",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "iOS Advanced",
+    "question_text": "In iOS Advanced, what is a key concept related to GCD? (Ref: 148)",
+    "option_a": "Random technical term 117",
+    "option_b": "The primary implementation of GCD (Correct)",
+    "option_c": "A legacy version of GCD",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Performance",
+    "question_text": "In Performance, what is a key concept related to Jank? (Ref: 149)",
+    "option_a": "Random technical term 118",
+    "option_b": "The primary implementation of Jank (Correct)",
+    "option_c": "A legacy version of Jank",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Notifications",
+    "question_text": "In Notifications, what is a key concept related to Local Notifications? (Ref: 150)",
+    "option_a": "Random technical term 119",
+    "option_b": "The primary implementation of Local Notifications (Correct)",
+    "option_c": "A legacy version of Local Notifications",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Storage",
+    "question_text": "In Storage, what is a key concept related to Core Data? (Ref: 151)",
+    "option_a": "Random technical term 120",
+    "option_b": "The primary implementation of Core Data (Correct)",
+    "option_c": "A legacy version of Core Data",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "UI/UX",
+    "question_text": "In UI/UX, what is a key concept related to SwiftUI? (Ref: 152)",
+    "option_a": "Random technical term 121",
+    "option_b": "The primary implementation of SwiftUI (Correct)",
+    "option_c": "A legacy version of SwiftUI",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Testing",
+    "question_text": "In Testing, what is a key concept related to XCTest? (Ref: 153)",
+    "option_a": "Random technical term 122",
+    "option_b": "The primary implementation of XCTest (Correct)",
+    "option_c": "A legacy version of XCTest",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Deployment",
+    "question_text": "In Deployment, what is a key concept related to Fastlane? (Ref: 154)",
+    "option_a": "Random technical term 123",
+    "option_b": "The primary implementation of Fastlane (Correct)",
+    "option_c": "A legacy version of Fastlane",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Android Advanced",
+    "question_text": "In Android Advanced, what is a key concept related to Hilt? (Ref: 155)",
+    "option_a": "Random technical term 124",
+    "option_b": "The primary implementation of Hilt (Correct)",
+    "option_c": "A legacy version of Hilt",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "iOS Advanced",
+    "question_text": "In iOS Advanced, what is a key concept related to ARC? (Ref: 156)",
+    "option_a": "Random technical term 125",
+    "option_b": "The primary implementation of ARC (Correct)",
+    "option_c": "A legacy version of ARC",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Performance",
+    "question_text": "In Performance, what is a key concept related to CPU Usage? (Ref: 157)",
+    "option_a": "Random technical term 126",
+    "option_b": "The primary implementation of CPU Usage (Correct)",
+    "option_c": "A legacy version of CPU Usage",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Notifications",
+    "question_text": "In Notifications, what is a key concept related to FCM? (Ref: 158)",
+    "option_a": "Random technical term 127",
+    "option_b": "The primary implementation of FCM (Correct)",
+    "option_c": "A legacy version of FCM",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Storage",
+    "question_text": "In Storage, what is a key concept related to Core Data? (Ref: 159)",
+    "option_a": "Random technical term 128",
+    "option_b": "The primary implementation of Core Data (Correct)",
+    "option_c": "A legacy version of Core Data",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "UI/UX",
+    "question_text": "In UI/UX, what is a key concept related to SwiftUI? (Ref: 160)",
+    "option_a": "Random technical term 129",
+    "option_b": "The primary implementation of SwiftUI (Correct)",
+    "option_c": "A legacy version of SwiftUI",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Testing",
+    "question_text": "In Testing, what is a key concept related to Appium? (Ref: 161)",
+    "option_a": "Random technical term 130",
+    "option_b": "The primary implementation of Appium (Correct)",
+    "option_c": "A legacy version of Appium",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Deployment",
+    "question_text": "In Deployment, what is a key concept related to Bundles? (Ref: 162)",
+    "option_a": "Random technical term 131",
+    "option_b": "The primary implementation of Bundles (Correct)",
+    "option_c": "A legacy version of Bundles",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Android Advanced",
+    "question_text": "In Android Advanced, what is a key concept related to WorkManager? (Ref: 163)",
+    "option_a": "Random technical term 132",
+    "option_b": "The primary implementation of WorkManager (Correct)",
+    "option_c": "A legacy version of WorkManager",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "iOS Advanced",
+    "question_text": "In iOS Advanced, what is a key concept related to SwiftUI? (Ref: 164)",
+    "option_a": "Random technical term 133",
+    "option_b": "The primary implementation of SwiftUI (Correct)",
+    "option_c": "A legacy version of SwiftUI",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Performance",
+    "question_text": "In Performance, what is a key concept related to Profiling? (Ref: 165)",
+    "option_a": "Random technical term 134",
+    "option_b": "The primary implementation of Profiling (Correct)",
+    "option_c": "A legacy version of Profiling",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Notifications",
+    "question_text": "In Notifications, what is a key concept related to APNs? (Ref: 166)",
+    "option_a": "Random technical term 135",
+    "option_b": "The primary implementation of APNs (Correct)",
+    "option_c": "A legacy version of APNs",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Storage",
+    "question_text": "In Storage, what is a key concept related to Realm? (Ref: 167)",
+    "option_a": "Random technical term 136",
+    "option_b": "The primary implementation of Realm (Correct)",
+    "option_c": "A legacy version of Realm",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "UI/UX",
+    "question_text": "In UI/UX, what is a key concept related to Jetpack Compose? (Ref: 168)",
+    "option_a": "Random technical term 137",
+    "option_b": "The primary implementation of Jetpack Compose (Correct)",
+    "option_c": "A legacy version of Jetpack Compose",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Testing",
+    "question_text": "In Testing, what is a key concept related to Appium? (Ref: 169)",
+    "option_a": "Random technical term 138",
+    "option_b": "The primary implementation of Appium (Correct)",
+    "option_c": "A legacy version of Appium",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Deployment",
+    "question_text": "In Deployment, what is a key concept related to Bundles? (Ref: 170)",
+    "option_a": "Random technical term 139",
+    "option_b": "The primary implementation of Bundles (Correct)",
+    "option_c": "A legacy version of Bundles",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Android Advanced",
+    "question_text": "In Android Advanced, what is a key concept related to ViewBinding? (Ref: 171)",
+    "option_a": "Random technical term 140",
+    "option_b": "The primary implementation of ViewBinding (Correct)",
+    "option_c": "A legacy version of ViewBinding",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "iOS Advanced",
+    "question_text": "In iOS Advanced, what is a key concept related to UIKit? (Ref: 172)",
+    "option_a": "Random technical term 141",
+    "option_b": "The primary implementation of UIKit (Correct)",
+    "option_c": "A legacy version of UIKit",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Performance",
+    "question_text": "In Performance, what is a key concept related to Caching? (Ref: 173)",
+    "option_a": "Random technical term 142",
+    "option_b": "The primary implementation of Caching (Correct)",
+    "option_c": "A legacy version of Caching",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Notifications",
+    "question_text": "In Notifications, what is a key concept related to Payloads? (Ref: 174)",
+    "option_a": "Random technical term 143",
+    "option_b": "The primary implementation of Payloads (Correct)",
+    "option_c": "A legacy version of Payloads",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Storage",
+    "question_text": "In Storage, what is a key concept related to Firebase? (Ref: 175)",
+    "option_a": "Random technical term 144",
+    "option_b": "The primary implementation of Firebase (Correct)",
+    "option_c": "A legacy version of Firebase",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "UI/UX",
+    "question_text": "In UI/UX, what is a key concept related to RecyclerView? (Ref: 176)",
+    "option_a": "Random technical term 145",
+    "option_b": "The primary implementation of RecyclerView (Correct)",
+    "option_c": "A legacy version of RecyclerView",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Testing",
+    "question_text": "In Testing, what is a key concept related to Unit Tests? (Ref: 177)",
+    "option_a": "Random technical term 146",
+    "option_b": "The primary implementation of Unit Tests (Correct)",
+    "option_c": "A legacy version of Unit Tests",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Deployment",
+    "question_text": "In Deployment, what is a key concept related to Keystores? (Ref: 178)",
+    "option_a": "Random technical term 147",
+    "option_b": "The primary implementation of Keystores (Correct)",
+    "option_c": "A legacy version of Keystores",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Android Advanced",
+    "question_text": "In Android Advanced, what is a key concept related to ViewBinding? (Ref: 179)",
+    "option_a": "Random technical term 148",
+    "option_b": "The primary implementation of ViewBinding (Correct)",
+    "option_c": "A legacy version of ViewBinding",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "iOS Advanced",
+    "question_text": "In iOS Advanced, what is a key concept related to UIKit? (Ref: 180)",
+    "option_a": "Random technical term 149",
+    "option_b": "The primary implementation of UIKit (Correct)",
+    "option_c": "A legacy version of UIKit",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Performance",
+    "question_text": "In Performance, what is a key concept related to Binary Size? (Ref: 181)",
+    "option_a": "Random technical term 150",
+    "option_b": "The primary implementation of Binary Size (Correct)",
+    "option_c": "A legacy version of Binary Size",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Notifications",
+    "question_text": "In Notifications, what is a key concept related to Deep Linking? (Ref: 182)",
+    "option_a": "Random technical term 151",
+    "option_b": "The primary implementation of Deep Linking (Correct)",
+    "option_c": "A legacy version of Deep Linking",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Storage",
+    "question_text": "In Storage, what is a key concept related to Shared Preferences? (Ref: 183)",
+    "option_a": "Random technical term 152",
+    "option_b": "The primary implementation of Shared Preferences (Correct)",
+    "option_c": "A legacy version of Shared Preferences",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "UI/UX",
+    "question_text": "In UI/UX, what is a key concept related to Animations? (Ref: 184)",
+    "option_a": "Random technical term 153",
+    "option_b": "The primary implementation of Animations (Correct)",
+    "option_c": "A legacy version of Animations",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Testing",
+    "question_text": "In Testing, what is a key concept related to UI Tests? (Ref: 185)",
+    "option_a": "Random technical term 154",
+    "option_b": "The primary implementation of UI Tests (Correct)",
+    "option_c": "A legacy version of UI Tests",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Deployment",
+    "question_text": "In Deployment, what is a key concept related to Certificates? (Ref: 186)",
+    "option_a": "Random technical term 155",
+    "option_b": "The primary implementation of Certificates (Correct)",
+    "option_c": "A legacy version of Certificates",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Android Advanced",
+    "question_text": "In Android Advanced, what is a key concept related to DataBinding? (Ref: 187)",
+    "option_a": "Random technical term 156",
+    "option_b": "The primary implementation of DataBinding (Correct)",
+    "option_c": "A legacy version of DataBinding",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "iOS Advanced",
+    "question_text": "In iOS Advanced, what is a key concept related to Storyboards? (Ref: 188)",
+    "option_a": "Random technical term 157",
+    "option_b": "The primary implementation of Storyboards (Correct)",
+    "option_c": "A legacy version of Storyboards",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Performance",
+    "question_text": "In Performance, what is a key concept related to Binary Size? (Ref: 189)",
+    "option_a": "Random technical term 158",
+    "option_b": "The primary implementation of Binary Size (Correct)",
+    "option_c": "A legacy version of Binary Size",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Notifications",
+    "question_text": "In Notifications, what is a key concept related to Deep Linking? (Ref: 190)",
+    "option_a": "Random technical term 159",
+    "option_b": "The primary implementation of Deep Linking (Correct)",
+    "option_c": "A legacy version of Deep Linking",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Storage",
+    "question_text": "In Storage, what is a key concept related to UserDefaults? (Ref: 191)",
+    "option_a": "Random technical term 160",
+    "option_b": "The primary implementation of UserDefaults (Correct)",
+    "option_c": "A legacy version of UserDefaults",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "UI/UX",
+    "question_text": "In UI/UX, what is a key concept related to Accessibility? (Ref: 192)",
+    "option_a": "Random technical term 161",
+    "option_b": "The primary implementation of Accessibility (Correct)",
+    "option_c": "A legacy version of Accessibility",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Testing",
+    "question_text": "In Testing, what is a key concept related to Integration? (Ref: 193)",
+    "option_a": "Random technical term 162",
+    "option_b": "The primary implementation of Integration (Correct)",
+    "option_c": "A legacy version of Integration",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Deployment",
+    "question_text": "In Deployment, what is a key concept related to Profiles? (Ref: 194)",
+    "option_a": "Random technical term 163",
+    "option_b": "The primary implementation of Profiles (Correct)",
+    "option_c": "A legacy version of Profiles",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Android Advanced",
+    "question_text": "In Android Advanced, what is a key concept related to Fragments? (Ref: 195)",
+    "option_a": "Random technical term 164",
+    "option_b": "The primary implementation of Fragments (Correct)",
+    "option_c": "A legacy version of Fragments",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "iOS Advanced",
+    "question_text": "In iOS Advanced, what is a key concept related to SwiftPM? (Ref: 196)",
+    "option_a": "Random technical term 165",
+    "option_b": "The primary implementation of SwiftPM (Correct)",
+    "option_c": "A legacy version of SwiftPM",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Performance",
+    "question_text": "In Performance, what is a key concept related to Network Latency? (Ref: 197)",
+    "option_a": "Random technical term 166",
+    "option_b": "The primary implementation of Network Latency (Correct)",
+    "option_c": "A legacy version of Network Latency",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Notifications",
+    "question_text": "In Notifications, what is a key concept related to Tokens? (Ref: 198)",
+    "option_a": "Random technical term 167",
+    "option_b": "The primary implementation of Tokens (Correct)",
+    "option_c": "A legacy version of Tokens",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "Storage",
+    "question_text": "In Storage, what is a key concept related to UserDefaults? (Ref: 199)",
+    "option_a": "Random technical term 168",
+    "option_b": "The primary implementation of UserDefaults (Correct)",
+    "option_c": "A legacy version of UserDefaults",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Mobile App Development",
+    "topic": "UI/UX",
+    "question_text": "In UI/UX, what is a key concept related to Accessibility? (Ref: 200)",
+    "option_a": "Random technical term 169",
+    "option_b": "The primary implementation of Accessibility (Correct)",
+    "option_c": "A legacy version of Accessibility",
+    "option_d": "An unrelated design pattern",
+    "correct_option": "B"
+  }
+]

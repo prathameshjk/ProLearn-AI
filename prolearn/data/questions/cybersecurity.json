@@ -1,0 +1,2002 @@
+[
+  {
+    "domain": "Cybersecurity",
+    "topic": "Fundamentals",
+    "question_text": "What does the 'C' in the CIA triad stand for in information security?",
+    "option_a": "Consistency",
+    "option_b": "Confidentiality",
+    "option_c": "Control",
+    "option_d": "Cryptography",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Fundamentals",
+    "question_text": "What does the 'I' in the CIA triad stand for?",
+    "option_a": "Identification",
+    "option_b": "Integrity",
+    "option_c": "Infrastructure",
+    "option_d": "Isolation",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Fundamentals",
+    "question_text": "What does the 'A' in the CIA triad stand for?",
+    "option_a": "Authentication",
+    "option_b": "Availability",
+    "option_c": "Authorization",
+    "option_d": "Accounting",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Network Security",
+    "question_text": "Which type of firewall inspects traffic based on the state of the connection?",
+    "option_a": "Packet-filtering firewall",
+    "option_b": "Stateful inspection firewall",
+    "option_c": "Proxy firewall",
+    "option_d": "Circuit-level gateway",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Network Security",
+    "question_text": "What is the primary function of an Intrusion Detection System (IDS)?",
+    "option_a": "To block malicious traffic automatically",
+    "option_b": "To monitor and alert on suspicious activity",
+    "option_c": "To encrypt network traffic",
+    "option_d": "To manage user passwords",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Cryptography",
+    "question_text": "Which type of encryption uses the same key for both encryption and decryption?",
+    "option_a": "Asymmetric encryption",
+    "option_b": "Symmetric encryption",
+    "option_c": "Hashing",
+    "option_d": "Digital signatures",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Cryptography",
+    "question_text": "RSA is an example of which type of cryptography?",
+    "option_a": "Symmetric",
+    "option_b": "Asymmetric (Public Key)",
+    "option_c": "Hashing",
+    "option_d": "Steganography",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Cryptography",
+    "question_text": "What is the primary purpose of a cryptographic hash function?",
+    "option_a": "To encrypt large files",
+    "option_b": "To ensure data integrity",
+    "option_c": "To exchange keys securely",
+    "option_d": "To hide the sender's identity",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Attacks",
+    "question_text": "What is 'Phishing'?",
+    "option_a": "An attack that uses physical means to steal data",
+    "option_b": "A social engineering attack used to steal user data via deceptive emails",
+    "option_c": "A brute-force password attack",
+    "option_d": "A type of malware that encrypts files",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Attacks",
+    "question_text": "What is a 'DDoS' attack?",
+    "option_a": "Distributed Data on Storage",
+    "option_b": "Distributed Denial of Service",
+    "option_c": "Direct Domain on System",
+    "option_d": "Data Discovery on Servers",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Malware",
+    "question_text": "Which type of malware self-replicates and spreads across a network without human intervention?",
+    "option_a": "Virus",
+    "option_b": "Worm",
+    "option_c": "Trojan Horse",
+    "option_d": "Spyware",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Malware",
+    "question_text": "What is 'Ransomware'?",
+    "option_a": "Malware that steals passwords",
+    "option_b": "Malware that encrypts files and demands payment for the decryption key",
+    "option_c": "Malware that displays advertisements",
+    "option_d": "Malware that records keystrokes",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Application Security",
+    "question_text": "What does SQL injection primarily target?",
+    "option_a": "Network firewalls",
+    "option_b": "Database-driven applications",
+    "option_c": "Physical server rooms",
+    "option_d": "User browsers",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Application Security",
+    "question_text": "What is 'Cross-Site Scripting' (XSS)?",
+    "option_a": "An attack that injects malicious scripts into trusted websites",
+    "option_b": "An attack that crashes a server",
+    "option_c": "An attack that steals a database",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Identity & Access",
+    "question_text": "What is 'Multifactor Authentication' (MFA)?",
+    "option_a": "Using many different passwords",
+    "option_b": "Requiring two or more verification factors to gain access",
+    "option_c": "Allowing many users to share one account",
+    "option_d": "None of the above",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Identity & Access",
+    "question_text": "What is 'Biometric' authentication?",
+    "option_a": "Authentication using certificates",
+    "option_b": "Authentication based on unique biological characteristics (e.g., fingerprint)",
+    "option_c": "Authentication using a physical key",
+    "option_d": "Authentication using a smart card",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Network Security",
+    "question_text": "What does a 'VPN' provide?",
+    "option_a": "A faster internet connection",
+    "option_b": "An encrypted tunnel for data across a public network",
+    "option_c": "A way to block all ads",
+    "option_d": "None of the above",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Fundamentals",
+    "question_text": "What is the 'Principle of Least Privilege'?",
+    "option_a": "Giving everyone full access to all data",
+    "option_b": "Giving users only the minimum access level they need to perform their job",
+    "option_c": "Giving admins the most privileges",
+    "option_d": "None of the above",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Attacks",
+    "question_text": "What is a 'Man-in-the-Middle' (MitM) attack?",
+    "option_a": "Physically standing between two people",
+    "option_b": "Infiltrating a communication between two systems to eavesdrop or modify data",
+    "option_c": "Using a middle-man to buy a server",
+    "option_d": "None of the above",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Social Engineering",
+    "question_text": "What is 'Tailgating' in a physical security context?",
+    "option_a": "Driving too close to another car",
+    "option_b": "Following an authorized person into a secure area without their knowledge",
+    "option_c": "Listening to music at a party",
+    "option_d": "None of the above",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Incident Response",
+    "question_text": "What is the first step in a typical Incident Response plan?",
+    "option_a": "Eradication",
+    "option_b": "Preparation",
+    "option_c": "Containment",
+    "option_d": "Recovery",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Risk Management",
+    "question_text": "What is 'Risk Mitigation'?",
+    "option_a": "Ignoring the risk",
+    "option_b": "Taking steps to reduce the likelihood or impact of a risk",
+    "option_c": "Moving the risk to someone else",
+    "option_d": "Accepting the risk fully",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Compliance",
+    "question_text": "Which regulation is designed to protect personal data of EU citizens?",
+    "option_a": "HIPAA",
+    "option_b": "GDPR",
+    "option_c": "PCI DSS",
+    "option_d": "SOX",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Compliance",
+    "question_text": "Which act protects healthcare information in the United States?",
+    "option_a": "GDPR",
+    "option_b": "HIPAA",
+    "option_c": "FISMA",
+    "option_d": "GLBA",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Network Security",
+    "question_text": "What is 'MAC Filtering'?",
+    "option_a": "Choosing which Apple computers can connect",
+    "option_b": "Validating network access based on the physical address of the network interface",
+    "option_c": "Encryption for Macintosh only",
+    "option_d": "None of the above",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Cryptography",
+    "question_text": "What is 'Salting' in the context of password storage?",
+    "option_a": "Adding salt to the server room",
+    "option_b": "Adding a unique, random string to a password before hashing it",
+    "option_c": "Encrypting the password twice",
+    "option_d": "Making the password longer",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Malware",
+    "question_text": "A 'Rootkit' is primarily designed to do what?",
+    "option_a": "Display ads",
+    "option_b": "Provide administrative-level access to a computer while hiding its presence",
+    "option_c": "Speed up the computer",
+    "option_d": "Clean the registry",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Network Security",
+    "question_text": "What is 'Port Scanning'?",
+    "option_a": "Checking if a USB port works",
+    "option_b": "Probing a server or host for open ports to identify running services",
+    "option_c": "Monitoring network speed",
+    "option_d": "None of the above",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Fundamentals",
+    "question_text": "What is a 'Zero-Day' vulnerability?",
+    "option_a": "A vulnerability that has been fixed for zero days",
+    "option_b": "A vulnerability that is known to the vendor but not yet patched",
+    "option_c": "A vulnerability discovered by a hacker for the first time",
+    "option_d": "A very old vulnerability",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Network Security",
+    "question_text": "What does a Honeypot do?",
+    "option_a": "Heals a virus",
+    "option_b": "Decoys designed to lure and detect attackers",
+    "option_c": "Stores backup data",
+    "option_d": "Speeds up internet",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Security Operations",
+    "question_text": "What does 'SIEM' stand for?",
+    "option_a": "Security Integrated Encryption Model",
+    "option_b": "Security Information and Event Management",
+    "option_c": "System Internal Error Monitoring",
+    "option_d": "None of the above",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Identity & Access",
+    "question_text": "What is RBAC?",
+    "option_a": "Remote Backup and Control",
+    "option_b": "Role-Based Access Control",
+    "option_c": "Resource Based Accounting Code",
+    "option_d": "None of the above",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Cloud Security",
+    "question_text": "In the 'Shared Responsibility Model', who is responsible for the security 'IN' the cloud (data, OS configuration)?",
+    "option_a": "The Cloud Provider",
+    "option_b": "The Customer",
+    "option_c": "The Internet Provider",
+    "option_d": "Both",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Mobile Security",
+    "question_text": "What is 'Jailbreaking' or 'Rooting'?",
+    "option_a": "Breaking a phone",
+    "option_b": "Removing manufacturer limitations from a mobile device to gain full control",
+    "option_c": "Fixing a phone",
+    "option_d": "None of the above",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Social Engineering",
+    "question_text": "What is 'Spear Phishing'?",
+    "option_a": "Phishing that uses a spear",
+    "option_b": "Phishing targeted at a specific individual or organization",
+    "option_c": "Phishing that happens on a boat",
+    "option_d": "None of the above",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Cryptography",
+    "question_text": "What does a digital certificate mainly verify?",
+    "option_a": "The speed of the server",
+    "option_b": "The identity of the certificate holder",
+    "option_c": "The amount of data on the server",
+    "option_d": "None of the above",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Attacks",
+    "question_text": "A 'Brute Force' attack involves what?",
+    "option_a": "Using physical force to open a door",
+    "option_b": "Systematically trying every possible password until the correct one is found",
+    "option_c": "Using social engineering",
+    "option_d": "None of the above",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Network Security",
+    "question_text": "Which protocol is a secure version of HTTP?",
+    "option_a": "FTP",
+    "option_b": "HTTPS",
+    "option_c": "HTTP2",
+    "option_d": "SSH",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Application Security",
+    "question_text": "What is a 'Buffer Overflow'?",
+    "option_a": "A computer running out of RAM",
+    "option_b": "An anomaly where a program writes more data to a buffer than it can hold",
+    "option_c": "A type of internet speed",
+    "option_d": "None of the above",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Social Engineering",
+    "question_text": "What is 'Shoulder Surfing'?",
+    "option_a": "Surfing at the beach",
+    "option_b": "Looking over someone's shoulder to steal information like PINs or passwords",
+    "option_c": "A type of hacking using shoulders",
+    "option_d": "None of the above",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Network Security",
+    "question_text": "What is 'DNS Poisoning'?",
+    "option_a": "Deleting the DNS server",
+    "option_b": "Manipulating DNS records to redirect users to malicious websites",
+    "option_c": "A virus on the DNS",
+    "option_d": "None of the above",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Fundamentals",
+    "question_text": "What is an 'Asset' in cybersecurity terms?",
+    "option_a": "Anything of value to an organization that needs protection",
+    "option_b": "A type of password",
+    "option_c": "A computer only",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Fundamentals",
+    "question_text": "What is a 'Threat'?",
+    "option_a": "A potential cause of an unwanted incident",
+    "option_b": "A fixed vulnerability",
+    "option_c": "A backup server",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Cryptography",
+    "question_text": "What is 'Steganography'?",
+    "option_a": "The practice of hiding a message within another non-secret message or physical object",
+    "option_b": "A type of encryption",
+    "option_c": "A way to sign documents",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Fundamentals",
+    "question_text": "Which of these is a 'Biometric' factor?",
+    "option_a": "Iris scan",
+    "option_b": "Password",
+    "option_c": "SMS code",
+    "option_d": "Smart card",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Attacks",
+    "question_text": "What is 'Pretexting'?",
+    "option_a": "Creating a fabricated scenario to persuade a victim to leak information",
+    "option_b": "Sending a text message",
+    "option_c": "Scanning for open ports",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Network Security",
+    "question_text": "What does a 'DMZ' (Demilitarized Zone) in network security do?",
+    "option_a": "Provides a buffer zone between a private network and an untrusted network",
+    "option_b": "Encrypts all traffic",
+    "option_c": "Disconnects the internet",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Cryptography",
+    "question_text": "The 'P' in PKI stands for?",
+    "option_a": "Personal",
+    "option_b": "Public",
+    "option_c": "Private",
+    "option_d": "Protect",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Network Security",
+    "question_text": "What is an 'Air Gap'?",
+    "option_a": "A network security measure that ensures a secure computer network is physically isolated from untrusted networks",
+    "option_b": "A fan in a server room",
+    "option_c": "Wireless internet",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Security Operations",
+    "question_text": "What is 'Vulnerability Scanning'?",
+    "option_a": "Checking for security weaknesses in a system or network",
+    "option_b": "Deleting files",
+    "option_c": "Buying new hardware",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Fundamentals",
+    "question_text": "What is 'Non-repudiation'?",
+    "option_a": "The assurance that someone cannot deny the validity of something (e.g., sending a message)",
+    "option_b": "Encrypting a message",
+    "option_c": "Deleting a message log",
+    "option_d": "Blocking a user",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Fundamentals",
+    "question_text": "What does 'DAST' stand for in application security?",
+    "option_a": "Dynamic Application Security Testing",
+    "option_b": "Data Access Security Technology",
+    "option_c": "Digital Asset Storage Tool",
+    "option_d": "Detailed Attack Simulation Task",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Fundamentals",
+    "question_text": "What does 'SAST' stand for?",
+    "option_a": "Static Application Security Testing",
+    "option_b": "Secure Access Storage Test",
+    "option_c": "System Authorization and Security Task",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Network Security",
+    "question_text": "What is an 'IPSec' used for?",
+    "option_a": "Securing IP communications by authenticating and encrypting each IP packet",
+    "option_b": "Setting a static IP",
+    "option_c": "Increasing internet speed",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Network Security",
+    "question_text": "Which layer of the OSI model does a Hub operate at?",
+    "option_a": "Layer 1 (Physical)",
+    "option_b": "Layer 2 (Data Link)",
+    "option_c": "Layer 3 (Network)",
+    "option_d": "Layer 4 (Transport)",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Network Security",
+    "question_text": "Which layer of the OSI model does a Router operate at?",
+    "option_a": "Layer 3 (Network)",
+    "option_b": "Layer 2 (Data Link)",
+    "option_c": "Layer 4 (Transport)",
+    "option_d": "Layer 7 (Application)",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Cryptography",
+    "question_text": "What is a 'Collision' in hashing?",
+    "option_a": "When two different inputs produce the same hash output",
+    "option_b": "When two files are the same size",
+    "option_c": "A network crash",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Cryptography",
+    "question_text": "AES is an acronym for what?",
+    "option_a": "Advanced Encryption Standard",
+    "option_b": "Asymmetric Encryption System",
+    "option_c": "Authorized Entity Security",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Attacks",
+    "question_text": "What is 'Address Resolution Protocol (ARP) Spoofing'?",
+    "option_a": "Binding a malicious MAC address to a legitimate IP address",
+    "option_b": "Deleting IP addresses",
+    "option_c": "Searching for IP addresses",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Malware",
+    "question_text": "What is 'Spyware'?",
+    "option_a": "Software that aims to gather information about a person or organization without their knowledge",
+    "option_b": "Software that helps spies",
+    "option_c": "A type of antivirus",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Malware",
+    "question_text": "What is a 'Keylogger'?",
+    "option_a": "A program that records keys pressed on a keyboard",
+    "option_b": "A lock for a computer",
+    "option_c": "A type of password manager",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Incident Response",
+    "question_text": "In Incident Response, what is the goal of 'Containment'?",
+    "option_a": "Limiting the damage and preventing further spread of the incident",
+    "option_b": "Deleting the affected server",
+    "option_c": "Reporting to the police",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Security Operations",
+    "question_text": "What is 'Hardening' a system?",
+    "option_a": "Securing a system by reducing its surface of vulnerability",
+    "option_b": "Buying a stronger computer case",
+    "option_c": "Increasing the CPU speed",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Cryptography",
+    "question_text": "What does 'Perfect Forward Secrecy' ensure?",
+    "option_a": "Compromise of long-term keys does not compromise past session keys",
+    "option_b": "Messages can never be deleted",
+    "option_c": "Encryption is 100% unbreakable",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Identity & Access",
+    "question_text": "What is 'SAML' primarily used for?",
+    "option_a": "Exchanging authentication and authorization data between parties (SSO)",
+    "option_b": "Storing passwords",
+    "option_c": "Encrypting emails",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Network Security",
+    "question_text": "What is 'Port Mirroring' (SPAN)?",
+    "option_a": "Sending a copy of network packets to a monitoring port",
+    "option_b": "Blocking all ports",
+    "option_c": "Changing port numbers",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Mobile Security",
+    "question_text": "What does 'MDM' stand for in mobile security?",
+    "option_a": "Mobile Device Management",
+    "option_b": "Maximum Data Monitoring",
+    "option_c": "Mobile Digital Main",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Web Security",
+    "question_text": "What is 'CSRF' (Cross-Site Request Forgery)?",
+    "option_a": "Attack that tricks a victim into submitting a malicious request",
+    "option_b": "A way to share data between sites",
+    "option_c": "A type of firewall",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Identity & Access",
+    "question_text": "OAUTH is primarily a protocol for what?",
+    "option_a": "Authorization",
+    "option_b": "Authentication",
+    "option_c": "Encryption",
+    "option_d": "Storage",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Information Security",
+    "question_text": "What is 'Social Engineering'?",
+    "option_a": "The use of deception to manipulate individuals into divulging confidential info",
+    "option_b": "Building a social network",
+    "option_c": "Writing code for social media",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Hardware Security",
+    "question_text": "What is a 'TPM' (Trusted Platform Module)?",
+    "option_a": "A dedicated microcontroller designed to secure hardware through integrated cryptographic keys",
+    "option_b": "A type of mother board",
+    "option_c": "A software firewall",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Information Security",
+    "question_text": "What is an 'Insider Threat'?",
+    "option_a": "A security threat that originates from within the organization (e.g., employee)",
+    "option_b": "A hacker from another country",
+    "option_c": "A threat from a competitor",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Network Security",
+    "question_text": "What does a 'Proxy Server' act as?",
+    "option_a": "An intermediary between a client and another server",
+    "option_b": "A database server",
+    "option_c": "An email server",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Cryptography",
+    "question_text": "What is the 'Diffie-Hellman' algorithm used for?",
+    "option_a": "Secure key exchange",
+    "option_b": "Encrypting large files",
+    "option_c": "Checking file integrity",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Network Security",
+    "question_text": "What does 'SNMP' stand for?",
+    "option_a": "Simple Network Management Protocol",
+    "option_b": "Secure Network Monitoring Process",
+    "option_c": "Standard Node Management Protocol",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Application Security",
+    "question_text": "What is 'Code Review'?",
+    "option_a": "The process of auditing application source code to find hidden vulnerabilities",
+    "option_b": "Writing code",
+    "option_c": "Deleting code",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Network Security",
+    "question_text": "What is 'BGP Hijacking'?",
+    "option_a": "Maliciously rerouting internet traffic by falsely announcing IP space",
+    "option_b": "A virus in a router",
+    "option_c": "Blocking a website",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Wireless Security",
+    "question_text": "Which encryption protocol is the most secure for Wi-Fi?",
+    "option_a": "WEP",
+    "option_b": "WPA2",
+    "option_c": "WPA3",
+    "option_d": "TKIP",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Wireless Security",
+    "question_text": "What is an 'Evil Twin' access point?",
+    "option_a": "A fraudulent Wi-Fi access point that appears to be legitimate",
+    "option_b": "A router with two antennas",
+    "option_c": "A backup router",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Cloud Security",
+    "question_text": "What is 'CASB'?",
+    "option_a": "Cloud Access Security Broker",
+    "option_b": "Centralized Authorization Security Board",
+    "option_c": "Cloud Asset Storage Backup",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Digital Forensics",
+    "question_text": "What is the 'Chain of Custody'?",
+    "option_a": "Chronological documentation that records the sequence of custody, control, and transfer of evidence",
+    "option_b": "A type of prison",
+    "option_c": "A way to encrypt files",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Risk Management",
+    "question_text": "What is a 'Business Impact Analysis' (BIA)?",
+    "option_a": "The process of determining the potential effects of an interruption to critical business operations",
+    "option_b": "Calculating profits",
+    "option_c": "Hiring new employees",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Fundamentals",
+    "question_text": "What is 'Defense in Depth'?",
+    "option_a": "Layering multiple security controls throughout an IT system",
+    "option_b": "Building a very thick wall",
+    "option_c": "Having a deep server room",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Legal & Ethical",
+    "question_text": "What is a 'White Hat' hacker?",
+    "option_a": "An ethical hacker who uses their skills to help organizations find and fix security vulnerabilities",
+    "option_b": "A malicious hacker",
+    "option_c": "A hacker who works for a government only",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Legal & Ethical",
+    "question_text": "What is a 'Black Hat' hacker?",
+    "option_a": "A hacker who violates computer security for personal gain or malice",
+    "option_b": "An ethical hacker",
+    "option_c": "A hacker with a black hat",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Information Security",
+    "question_text": "What is 'Dumping' (Dumpster Diving)?",
+    "option_a": "Searching through dry trash for information that could be used in an attack",
+    "option_b": "Deleting data",
+    "option_c": "Emptying the database",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Security Operations",
+    "question_text": "What is a 'SOC'?",
+    "option_a": "Security Operations Center",
+    "option_b": "System Operating Code",
+    "option_c": "Secure online communication",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Attacks",
+    "question_text": "What is 'Whaling' in the context of phishing?",
+    "option_a": "Phishing targeted at high-profile executives",
+    "option_b": "Phishing for whales",
+    "option_c": "A very large phishing attempt",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Application Security",
+    "question_text": "What is 'Fuzzing'?",
+    "option_a": "Testing software by providing random, unexpected, or invalid data as input",
+    "option_b": "Blurring an image",
+    "option_c": "Compressing code",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Cryptography",
+    "question_text": "What is 'Elliptic Curve Cryptography' (ECC)?",
+    "option_a": "Asymmetric encryption approach based on algebraic structure of elliptic curves",
+    "option_b": "Encryption based on circles",
+    "option_c": "A type of symmetric key",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Fundamentals",
+    "question_text": "What does 'SLA' stand for in service management?",
+    "option_a": "Service Level Agreement",
+    "option_b": "Secure Login Access",
+    "option_c": "Standard Logic Asset",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Storage Security",
+    "question_text": "What is 'Data Wiping'?",
+    "option_a": "Irreversibly deleting data from a storage medium",
+    "option_b": "Formatting a drive",
+    "option_c": "Deleting the trash bin",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Network Security",
+    "question_text": "What is 'VLAN' (Virtual LAN)?",
+    "option_a": "A logical grouping of network users and resources irrespective of their physical location",
+    "option_b": "A large internet",
+    "option_c": "A private router",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Attacks",
+    "question_text": "What is 'Vishing'?",
+    "option_a": "Phishing over a voice call (phone call)",
+    "option_b": "Phishing using video",
+    "option_c": "Very fast phishing",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Fundamentals",
+    "question_text": "What is 'Shadow IT'?",
+    "option_a": "IT systems use within an organization without explicit organizational approval",
+    "option_b": "A hidden group of hackers",
+    "option_c": "Dark web servers",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Physical Security",
+    "question_text": "What is a 'Man-Trap'?",
+    "option_a": "A secure entry space between two sets of doors where only one door can be open at a time",
+    "option_b": "A security guard",
+    "option_c": "A legal trick",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Legal & Ethical",
+    "question_text": "What is 'Bug Bounty'?",
+    "option_a": "Reward program for finding and reporting security vulnerabilities",
+    "option_b": "Buying a bug",
+    "option_c": "A type of candy",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Mobile Security",
+    "question_text": "What is 'Geofencing'?",
+    "option_a": "Defining a virtual boundary around a real-world geographical area",
+    "option_b": "A physical fence",
+    "option_c": "Drawing maps",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Legal & Ethical",
+    "question_text": "What is 'Hactivism'?",
+    "option_a": "Hacking for political or social reasons",
+    "option_b": "Hacking for fun",
+    "option_c": "Hacking for money",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Incident Response",
+    "question_text": "What is the goal of 'Root Cause Analysis' (RCA)?",
+    "option_a": "Identifying the underlying reason an incident occurred",
+    "option_b": "Deleting the root user",
+    "option_c": "Fixing the problem quickly",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Fundamentals",
+    "question_text": "What is 'Principle of Separation of Duties'?",
+    "option_a": "Ensuring that no single person has enough privileges to misuse a system on their own",
+    "option_b": "Hiring many people for the same job",
+    "option_c": "Deleting user accounts regularly",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Cryptography",
+    "question_text": "What is 'Homomorphic Encryption'?",
+    "option_a": "Encryption that allows computation on ciphertexts, generating an encrypted result that matches the result of operations performed on the plaintext",
+    "option_b": "Encryption using images",
+    "option_c": "Very slow encryption",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Network Security",
+    "question_text": "What is a 'Next-Generation Firewall' (NGFW)?",
+    "option_a": "A firewall that combines traditional firewall capabilities with other network device filtering functions (e.g., deep packet inspection)",
+    "option_b": "A firewall for kids",
+    "option_c": "A cloud-only firewall",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Application Security",
+    "question_text": "What does 'Input Validation' help prevent?",
+    "option_a": "Injection attacks (like SQLi or XSS)",
+    "option_b": "Hardware failures",
+    "option_c": "Internet outages",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Social Engineering",
+    "question_text": "What is 'Baiting'?",
+    "option_a": "Leaving a physical device (like a USB drive) in a public place, hoping someone will plug it in",
+    "option_b": "Fishing with a hook",
+    "option_c": "Sending a text message",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Network Security",
+    "question_text": "What is 'Egress Filtering'?",
+    "option_a": "Monitoring and restricting the flow of information that leaves a network",
+    "option_b": "Filtering incoming mail",
+    "option_c": "Deleting spam",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Attacks",
+    "question_text": "What is a 'Side-Channel Attack'?",
+    "option_a": "Attack based on information gained from the physical implementation of a computer system (e.g., electromagnetic leaks, power consumption)",
+    "option_b": "Attacking the side of a building",
+    "option_c": "Calling a user on the side",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Governance",
+    "question_text": "What does 'GRC' stand for?",
+    "option_a": "Governance, Risk, and Compliance",
+    "option_b": "Global Remote Connection",
+    "option_c": "General Resource Control",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Network Security",
+    "question_text": "What is 'Network Access Control' (NAC)?",
+    "option_a": "Computer networking solution that uses a set of protocols to define and implement a policy that describes how to secure access to network nodes",
+    "option_b": "The password for the wifi",
+    "option_c": "A type of ethernet cable",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Cryptography",
+    "question_text": "What is a 'Nonce'?",
+    "option_a": "An arbitrary number that can be used just once in a cryptographic communication",
+    "option_b": "A type of password",
+    "option_c": "A network error",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Mobile Security",
+    "question_text": "What is 'Bluejacking'?",
+    "option_a": "Sending unsolicited messages to Bluetooth-enabled devices",
+    "option_b": "Stealing a Bluetooth device",
+    "option_c": "Connecting two phones",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Mobile Security",
+    "question_text": "What is 'Bluesnarfing'?",
+    "option_a": "Unauthorized access of information from a wireless device through a Bluetooth connection",
+    "option_b": "A type of blue virus",
+    "option_c": "Listening to music on Bluetooth",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Incident Response",
+    "question_text": "What is 'Eradication' in the context of incident response?",
+    "option_a": "Removal of the threat and its artifacts from the affected systems",
+    "option_b": "Deleting all users",
+    "option_c": "Buying new servers",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Legal & Ethical",
+    "question_text": "What is a 'Gray Hat' hacker?",
+    "option_a": "A hacker who may sometimes violate laws or ethical standards, but usually without malicious intent",
+    "option_b": "A hacker halfway between white and black",
+    "option_c": "A hacker with an old hat",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Identity & Access",
+    "question_text": "What is 'Federated Identity'?",
+    "option_a": "Means of linking a person's electronic identity across multiple identity management systems",
+    "option_b": "A government ID",
+    "option_c": "A list of users",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Social Engineering",
+    "question_text": "What is 'Quid Pro Quo' in social engineering?",
+    "option_a": "An attacker offering a benefit (like technical support) in exchange for information (like a password)",
+    "option_b": "A type of malware",
+    "option_c": "A fast attack",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Security Operations",
+    "question_text": "What is 'Log Rotation'?",
+    "option_a": "The process of managing log files by creating new ones and archiving or deleting old ones",
+    "option_b": "Turning the server around",
+    "option_c": "Reading logs from bottom to top",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Physical Security",
+    "question_text": "What is 'Degaussing'?",
+    "option_a": "The process of decreasing or eliminating a remnant magnetic field (used to erase data)",
+    "option_b": "Cleaning a computer screen",
+    "option_c": "A type of password",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Network Security",
+    "question_text": "What is a 'Zombie' in cybersecurity?",
+    "option_a": "A computer connected to the internet that has been compromised by a hacker and used to perform malicious tasks (part of a botnet)",
+    "option_b": "An old computer",
+    "option_c": "A deleted user",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Security Operations",
+    "question_text": "What is a 'Botnet'?",
+    "option_a": "A network of private computers infected with malicious software and controlled as a group",
+    "option_b": "A net for catching bots",
+    "option_c": "A type of internet connection",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Information Security",
+    "question_text": "What is the 'Cold Site' in disaster recovery?",
+    "option_a": "An empty set of rooms with electricity but no hardware or data (takes longer to start)",
+    "option_b": "A site in a cold climate",
+    "option_c": "A server room without AC",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Information Security",
+    "question_text": "What is a 'Hot Site' in disaster recovery?",
+    "option_a": "A fully functional backup site with hardware and near real-time data sync",
+    "option_b": "A site on fire",
+    "option_c": "A desert-based data center",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Information Security",
+    "question_text": "What is a 'Warm Site'?",
+    "option_a": "A compromise between hot and cold sites; has some equipment but needs data restores",
+    "option_b": "A site with a heater",
+    "option_c": "A site used for training",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Cryptography",
+    "question_text": "What is 'Key Escrow'?",
+    "option_a": "An arrangement in which the keys needed to decrypt data are held in safekeeping by a third party",
+    "option_b": "Losing a key",
+    "option_c": "Deleting a key",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Network Security",
+    "question_text": "What does 'WAF' stand for?",
+    "option_a": "Web Application Firewall",
+    "option_b": "Wireless Asset Finder",
+    "option_c": "Wide Area Filter",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Attacks",
+    "question_text": "What is a 'Dictionary Attack'?",
+    "option_a": "Using a list of common words and passwords to attempt to gain access to a system",
+    "option_b": "Attacking a dictionary company",
+    "option_c": "Searching a dictionary for hacker words",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Application Security",
+    "question_text": "What is 'Clickjacking'?",
+    "option_a": "Tricking a user into clicking on something different from what they perceive",
+    "option_b": "Stealing a mouse",
+    "option_c": "A fast click",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Fundamentals",
+    "question_text": "What is 'Acceptable Use Policy' (AUP)?",
+    "option_a": "Set of rules applied by the owner/manager of a network or website that restrict the ways in which the network/site may be used",
+    "option_b": "A policy for hiring",
+    "option_c": "A technical manual",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Identity & Access",
+    "question_text": "What is 'Provisioning' in identity management?",
+    "option_a": "The process of creating, maintaining, and deactivating user accounts",
+    "option_b": "Buying new hardware",
+    "option_c": "Writing code",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Network Security",
+    "question_text": "What is 'Traffic Analysis'?",
+    "option_a": "Process of intercepting and examining messages in order to deduce information from patterns in communication",
+    "option_b": "Checking the speed of the car",
+    "option_c": "Counting users on a site",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Fundamentals",
+    "question_text": "What is 'Least Functionality'?",
+    "option_a": "Configuring systems to provide only essential functions",
+    "option_b": "Building a slow computer",
+    "option_c": "Having only one feature in an app",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Storage Security",
+    "question_text": "What is 'Full Disk Encryption' (FDE)?",
+    "option_a": "Encrypting every bit of data that goes on a drive",
+    "option_b": "Encrypting a single file",
+    "option_c": "Encrypting the boot loader only",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Cryptography",
+    "question_text": "What is a 'Steam Cipher'?",
+    "option_a": "Symmetric key cipher where plaintext digits are combined with a pseudorandom stream",
+    "option_b": "A cipher for games",
+    "option_c": "A very hot cipher",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Cryptography",
+    "question_text": "What is a 'Block Cipher'?",
+    "option_a": "Deterministic algorithm operating on fixed-length groups of bits (blocks)",
+    "option_b": "Encrypting a cube",
+    "option_c": "A cipher for blockchains only",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Network Security",
+    "question_text": "What is '802.1X'?",
+    "option_a": "IEEE Standard for Port-based Network Access Control",
+    "option_b": "A type of radio",
+    "option_c": "A model of router",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Governance",
+    "question_text": "What is 'Due Diligence'?",
+    "option_a": "The research and analysis of a company or person done in preparation for a business transaction",
+    "option_b": "Doing homework",
+    "option_c": "Deleting old files",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Governance",
+    "question_text": "What is 'Due Care'?",
+    "option_a": "The conduct that a reasonable person or business will exercise in a particular situation",
+    "option_b": "Caring for a patient",
+    "option_c": "Cleaning the office",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Mobile Security",
+    "question_text": "What is 'Side-Loading' an app?",
+    "option_a": "Installing an app from a source other than the official app store",
+    "option_b": "Loading while tilted",
+    "option_c": "Deleting an app",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Cloud Security",
+    "question_text": "What is 'Instance Metadata' on a cloud server?",
+    "option_a": "Data about your instance that you can use to configure or manage the running instance",
+    "option_b": "The name of the user",
+    "option_c": "The cost of the server",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Attacks",
+    "question_text": "What is a 'Replay Attack'?",
+    "option_a": "A form of network attack in which a valid data transmission is maliciously or fraudulently repeated or delayed",
+    "option_b": "Playing a video again",
+    "option_c": "Re-running a test",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Software Security",
+    "question_text": "What is 'Obfuscation'?",
+    "option_a": "Deliberately creating source or machine code that is difficult for humans to understand",
+    "option_b": "Fixing a bug",
+    "option_c": "Speeding up code",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Network Security",
+    "question_text": "What is 'DHCP Snooping'?",
+    "option_a": "Security feature that acts like a firewall between untrusted hosts and trusted DHCP servers",
+    "option_b": "Reading user emails",
+    "option_c": "Deleting IP addresses",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Cryptography",
+    "question_text": "What is a 'Digital Signature'?",
+    "option_a": "Mathematical scheme for demonstrating the authenticity of digital messages or documents",
+    "option_b": "A scanned image of a signature",
+    "option_c": "A password",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Attacks",
+    "question_text": "What is 'Pharming'?",
+    "option_a": "Cyberattack intended to redirect a website's traffic to another, fake site",
+    "option_b": "Building a server farm",
+    "option_c": "A type of agriculture",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Cryptography",
+    "question_text": "In Asymmetric encryption, which key is shared with everyone?",
+    "option_a": "Public Key",
+    "option_b": "Private Key",
+    "option_c": "Symmetric Key",
+    "option_d": "Master Key",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Cryptography",
+    "question_text": "In Asymmetric encryption, which key is kept secret?",
+    "option_a": "Private Key",
+    "option_b": "Public Key",
+    "option_c": "Shared Key",
+    "option_d": "Guest Key",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Security Operations",
+    "question_text": "What is a 'Pentest' (Penetration Test)?",
+    "option_a": "Authorized simulated cyberattack on a computer system",
+    "option_b": "Testing a ballpoint pen",
+    "option_c": "Installing software",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Security Operations",
+    "question_text": "What is 'Red Teaming'?",
+    "option_a": "Full-scope, multi-layered attack simulation designed to measure how well a company's people/networks can withstand an attack",
+    "option_b": "Building a team with red shirts",
+    "option_c": "Monitoring network traffic",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Security Operations",
+    "question_text": "What is 'Blue Teaming'?",
+    "option_a": "Defending against real-world attackers and Red Teams",
+    "option_b": "Working in a blue room",
+    "option_c": "A type of hacking",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Identity & Access",
+    "question_text": "What is 'LDAP'?",
+    "option_a": "Lightweight Directory Access Protocol",
+    "option_b": "Local Data Asset Process",
+    "option_c": "Logged Digital Asset Path",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Fundamentals",
+    "question_text": "What is 'Attestation' in trusted computing?",
+    "option_a": "Process of providing proof of the state of a system's hardware and software",
+    "option_b": "A legal witness",
+    "option_c": "Deleting logs",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Cryptography",
+    "question_text": "What is 'Ciphertext'?",
+    "option_a": "The encrypted form of a message",
+    "option_b": "The original message",
+    "option_c": "The key used for encryption",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Cryptography",
+    "question_text": "What is 'Plaintext'?",
+    "option_a": "The original, unencrypted message",
+    "option_b": "The encrypted message",
+    "option_c": "A mathematical formula",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Network Security",
+    "question_text": "What is 'IP Spoofing'?",
+    "option_a": "Creating IP packets with a false source IP address to impersonate another computer",
+    "option_b": "Setting a static IP",
+    "option_c": "Hiding an IP with a VPN",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Application Security",
+    "question_text": "What does 'Static Analysis' involve?",
+    "option_a": "Examining code without executing it",
+    "option_b": "Running code and monitoring it",
+    "option_c": "Checking hardware specs",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Application Security",
+    "question_text": "What does 'Dynamic Analysis' involve?",
+    "option_a": "Examining code while it is running",
+    "option_b": "Reading the source code",
+    "option_c": "Counting lines of code",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Fundamentals",
+    "question_text": "What is a 'Sandbox'?",
+    "option_a": "Security mechanism for separating running programs, usually to protect the host system",
+    "option_b": "A physical box",
+    "option_c": "An open network",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Threat Intelligence",
+    "question_text": "What is 'OSINT'?",
+    "option_a": "Open-Source Intelligence (collecting info from public sources)",
+    "option_b": "Operating System Internal Network Tool",
+    "option_c": "Online Secure Identification Network",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Governance",
+    "question_text": "What is 'Data Loss Prevention' (DLP)?",
+    "option_a": "Strategy for making sure users do not send sensitive or critical information outside the corporate network",
+    "option_b": "A backup tool",
+    "option_c": "Deleting old data",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Network Security",
+    "question_text": "What is 'Network Segmentation'?",
+    "option_a": "Dividing a network into smaller parts to improve performance and security",
+    "option_b": "Buying more routers",
+    "option_c": "Increasing internet speed",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Legal & Ethical",
+    "question_text": "What is 'Plagiarism' in a technical context?",
+    "option_a": "Presenting someone else's work or ideas as your own",
+    "option_b": "Copying code from a tutorial (with permission)",
+    "option_c": "Using open-source libraries",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Identity & Access",
+    "question_text": "What is 'Privilege Escalation'?",
+    "option_a": "The act of exploiting a bug or design flaw to gain elevated access to resources",
+    "option_b": "Hiring an admin",
+    "option_c": "Changing a user's password",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Network Security",
+    "question_text": "What is 'Wi-Fi Pineapple' commonly used for?",
+    "option_a": "Network auditing and penetration testing",
+    "option_b": "Boosting Wi-Fi signal",
+    "option_c": "Storing data",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Social Engineering",
+    "question_text": "What is 'Piggybacking'?",
+    "option_a": "Similar to tailgating; an attacker enters a secure area by following an authorized person (often with consent)",
+    "option_b": "Carrying someone",
+    "option_c": "Using a piggy bank",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Security Operations",
+    "question_text": "What is 'Threat Hunting'?",
+    "option_a": "Proactively searching through networks to detect and isolate advanced threats that evade existing security solutions",
+    "option_b": "Searching for a hacker's house",
+    "option_c": "Buying a new firewall",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Cryptography",
+    "question_text": "What is a 'Salted Hash'?",
+    "option_a": "A hash that has had a unique string (salt) added before hashing",
+    "option_b": "A type of database",
+    "option_c": "A very long hash",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Network Security",
+    "question_text": "What is 'ICMP' used for?",
+    "option_a": "Sending error messages and operational information indicating success or failure to communicate",
+    "option_b": "Transferring files",
+    "option_c": "Hosting websites",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Compliance",
+    "question_text": "What is 'PCI DSS'?",
+    "option_a": "Payment Card Industry Data Security Standard",
+    "option_b": "Private Computer Internal Digital Secure System",
+    "option_c": "Payment Code International",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Attacks",
+    "question_text": "What is a 'Zero-Day' attack?",
+    "option_a": "Attack that exploits a zero-day vulnerability",
+    "option_b": "An attack that lasts zero days",
+    "option_c": "An attack with zero chance of success",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Malware",
+    "question_text": "What is a 'Logic Bomb'?",
+    "option_a": "Piece of code intentionally inserted into a software system that will set off a malicious function when specified conditions are met",
+    "option_b": "A bomb that explodes using logic",
+    "option_c": "A virus that deletes itself",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Information Security",
+    "question_text": "What is 'Air Gapping' primarily helping against?",
+    "option_a": "Remote cyberattacks via the internet",
+    "option_b": "Physical theft",
+    "option_c": "Hardware failure",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Compliance",
+    "question_text": "What does 'SOX' (Sarbanes-Oxley Act) primarily regulate?",
+    "option_a": "Financial record keeping and reporting in corporations",
+    "option_b": "Privacy of emails",
+    "option_c": "Security of internet routers",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Risk Management",
+    "question_text": "What is 'Residual Risk'?",
+    "option_a": "The risk remaining after security controls have been implemented",
+    "option_b": "The total risk before any action",
+    "option_c": "An ignored risk",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Governance",
+    "question_text": "What is an 'AUP'?",
+    "option_a": "Acceptable Use Policy",
+    "option_b": "Authorized User Path",
+    "option_c": "Asset Upgrade Process",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Legal & Ethical",
+    "question_text": "What is the 'Computer Fraud and Abuse Act' (CFAA)?",
+    "option_a": "United States cybersecurity bill that was enacted in 1986",
+    "option_b": "A law for taxes",
+    "option_c": "A law about physical theft",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Cryptography",
+    "question_text": "What is a 'Cold Wallet' in cryptocurrency?",
+    "option_a": "A wallet that is not connected to the internet",
+    "option_b": "A wallet kept in a fridge",
+    "option_c": "A wallet with no money",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Cryptography",
+    "question_text": "What is a 'Hot Wallet' in cryptocurrency?",
+    "option_a": "A wallet that is connected to the internet",
+    "option_b": "A wallet on fire",
+    "option_c": "A very rich wallet",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Network Security",
+    "question_text": "What is 'MAC Flooding'?",
+    "option_a": "Compromising the security of a network switch by flooding it with Ethernet frames containing different MAC addresses",
+    "option_b": "Having too many Apple computers",
+    "option_c": "Deleting MAC addresses",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Identity & Access",
+    "question_text": "What is 'SSO'?",
+    "option_a": "Single Sign-On",
+    "option_b": "System Secure Output",
+    "option_c": "Standard Security Option",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Application Security",
+    "question_text": "What is the 'OWASP Top 10'?",
+    "option_a": "A regularly updated report outlining the 10 most critical web application security risks",
+    "option_b": "Top 10 hackers in the world",
+    "option_c": "Top 10 antivirus programs",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Attacks",
+    "question_text": "What is a 'Slowloris' attack?",
+    "option_a": "A type of DDoS attack which allows a single machine to take down another machine's web server",
+    "option_b": "A very slow virus",
+    "option_c": "Hacking animal research labs",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Cryptography",
+    "question_text": "What is 'End-to-End Encryption' (E2EE)?",
+    "option_a": "System of communication where only the communicating users can read the messages",
+    "option_b": "Encrypting the ends of a message cable",
+    "option_c": "A type of symmetric key",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Incident Response",
+    "question_text": "What is a 'Post-Mortem' in incident response?",
+    "option_a": "A process of reflecting on a completed project or incident to improve future performance",
+    "option_b": "A medical exam",
+    "option_c": "Closing a legal case",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Network Security",
+    "question_text": "What is 'Packet Sniffing'?",
+    "option_a": "Intercepting and logging traffic that passes over a digital network",
+    "option_b": "Monitoring physical packages",
+    "option_c": "Looking for food in a network room",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Application Security",
+    "question_text": "What is 'XSRF'?",
+    "option_a": "Same as CSRF (Cross-Site Request Forgery)",
+    "option_b": "A type of firewall",
+    "option_c": "An encryption model",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Fundamentals",
+    "question_text": "What does 'SPOF' stand for?",
+    "option_a": "Single Point of Failure",
+    "option_b": "Secure Path of Flow",
+    "option_c": "Standard Process of File",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Information Security",
+    "question_text": "What is an 'MTBF'?",
+    "option_a": "Mean Time Between Failures",
+    "option_b": "Max Time Before Failure",
+    "option_c": "Master Tool for Backup Files",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Information Security",
+    "question_text": "What is 'MTTR'?",
+    "option_a": "Mean Time to Repair/Recover",
+    "option_b": "Max Tool Time Range",
+    "option_c": "Message Transfer Terminal Route",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Cryptography",
+    "question_text": "What is 'PFS'?",
+    "option_a": "Perfect Forward Secrecy",
+    "option_b": "Private File Storage",
+    "option_c": "Primary Filter System",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Identity & Access",
+    "question_text": "What is '2FA'?",
+    "option_a": "Two-Factor Authentication",
+    "option_b": "System for two files",
+    "option_c": "Standard for 2 levels",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Network Security",
+    "question_text": "What is 'RADIUS'?",
+    "option_a": "Remote Authentication Dial-In User Service",
+    "option_b": "A type of radio",
+    "option_c": "A network distance measurement",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Network Security",
+    "question_text": "What is 'TACACS+'?",
+    "option_a": "Terminal Access Controller Access-Control System Plus",
+    "option_b": "A type of firewall",
+    "option_c": "A database software",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Governance",
+    "question_text": "What is an 'NDA'?",
+    "option_a": "Non-Disclosure Agreement",
+    "option_b": "Network Data Access",
+    "option_c": "New Device Authorization",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Fundamentals",
+    "question_text": "What is 'Vulnerability'?",
+    "option_a": "A weakness which can be exploited by a threat actor",
+    "option_b": "A type of attack",
+    "option_c": "A security control",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Fundamentals",
+    "question_text": "What is 'Exploit'?",
+    "option_a": "A piece of software or sequence of commands that takes advantage of a vulnerability",
+    "option_b": "Finding a bug",
+    "option_c": "Fixing a bug",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Network Security",
+    "question_text": "What is 'SSH'?",
+    "option_a": "Secure Shell, a cryptographic network protocol for operating network services securely over an unsecured network",
+    "option_b": "A fast internet tool",
+    "option_c": "A type of browser",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Identity & Access",
+    "question_text": "What is 'ACL'?",
+    "option_a": "Access Control List",
+    "option_b": "Authorized Code List",
+    "option_c": "Asset Control Level",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Cryptography",
+    "question_text": "What is 'BCRYPT'?",
+    "option_a": "A password-hashing function based on the Blowfish cipher",
+    "option_b": "A type of hard drive encryption",
+    "option_c": "A browser encryption tool",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Compliance",
+    "question_text": "What is 'ISO 27001'?",
+    "option_a": "International standard for information security management systems (ISMS)",
+    "option_b": "A technical manual for routers",
+    "option_c": "A law about credit cards",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Cybersecurity",
+    "topic": "Fundamentals",
+    "question_text": "What is 'Asset Management'?",
+    "option_a": "Developing and maintaining an inventory of all organizational assets",
+    "option_b": "Buying new computers",
+    "option_c": "Deleting old user files",
+    "option_d": "None of the above",
+    "correct_option": "A"
+  }
+]

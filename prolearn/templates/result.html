@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result Analysis - Prolearn</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>body { font-family: 'Outfit', sans-serif; }</style>
+</head>
+<body class="bg-slate-50 min-h-screen">
+    <nav class="bg-white border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex justify-between items-center">
+            <div class="flex items-center gap-2 cursor-pointer" onclick="window.location.href='/dashboard'">
+                <div class="w-8 h-8 bg-indigo-600 rounded-lg flex items-center justify-center text-white font-bold">P</div>
+                <span class="text-xl font-bold">Prolearn</span>
+            </div>
+            <div class="flex items-center gap-6">
+                <a href="/dashboard" class="text-slate-600 hover:text-indigo-600 font-medium transition-colors">Dashboard</a>
+                <a href="/profile" class="text-slate-600 hover:text-indigo-600 font-medium transition-colors">Profile</a>
+                <div class="flex items-center gap-4">
+                    <span id="nav-username" class="text-slate-600 font-medium"></span>
+                    <button onclick="logout()" class="text-slate-400 hover:text-red-500 transition-colors">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"></path></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="max-w-7xl mx-auto px-4 py-12">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <!-- Left: Score Summary -->
+            <div class="lg:col-span-1 space-y-6">
+                <div class="bg-white p-8 rounded-3xl shadow-sm border border-slate-100 text-center">
+                    <h2 class="text-slate-500 font-medium mb-2">Total Score</h2>
+                    <div class="text-6xl font-black text-indigo-600 mb-2" id="score-val">0/0</div>
+                    <p class="text-slate-400 mb-6" id="result-status">Better luck next time!</p>
+                    <button onclick="window.location.href='/profile'" class="w-full py-3 bg-indigo-100 text-indigo-700 font-bold rounded-2xl hover:bg-indigo-200 transition-all flex items-center justify-center gap-2">
+                        View Full History
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                    </button>
+                </div>
+
+                <div class="bg-indigo-900 p-8 rounded-3xl text-white shadow-xl">
+                    <h3 class="font-bold text-xl mb-4">Performance Insights</h3>
+                    <canvas id="performanceChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Right: Weak Topics & Recommendations -->
+            <div class="lg:col-span-2 space-y-8">
+                <div>
+                    <h2 class="text-2xl font-bold text-slate-800 mb-6">Weak Topics & Resources</h2>
+                    <div id="recom-container" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <!-- Cards will be injected -->
+                    </div>
+                </div>
+
+                <div id="no-weak" class="hidden p-12 bg-emerald-50 text-emerald-700 rounded-3xl border border-emerald-100 text-center">
+                    <h3 class="text-2xl font-bold">Excellent Work!</h3>
+                    <p class="mt-2">You've mastered all topics in this session.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Question Analysis Section -->
+        <div class="mt-12">
+            <h2 class="text-2xl font-bold text-slate-800 mb-6">Question Analysis</h2>
+            <div id="analysis-container" class="space-y-4">
+                <!-- Analysis cards will be injected -->
+            </div>
+        </div>
+    </main>
+
+    <script>
+        const result = JSON.parse(localStorage.getItem('last_result'));
+        if (!result) window.location.href = '/dashboard';
+
+        const user = JSON.parse(localStorage.getItem('user'));
+        if (user) document.getElementById('nav-username').innerText = user.username;
+
+        document.getElementById('score-val').innerText = `${result.score}/${result.total}`;
+        const percentage = (result.score / result.total) * 100;
+        document.getElementById('result-status').innerText = percentage >= 80 ? 'Exceptional!' : percentage >= 50 ? 'Good Progress!' : 'Needs Improvement';
+
+        // Chart
+        new Chart(document.getElementById('performanceChart'), {
+            type: 'doughnut',
+            data: {
+                labels: ['Correct', 'Incorrect'],
+                datasets: [{
+                    data: [result.score, result.total - result.score],
+                    backgroundColor: ['#6366f1', '#1e1b4b'],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                cutout: '80%',
+                plugins: { legend: { display: false } }
+            }
+        });
+
+        const recomContainer = document.getElementById('recom-container');
+        const noWeakDiv = document.getElementById('no-weak');
+
+        if (percentage >= 100) {
+            noWeakDiv.className = "p-12 bg-emerald-50 text-emerald-700 rounded-3xl border border-emerald-100 text-center";
+            noWeakDiv.innerHTML = `
+                <h3 class="text-2xl font-bold">Perfect Score!</h3>
+                <p class="mt-2">You've mastered all topics in this session. Outstanding performance!</p>
+            `;
+            noWeakDiv.classList.remove('hidden');
+        } else if (percentage >= 80) {
+            noWeakDiv.className = "p-12 bg-indigo-50 text-indigo-700 rounded-3xl border border-indigo-100 text-center";
+            noWeakDiv.innerHTML = `
+                <h3 class="text-2xl font-bold">Excellent Work!</h3>
+                <p class="mt-2">You have a strong grasp of these topics. Minor improvements needed.</p>
+            `;
+            noWeakDiv.classList.remove('hidden');
+        } else if (result.weak_topics.length === 0) {
+            noWeakDiv.className = "p-12 bg-slate-100 text-slate-700 rounded-3xl border border-slate-200 text-center";
+            noWeakDiv.innerHTML = `
+                <h3 class="text-2xl font-bold">Session Complete</h3>
+                <p class="mt-2">Keep practicing to improve your speed and accuracy.</p>
+            `;
+            noWeakDiv.classList.remove('hidden');
+        }
+
+        if (result.weak_topics && result.weak_topics.length > 0) {
+            result.weak_topics.forEach(topic => {
+                const rec = result.recommendations ? result.recommendations.find(r => r.topic === topic) : null;
+                const ytUrl = rec ? rec.video_url : `https://www.youtube.com/results?search_query=learn+${encodeURIComponent(topic)}+tutorial`;
+                const courseUrl = rec ? rec.course_url : `https://www.coursera.org/search?query=${encodeURIComponent(topic)}`;
+                const notes = rec ? rec.notes : `Improve your skills in ${topic} to boost your performance in future assessments. Check out these curated resources.`;
+
+                recomContainer.innerHTML += `
+                    <div id="topic-card-${encodeURIComponent(topic)}" class="bg-white p-6 rounded-3xl border border-slate-100 shadow-sm flex flex-col justify-between">
+                        <div>
+                            <div class="flex items-center gap-3 mb-4">
+                                <span class="px-3 py-1 bg-red-50 text-red-600 rounded-full text-xs font-bold uppercase">${topic}</span>
+                            </div>
+                            <h4 class="text-lg font-bold mb-4">Master ${topic}</h4>
+                            <p class="text-slate-500 text-sm mb-6">${notes}</p>
+                        </div>
+                        <div class="grid grid-cols-2 gap-3 mt-auto">
+                            <a href="${ytUrl}" target="_blank" class="flex items-center justify-center p-3 bg-red-50 rounded-xl hover:bg-red-100 transition-colors">
+                                <svg class="w-5 h-5 text-red-600 mr-2" fill="currentColor" viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
+                                <span class="text-xs font-bold text-red-700">Watch</span>
+                            </a>
+                            <a href="${courseUrl}" target="_blank" class="flex items-center justify-center p-3 bg-indigo-50 rounded-xl hover:bg-indigo-100 transition-colors">
+                                <svg class="w-5 h-5 text-indigo-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477-4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+                                <span class="text-xs font-bold text-indigo-700">Course</span>
+                            </a>
+                        </div>
+                        <button onclick="verifyUnderstanding('${topic.replace(/'/g, "\\'")}')" class="mt-3 w-full p-3 bg-emerald-50 rounded-xl hover:bg-emerald-100 transition-colors flex items-center justify-center gap-2">
+                            <svg class="w-5 h-5 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            <span class="text-xs font-bold text-emerald-700">Verify Understanding</span>
+                        </button>
+                    </div>
+                `;
+            });
+        }
+        
+        // Render Question Analysis
+        const analysisContainer = document.getElementById('analysis-container');
+        if (result.answers && result.answers.length > 0) {
+            result.answers.forEach((ans, index) => {
+                const isCorrect = ans.is_correct === 1;
+                const cardClass = isCorrect ? 'border-emerald-200 bg-emerald-50/30' : 'border-red-200 bg-red-50/30';
+                const icon = isCorrect 
+                    ? `<svg class="w-6 h-6 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>`
+                    : `<svg class="w-6 h-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>`;
+                
+                let optionsHtml = '';
+                for (const [key, text] of Object.entries(ans.options)) {
+                    let optClass = 'bg-white border-slate-100 text-slate-600';
+                    if (key === ans.correct_option) {
+                        optClass = 'bg-emerald-100 border-emerald-300 text-emerald-800 font-bold';
+                    } else if (key === ans.selected_option && !isCorrect) {
+                        optClass = 'bg-red-100 border-red-300 text-red-800 line-through';
+                    }
+                    
+                    optionsHtml += `
+                        <div class="p-3 rounded-xl border ${optClass} flex items-center gap-3">
+                            <span class="w-8 h-8 rounded-lg flex items-center justify-center font-bold bg-white/50">${key}</span>
+                            <span>${text}</span>
+                        </div>
+                    `;
+                }
+
+                analysisContainer.innerHTML += `
+                    <div class="p-6 rounded-2xl border ${cardClass} shadow-sm">
+                        <div class="flex items-start gap-4 mb-4">
+                            <div class="mt-1">${icon}</div>
+                            <div>
+                                <h4 class="font-bold text-slate-800 text-lg">Question ${index + 1}</h4>
+                                <p class="text-slate-700 mt-1">${ans.question_text}</p>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 pl-10">
+                            ${optionsHtml}
+                        </div>
+                    </div>
+                `;
+            });
+        } else {
+            analysisContainer.innerHTML = '<p class="text-slate-500">No detailed analysis available for this session.</p>';
+        }
+
+        function logout() {
+            localStorage.clear();
+            window.location.href = '/login';
+        }
+
+        // --- AI Verification Logic ---
+        let currentVerificationTopic = "";
+        let currentQuestions = [];
+
+        async function verifyUnderstanding(topic) {
+            currentVerificationTopic = topic;
+            document.getElementById('verify-modal').classList.remove('hidden');
+            document.getElementById('verify-loading').classList.remove('hidden');
+            document.getElementById('verify-content').classList.add('hidden');
+            document.getElementById('verify-result').classList.add('hidden');
+            document.getElementById('verify-title').innerText = `Verifying: ${topic}`;
+
+            try {
+                const res = await fetch(`/api/verify/generate-questions?topic=${encodeURIComponent(topic)}`);
+                const data = await res.json();
+                
+                if (res.ok) {
+                    currentQuestions = data.questions;
+                    const qContainer = document.getElementById('verify-questions-container');
+                    qContainer.innerHTML = '';
+                    
+                    currentQuestions.forEach((q, index) => {
+                        qContainer.innerHTML += `
+                            <div class="mb-6">
+                                <label class="block text-slate-700 font-bold mb-2">Q${index + 1}: ${q}</label>
+                                <textarea id="verify-ans-${index}" class="w-full p-3 border border-slate-200 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition-all" rows="3" placeholder="Type your answer here..."></textarea>
+                            </div>
+                        `;
+                    });
+                    
+                    document.getElementById('verify-loading').classList.add('hidden');
+                    document.getElementById('verify-content').classList.remove('hidden');
+                } else {
+                    alert("Error generating questions: " + data.detail);
+                    closeVerifyModal();
+                }
+            } catch (e) {
+                console.error(e);
+                alert("Failed to connect to the server.");
+                closeVerifyModal();
+            }
+        }
+
+        async function submitVerification() {
+            const answers = currentQuestions.map((q, i) => document.getElementById(`verify-ans-${i}`).value.trim());
+            if (answers.some(a => !a)) {
+                alert("Please answer all questions before submitting.");
+                return;
+            }
+
+            const btn = document.getElementById('verify-submit-btn');
+            btn.disabled = true;
+            btn.innerText = "Evaluating...";
+
+            try {
+                const res = await fetch(`/api/verify/evaluate?user_id=${user.user_id}`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        topic: currentVerificationTopic,
+                        questions: currentQuestions,
+                        answers: answers
+                    })
+                });
+                const data = await res.json();
+
+                if (res.ok) {
+                    document.getElementById('verify-content').classList.add('hidden');
+                    document.getElementById('verify-result').classList.remove('hidden');
+                    
+                    const scoreEl = document.getElementById('verify-score');
+                    scoreEl.innerText = `${data.score}/100`;
+                    scoreEl.className = `text-4xl font-black mb-4 ${data.verified ? 'text-emerald-600' : 'text-red-500'}`;
+                    
+                    document.getElementById('verify-feedback').innerText = data.feedback;
+                    document.getElementById('verify-status').innerText = data.verified ? "Topic Verified! 🎉" : "Needs more practice.";
+                    document.getElementById('verify-status').className = `text-lg font-bold mb-2 ${data.verified ? 'text-emerald-700' : 'text-red-600'}`;
+                    
+                    if (data.verified) {
+                        result.weak_topics = result.weak_topics.filter(t => t !== currentVerificationTopic);
+                        localStorage.setItem('last_result', JSON.stringify(result));
+                        
+                        const card = document.getElementById(`topic-card-${encodeURIComponent(currentVerificationTopic)}`);
+                        if (card) {
+                            card.remove();
+                        }
+                        
+                        if (result.weak_topics.length === 0) {
+                            const noWeakDiv = document.getElementById('no-weak');
+                            noWeakDiv.className = "p-12 bg-emerald-50 text-emerald-700 rounded-3xl border border-emerald-100 text-center";
+                            noWeakDiv.innerHTML = `
+                                <h3 class="text-2xl font-bold">Perfect Score!</h3>
+                                <p class="mt-2">You've mastered all topics in this session. Outstanding performance!</p>
+                            `;
+                            noWeakDiv.classList.remove('hidden');
+                        }
+                    }
+                } else {
+                    alert("Error evaluating answers.");
+                }
+            } catch (e) {
+                console.error(e);
+                alert("Evaluation failed.");
+            } finally {
+                btn.disabled = false;
+                btn.innerText = "Submit Answers";
+            }
+        }
+
+        function closeVerifyModal() {
+            document.getElementById('verify-modal').classList.add('hidden');
+        }
+    </script>
+
+    <!-- Verify Understanding Modal -->
+    <div id="verify-modal" class="hidden fixed inset-0 bg-slate-900/50 backdrop-blur-sm z-50 flex items-center justify-center p-4">
+        <div class="bg-white rounded-3xl w-full max-w-2xl max-h-[90vh] overflow-y-auto shadow-2xl">
+            <div class="p-6 border-b border-slate-100 flex justify-between items-center sticky top-0 bg-white">
+                <h3 id="verify-title" class="text-xl font-bold text-slate-800">Verify Understanding</h3>
+                <button onclick="closeVerifyModal()" class="text-slate-400 hover:text-slate-600">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                </button>
+            </div>
+            
+            <div class="p-8">
+                <!-- Loading State -->
+                <div id="verify-loading" class="text-center py-12">
+                    <div class="inline-block animate-spin rounded-full h-12 w-12 border-4 border-indigo-200 border-t-indigo-600 mb-4"></div>
+                    <p class="text-slate-500 font-medium">Generating questions with AI...</p>
+                </div>
+
+                <!-- Questions Content -->
+                <div id="verify-content" class="hidden">
+                    <div id="verify-questions-container"></div>
+                    <div class="mt-8 flex justify-end">
+                        <button id="verify-submit-btn" onclick="submitVerification()" class="px-6 py-3 bg-indigo-600 text-white font-bold rounded-xl hover:bg-indigo-700 transition-colors shadow-lg shadow-indigo-200">
+                            Submit Answers
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Result State -->
+                <div id="verify-result" class="hidden text-center py-8">
+                    <div id="verify-status" class="text-lg font-bold mb-2"></div>
+                    <div id="verify-score" class="text-4xl font-black mb-4"></div>
+                    <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100 text-left">
+                        <h4 class="font-bold text-slate-700 mb-2">AI Feedback</h4>
+                        <p id="verify-feedback" class="text-slate-600"></p>
+                    </div>
+                    <button onclick="closeVerifyModal()" class="mt-8 px-6 py-3 bg-slate-100 text-slate-700 font-bold rounded-xl hover:bg-slate-200 transition-colors">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

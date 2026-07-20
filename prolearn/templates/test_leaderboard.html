@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Leaderboard - ProLearn</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <style>
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .nav-bar {
+            background: white;
+            padding: 15px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .nav-bar ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            margin: 0;
+            padding: 0 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .nav-bar a {
+            text-decoration: none;
+            color: #667eea;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+        
+        .nav-bar a:hover {
+            color: #764ba2;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        .leaderboard {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .leaderboard-header {
+            background: #f9f9f9;
+            padding: 15px 20px;
+            display: grid;
+            grid-template-columns: 50px 1fr 1fr 100px 100px;
+            gap: 20px;
+            font-weight: 600;
+            color: #666;
+            border-bottom: 2px solid #e0e0e0;
+        }
+        
+        .leaderboard-row {
+            padding: 15px 20px;
+            display: grid;
+            grid-template-columns: 50px 1fr 1fr 100px 100px;
+            gap: 20px;
+            align-items: center;
+            border-bottom: 1px solid #eee;
+            transition: background 0.3s;
+        }
+        
+        .leaderboard-row:hover {
+            background: #f9f9f9;
+        }
+        
+        .leaderboard-row:last-child {
+            border-bottom: none;
+        }
+        
+        .rank {
+            font-weight: 700;
+            font-size: 18px;
+            color: #667eea;
+        }
+        
+        .rank.rank-1 {
+            color: #ffd700;
+            font-size: 22px;
+        }
+        
+        .rank.rank-2 {
+            color: #c0c0c0;
+            font-size: 22px;
+        }
+        
+        .rank.rank-3 {
+            color: #cd7f32;
+            font-size: 22px;
+        }
+        
+        .username {
+            font-weight: 600;
+            color: #333;
+        }
+        
+        .score-value {
+            text-align: center;
+            font-weight: 600;
+            color: #667eea;
+        }
+        
+        .percentage {
+            text-align: center;
+            background: #f0f4ff;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-weight: 600;
+            color: #667eea;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #999;
+        }
+        
+        .empty-state {
+            text-align: center;
+            padding: 40px;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-bar">
+        <ul>
+            <li><a href="/dashboard">Dashboard</a></li>
+            <li><a href="/my-tests">My Tests</a></li>
+            <li><a href="/profile">Profile</a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <div class="header">
+            <h1>Test Leaderboard</h1>
+            <p>Top performers on this test</p>
+        </div>
+
+        <div id="loading" class="loading">
+            Loading leaderboard...
+        </div>
+
+        <div id="leaderboardContainer" style="display: none;">
+            <div class="leaderboard">
+                <div class="leaderboard-header">
+                    <div>Rank</div>
+                    <div>Student</div>
+                    <div>Email</div>
+                    <div>Score</div>
+                    <div>Percentage</div>
+                </div>
+                <div id="leaderboardList"></div>
+            </div>
+        </div>
+
+        <div id="emptyState" class="empty-state" style="display: none;">
+            <h2>No results yet</h2>
+            <p>Be the first to take this test!</p>
+        </div>
+    </div>
+
+    <script>
+        const testId = new URLSearchParams(window.location.search).get('test_id');
+
+        function loadLeaderboard() {
+            if (!testId) {
+                document.getElementById('loading').innerHTML = 'Test ID not found';
+                return;
+            }
+
+            fetch(`/api/custom-tests/${testId}/leaderboard`)
+                .then(response => response.json())
+                .then(data => {
+                    displayLeaderboard(data);
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    document.getElementById('loading').innerHTML = 'Error loading leaderboard';
+                });
+        }
+
+        function displayLeaderboard(data) {
+            const leaderboardList = document.getElementById('leaderboardList');
+            
+            if (data.length === 0) {
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('emptyState').style.display = 'block';
+                return;
+            }
+
+            let html = '';
+            data.forEach((entry, index) => {
+                const rankClass = index === 0 ? 'rank-1' : index === 1 ? 'rank-2' : index === 2 ? 'rank-3' : '';
+                const rankSymbol = index + 1;
+                
+                html += `
+                    <div class="leaderboard-row">
+                        <div class="rank ${rankClass}">${rankSymbol}</div>
+                        <div class="username">${escapeHtml(entry.username)}</div>
+                        <div>${escapeHtml(entry.email || '-')}</div>
+                        <div class="score-value">${entry.score}/${entry.total}</div>
+                        <div class="percentage">${Math.round(entry.percentage)}%</div>
+                    </div>
+                `;
+            });
+
+            leaderboardList.innerHTML = html;
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('leaderboardContainer').style.display = 'block';
+        }
+
+        function escapeHtml(value) {
+            return String(value || '').replace(/[&<>"']/g, char => ({
+                '&': '&amp;',
+                '<': '&lt;',
+                '>': '&gt;',
+                '"': '&quot;',
+                "'": '&#039;'
+            }[char]));
+        }
+
+        loadLeaderboard();
+    </script>
+</body>
+</html>

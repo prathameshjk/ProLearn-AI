@@ -1,0 +1,2002 @@
+[
+  {
+    "domain": "Deep Learning",
+    "topic": "Neural Networks",
+    "question_text": "Which function is most commonly used as an activation function in the hidden layers of a Deep Neural Network?",
+    "option_a": "Linear",
+    "option_b": "ReLU",
+    "option_c": "Sigmoid",
+    "option_d": "Step",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Neural Networks",
+    "question_text": "What is the primary purpose of an activation function in a neural network?",
+    "option_a": "To normalize the input",
+    "option_b": "To introduce non-linearity",
+    "option_c": "To reduce the number of parameters",
+    "option_d": "To speed up training",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Neural Networks",
+    "question_text": "A perceptron can only solve problems that are:",
+    "option_a": "Non-linear",
+    "option_b": "Linearly separable",
+    "option_c": "Complex",
+    "option_d": "Stochastic",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Backpropagation",
+    "question_text": "Backpropagation is based on which mathematical rule?",
+    "option_a": "Product Rule",
+    "option_b": "Chain Rule",
+    "option_c": "Sum Rule",
+    "option_d": "Power Rule",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Optimization",
+    "question_text": "What does 'S' stand for in 'SGD'?",
+    "option_a": "Systematic",
+    "option_b": "Stochastic",
+    "option_c": "Sequential",
+    "option_d": "Static",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "CNN",
+    "question_text": "Which type of layer in a CNN is primarily used for feature extraction?",
+    "option_a": "Fully Connected",
+    "option_b": "Convolutional",
+    "option_c": "Pooling",
+    "option_d": "Dropout",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "CNN",
+    "question_text": "The purpose of a pooling layer is to:",
+    "option_a": "Increase the number of parameters",
+    "option_b": "Reduce the spatial dimensions",
+    "option_c": "Add non-linearity",
+    "option_d": "Calculate loss",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Neural Networks",
+    "question_text": "Which problem occurs when gradients become very small during training?",
+    "option_a": "Exploding Gradient Problem",
+    "option_b": "Vanishing Gradient Problem",
+    "option_c": "Overfitting",
+    "option_d": "Underfitting",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Regularization",
+    "question_text": "Dropout is a technique used to prevent:",
+    "option_a": "Underfitting",
+    "option_b": "Overfitting",
+    "option_c": "Vanishing Gradients",
+    "option_d": "Slow Training",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "RNN",
+    "question_text": "Which RNN variant uses 'gates' to control the flow of information?",
+    "option_a": "Vanilla RNN",
+    "option_b": "LSTM",
+    "option_c": "Perceptron",
+    "option_d": "CNN",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "RNN",
+    "question_text": "What does LSTM stand for?",
+    "option_a": "Large Short-Term Memory",
+    "option_b": "Long Short-Term Memory",
+    "option_c": "Linear Sequential Temporal Model",
+    "option_d": "Long Sequential Temporal Model",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Activation Functions",
+    "question_text": "The range of the Sigmoid activation function is:",
+    "option_a": "[-1, 1]",
+    "option_b": "[0, 1]",
+    "option_c": "(0, infinity)",
+    "option_d": "(-infinity, infinity)",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Activation Functions",
+    "question_text": "The range of the Tanh activation function is:",
+    "option_a": "[0, 1]",
+    "option_b": "[-1, 1]",
+    "option_c": "(0, infinity)",
+    "option_d": "(-1, 0)",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Optimization",
+    "question_text": "Which optimizer maintains a per-parameter learning rate that improves performance on problems with sparse gradients?",
+    "option_a": "SGD",
+    "option_b": "Adam",
+    "option_c": "Momentum",
+    "option_d": "Nesterov",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Neural Networks",
+    "question_text": "What is 'Batch Normalization' used for?",
+    "option_a": "To regularize weights only",
+    "option_b": "To speed up training by reducing internal covariate shift",
+    "option_c": "To increase the batch size",
+    "option_d": "To replace dropout",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Loss Functions",
+    "question_text": "Which loss function is typical for a binary classification problem?",
+    "option_a": "Mean Squared Error",
+    "option_b": "Binary Cross-Entropy",
+    "option_c": "Categorical Cross-Entropy",
+    "option_d": "Hinge Loss",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Loss Functions",
+    "question_text": "Which activation function is usually used in the output layer of a multi-class classifier?",
+    "option_a": "Sigmoid",
+    "option_b": "Softmax",
+    "option_c": "ReLU",
+    "option_d": "Tanh",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Generative Models",
+    "question_text": "What does GAN stand for?",
+    "option_a": "General Adversarial Network",
+    "option_b": "Generative Adversarial Network",
+    "option_c": "Global Associative Network",
+    "option_d": "Generic Advanced Network",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Generative Models",
+    "question_text": "In a GAN, the two networks are called:",
+    "option_a": "Input and Output",
+    "option_b": "Generator and Discriminator",
+    "option_c": "Encoder and Decoder",
+    "option_d": "Trainer and Tester",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Autoencoders",
+    "question_text": "The bottleneck layer in an Autoencoder is called the:",
+    "option_a": "Hidden State",
+    "option_b": "Latent Space / Code",
+    "option_c": "Output Layer",
+    "option_d": "Input Layer",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "CNN",
+    "question_text": "Which architecture introduced 'Residual Connections'?",
+    "option_a": "VGG16",
+    "option_b": "ResNet",
+    "option_c": "AlexNet",
+    "option_d": "GoogleNet",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "CNN",
+    "question_text": "In CNNs, what is 'Stride'?",
+    "option_a": "The size of the filter",
+    "option_b": "The amount by which the filter shifts at each step",
+    "option_c": "The thickness of padding",
+    "option_d": "The number of filters used",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "NLP",
+    "question_text": "Word2Vec is a technique used for:",
+    "option_a": "Translation",
+    "option_b": "Word Embeddings",
+    "option_c": "Speech Recognition",
+    "option_d": "Image Captioning",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Transformers",
+    "question_text": "Which mechanism allows Transformers to weigh the importance of different parts of the input sequence?",
+    "option_a": "Recurrence",
+    "option_b": "Attention",
+    "option_c": "Convolution",
+    "option_d": "Pooling",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Transformers",
+    "question_text": "What does BERT stand for?",
+    "option_a": "Binary Encoder Representations from Transformers",
+    "option_b": "Bidirectional Encoder Representations from Transformers",
+    "option_c": "Basic Encoder Relay for Transformers",
+    "option_d": "Bilateral Embedded Representations for Transformers",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Optimization",
+    "question_text": "What is 'Learning Rate'?",
+    "option_a": "The speed at which the model predictions are made",
+    "option_b": "A hyperparameter that determines the step size at each iteration",
+    "option_c": "The ratio of training to testing data",
+    "option_d": "The number of epochs in training",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Neural Networks",
+    "question_text": "What is an 'Epoch'?",
+    "option_a": "One iteration of one batch",
+    "option_b": "One complete pass of the entire training dataset through the network",
+    "option_c": "The total time taken to train a model",
+    "option_d": "A collection of 100 iterations",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Neural Networks",
+    "question_text": "What is a 'Hyperparameter'?",
+    "option_a": "A parameter learned by the model during training",
+    "option_b": "A parameter set by the developer before training",
+    "option_c": "A parameter that is always constant",
+    "option_d": "The final weight of a neuron",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Hardware",
+    "question_text": "Which hardware is specifically designed by Google for Deep Learning tasks?",
+    "option_a": "GPU",
+    "option_b": "TPU",
+    "option_c": "CPU",
+    "option_d": "FPGA",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "CNN",
+    "question_text": "LeNet-5 was primarily designed for:",
+    "option_a": "Object Detection",
+    "option_b": "Handwritten Digit Recognition",
+    "option_c": "Natural Language Processing",
+    "option_d": "Self-driving cars",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Frameworks",
+    "question_text": "Which Deep Learning framework is maintained by Meta (Facebook)?",
+    "option_a": "TensorFlow",
+    "option_b": "PyTorch",
+    "option_c": "Keras",
+    "option_d": "Caffe",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Regularization",
+    "question_text": "What is 'Weight Decay'?",
+    "option_a": "Gradually decreasing the learning rate",
+    "option_b": "A form of L2 regularization that penalizes large weights",
+    "option_c": "Removing neurons from the network",
+    "option_d": "Decreasing the number of layers",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Neural Networks",
+    "question_text": "What is the 'Fine-tuning' in transfer learning?",
+    "option_a": "Training a model from scratch",
+    "option_b": "Updating the weights of a pre-trained model on a new dataset",
+    "option_c": "Changing the activation functions",
+    "option_d": "Optimizing the code for speed",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Object Detection",
+    "question_text": "What does YOLO stand for in deep learning?",
+    "option_a": "You Only Look Once",
+    "option_b": "You Only Learn Once",
+    "option_c": "Yet Other Learning Object",
+    "option_d": "Yellow Orange Light Output",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "CNN",
+    "question_text": "Which layer is usually placed after a Convolutional layer to reduce sensitivity to location?",
+    "option_a": "Fully Connected",
+    "option_b": "Pooling",
+    "option_c": "Softmax",
+    "option_d": "Input",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Generative Models",
+    "question_text": "Variation Autoencoders (VAEs) are primarily used for:",
+    "option_a": "Classification",
+    "option_b": "Generative tasks",
+    "option_c": "Sorting",
+    "option_d": "Edge Detection",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Transfer Learning",
+    "question_text": "What is 'Feature Extraction' in transfer learning?",
+    "option_a": "Training only the last few layers of a pre-trained model",
+    "option_b": "Using a pre-trained model to get representation of data",
+    "option_c": "Deleting features from a dataset",
+    "option_d": "Adding noise to features",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Regularization",
+    "question_text": "Which regularization technique adds a term proportional to the square of weights to the loss?",
+    "option_a": "L1 Regularization",
+    "option_b": "L2 Regularization",
+    "option_c": "Dropout",
+    "option_d": "Early Stopping",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Regularization",
+    "question_text": "Which regularization technique adds a term proportional to the absolute value of weights to the loss?",
+    "option_a": "L2 Regularization",
+    "option_b": "L1 Regularization",
+    "option_c": "Batch Norm",
+    "option_d": "Max Pooling",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Neural Networks",
+    "question_text": "What is 'Early Stopping' used for?",
+    "option_a": "To stop training when the model starts overfitting",
+    "option_b": "To stop training after 10 epochs always",
+    "option_c": "To stop training when the loss is zero",
+    "option_d": "To stop if computer gets hot",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Optimization",
+    "question_text": "What is the benefit of using 'Momentum' in SGD?",
+    "option_a": "It reduces memory usage",
+    "option_b": "It helps accelerate SGD in the relevant direction and dampens oscillations",
+    "option_c": "It makes the learning rate constant",
+    "option_d": "It removes the need for backpropagation",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "CNN",
+    "question_text": "Which CNN architecture won the ImageNet challenge in 2012?",
+    "option_a": "VGG",
+    "option_b": "AlexNet",
+    "option_c": "ResNet",
+    "option_d": "ZFNet",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Deep Learning Basics",
+    "question_text": "Deep Learning is a subset of which broader field?",
+    "option_a": "Cloud Computing",
+    "option_b": "Machine Learning",
+    "option_c": "Cybersecurity",
+    "option_d": "Blockchain",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Activation Functions",
+    "question_text": "What is the 'Dying ReLU' problem?",
+    "option_a": "When ReLU output is always 1",
+    "option_b": "When neurons get stuck in the negative region and output zero for all inputs",
+    "option_c": "When the gradient is too large",
+    "option_d": "When the network runs out of memory",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Activation Functions",
+    "question_text": "Leaky ReLU is designed to solve which problem?",
+    "option_a": "Exploding Gradients",
+    "option_b": "Dying ReLU",
+    "option_c": "Overfitting",
+    "option_d": "Slow Inference",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "RNN",
+    "question_text": "Why are vanilla RNNs difficult to train on long sequences?",
+    "option_a": "Too many parameters",
+    "option_b": "Vanishing and Exploding gradients",
+    "option_c": "Slow memory access",
+    "option_d": "They only take binary input",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Neural Networks",
+    "question_text": "What is a 'Tensor' in Deep Learning?",
+    "option_a": "A single number",
+    "option_b": "A multi-dimensional array of numbers",
+    "option_c": "A type of activation function",
+    "option_d": "A loss function",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Neural Networks",
+    "question_text": "Which layer is typically the first layer in a Neural Network?",
+    "option_a": "Hidden Layer",
+    "option_b": "Input Layer",
+    "option_c": "Output Layer",
+    "option_d": "Activation Layer",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Neural Networks",
+    "question_text": "Which layer produces the final prediction of the network?",
+    "option_a": "Input Layer",
+    "option_b": "Output Layer",
+    "option_c": "Hidden Layer",
+    "option_d": "Pooling Layer",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Generative Models",
+    "question_text": "Autoencoders are typically trained using which learning paradigm?",
+    "option_a": "Supervised Learning",
+    "option_b": "Self-Supervised / Unsupervised Learning",
+    "option_c": "Reinforcement Learning",
+    "option_d": "Evolutionary Algorithms",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "CNN Architectures",
+    "question_text": "Which architecture introduced the 1x1 convolution for dimensionality reduction?",
+    "option_a": "AlexNet",
+    "option_b": "Inception",
+    "option_c": "VGG",
+    "option_d": "LeNet",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "CNN Architectures",
+    "question_text": "VGG16 uses which kernel size throughout?",
+    "option_a": "5x5",
+    "option_b": "3x3",
+    "option_c": "7x7",
+    "option_d": "1x1",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Optimization",
+    "question_text": "Which optimizer is known for using 'moving averages' of gradients and squared gradients?",
+    "option_a": "SGD",
+    "option_b": "Adam",
+    "option_c": "Momentum",
+    "option_d": "Nesterov",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "RNN",
+    "question_text": "In LSTM, which gate discards irrelevant info?",
+    "option_a": "Input",
+    "option_b": "Forget",
+    "option_c": "Output",
+    "option_d": "Cell",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "RNN",
+    "question_text": "In LSTM, which gate adds new info?",
+    "option_a": "Forget",
+    "option_b": "Input",
+    "option_c": "Output",
+    "option_d": "None",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "RNN",
+    "question_text": "GRU is similar to LSTM but lacks which component?",
+    "option_a": "Activation",
+    "option_b": "Cell State",
+    "option_c": "Weights",
+    "option_d": "Input",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Sequence Models",
+    "question_text": "Teacher forcing is used during:",
+    "option_a": "Testing",
+    "option_b": "Training",
+    "option_c": "Preprocessing",
+    "option_d": "Inference",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Activation Functions",
+    "question_text": "Which function has a small positive gradient for negative inputs?",
+    "option_a": "ReLU",
+    "option_b": "Leaky ReLU",
+    "option_c": "Sigmoid",
+    "option_d": "Step",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Loss Functions",
+    "question_text": "Cross-entropy loss is based on which concept?",
+    "option_a": "Geometry",
+    "option_b": "Information Theory",
+    "option_c": "Calculus",
+    "option_d": "Algebra",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "CNN",
+    "question_text": "Zero padding is used to:",
+    "option_a": "Increase kernel size",
+    "option_b": "Maintain input spatial size",
+    "option_c": "Add randomness",
+    "option_d": "Speed up GPU",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "CNN Architectures",
+    "question_text": "MobileNet's depthwise separable convolution reduces:",
+    "option_a": "Accuracy",
+    "option_b": "Computational cost",
+    "option_c": "Number of layers",
+    "option_d": "Input size",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Object Detection",
+    "question_text": "Faster R-CNN introduced which RPN?",
+    "option_a": "Random Proposal Network",
+    "option_b": "Region Proposal Network",
+    "option_c": "Recursive Path Network",
+    "option_d": "Residual Point Network",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Image Segmentation",
+    "question_text": "U-Net architecture is shaped like which letter?",
+    "option_a": "V",
+    "option_b": "U",
+    "option_c": "W",
+    "option_d": "X",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Generative Models",
+    "question_text": "CycleGAN uses which consistency loss?",
+    "option_a": "Weight",
+    "option_b": "Cycle",
+    "option_c": "Spatial",
+    "option_d": "Binary",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Attention",
+    "question_text": "Attention mechanism calculates weights for which part?",
+    "option_a": "Loss",
+    "option_b": "Input context",
+    "option_c": "Memory",
+    "option_d": "Bias",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Transformers",
+    "question_text": "Positional encoding is added to:",
+    "option_a": "Weights",
+    "option_b": "Input embeddings",
+    "option_c": "Output labels",
+    "option_d": "Gradients",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Regularization",
+    "question_text": "Dropout should be set to 0 during:",
+    "option_a": "Forward pass",
+    "option_b": "Inference",
+    "option_c": "Epoch 1",
+    "option_d": "Batch 1",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "CNN",
+    "question_text": "Global Average Pooling converts 3D to:",
+    "option_a": "Matrix",
+    "option_b": "Vector",
+    "option_c": "Scalar",
+    "option_d": "Image",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Optimization",
+    "question_text": "Mini-batch SGD uses:",
+    "option_a": "1 sample",
+    "option_b": "Subset of samples",
+    "option_c": "All samples",
+    "option_d": "Zero samples",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Hyperparameter",
+    "question_text": "High momentum helps avoid:",
+    "option_a": "Overfitting",
+    "option_b": "Local minima/Saddle points",
+    "option_c": "Vanishing gradients",
+    "option_d": "Large datasets",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Evaluation Metrics",
+    "question_text": "IoU range is:",
+    "option_a": "[-1, 1]",
+    "option_b": "[0, 1]",
+    "option_c": "(-inf, inf)",
+    "option_d": "[0, 100]",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "NLP",
+    "question_text": "Gradient clipping solves:",
+    "option_a": "Vanishing gradients",
+    "option_b": "Exploding gradients",
+    "option_c": "Overfitting",
+    "option_d": "Internal covariate shift",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Reinforcement Learning",
+    "question_text": "DQN uses which network?",
+    "option_a": "Deep Q-Network",
+    "option_b": "Dynamic Quick Network",
+    "option_c": "Data Query Network",
+    "option_d": "Decision Quality Network",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Reinforcement Learning",
+    "question_text": "Replay buffer stores:",
+    "option_a": "Models",
+    "option_b": "Transitions (s, a, r, s')",
+    "option_c": "Hyperparameters",
+    "option_d": "Loss values",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Generative Models",
+    "question_text": "GAN generator tries to minimize:",
+    "option_a": "Discriminator error",
+    "option_b": "Probability that discriminator detects fake",
+    "option_c": "Input size",
+    "option_d": "Weight decay",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Basics",
+    "question_text": "Universal approximation theorem needs which activation?",
+    "option_a": "Linear",
+    "option_b": "Non-linear",
+    "option_c": "Step",
+    "option_d": "None",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "CNN",
+    "question_text": "Number of params in 3x3 filter with 10 channels is:",
+    "option_a": "9",
+    "option_b": "90",
+    "option_c": "30",
+    "option_d": "100",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "CNN",
+    "question_text": "Dilated convolutions increase:",
+    "option_a": "Parameters",
+    "option_b": "Receptive field",
+    "option_c": "Input resolution",
+    "option_d": "Wait time",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Neural Networks",
+    "question_text": "Random initialization is better than zero because:",
+    "option_a": "It's faster",
+    "option_b": "It breaks symmetry",
+    "option_c": "It uses less RAM",
+    "option_d": "It fixes overfitting",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Weight Initialization",
+    "question_text": "Xavier init is for:",
+    "option_a": "ReLU",
+    "option_b": "Tanh/Sigmoid",
+    "option_c": "Leaky ReLU",
+    "option_d": "Softplus",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Weight Initialization",
+    "question_text": "He init is for:",
+    "option_a": "Sigmoid",
+    "option_b": "ReLU",
+    "option_c": "Step",
+    "option_d": "Linear",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Evaluation Metrics",
+    "question_text": "BLEU is for:",
+    "option_a": "Images",
+    "option_b": "Machine Translation",
+    "option_c": "Audio",
+    "option_d": "Tabular",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "CNN Architectures",
+    "question_text": "ResNet skip connections solve:",
+    "option_a": "Exploding gradients",
+    "option_b": "Vanishing gradients / Degradation",
+    "option_c": "Class imbalance",
+    "option_d": "Data sparsity",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Generative Models",
+    "question_text": "Mode collapse in GANs means:",
+    "option_a": "Zero loss",
+    "option_b": "Lack of diversity in output",
+    "option_c": "Computer crash",
+    "option_d": "Too many parameters",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Autoencoders",
+    "question_text": "Denoising AE recreates clean from:",
+    "option_a": "Blurred",
+    "option_b": "Noisy",
+    "option_c": "Rotated",
+    "option_d": "Text",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Hyperparameter",
+    "question_text": "Random search is often better than:",
+    "option_a": "Manual",
+    "option_b": "Grid search",
+    "option_c": "Bayesian",
+    "option_d": "None",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Basics",
+    "question_text": "Loss function calculates:",
+    "option_a": "Accuracy",
+    "option_b": "Error",
+    "option_c": "Speed",
+    "option_d": "Memory",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Optimization",
+    "question_text": "RMS in RMSprop is:",
+    "option_a": "Random",
+    "option_b": "Root Mean Square",
+    "option_c": "Running",
+    "option_d": "Real",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Regularization",
+    "question_text": "Label smoothing prevents:",
+    "option_a": "Calculation error",
+    "option_b": "Over-confidence",
+    "option_c": "Slow training",
+    "option_d": "Input noise",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "CNN",
+    "question_text": "SPP layer handles:",
+    "option_a": "Color",
+    "option_b": "Variable input sizes",
+    "option_c": "Weight decay",
+    "option_d": "Audio",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Object Detection",
+    "question_text": "Anchor boxes define:",
+    "option_a": "Colors",
+    "option_b": "Predefined bboxes ratios/scales",
+    "option_c": "Weights",
+    "option_d": "Layers",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Sequence Models",
+    "question_text": "Beam search is used for:",
+    "option_a": "Training",
+    "option_b": "Inference / Decoding",
+    "option_c": "Optimizing weights",
+    "option_d": "Loading data",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Frameworks",
+    "question_text": "Eager execution executes:",
+    "option_a": "Immediately",
+    "option_b": "Later",
+    "option_c": "Never",
+    "option_d": "Parallelly",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "RNN",
+    "question_text": "Bidirectional RNNs see:",
+    "option_a": "Past only",
+    "option_b": "Future only",
+    "option_c": "Past and Future",
+    "option_d": "None",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Optimization",
+    "question_text": "Epoch means:",
+    "option_a": "One batch",
+    "option_b": "Full dataset pass",
+    "option_c": "One weight update",
+    "option_d": "One layer",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Generative Models",
+    "question_text": "DeepDream maximizes:",
+    "option_a": "Loss",
+    "option_b": "Activations",
+    "option_c": "Weights",
+    "option_d": "Inputs",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "NLP",
+    "question_text": "Attention scores align:",
+    "option_a": "Weights and Biases",
+    "option_b": "Inputs and Outputs",
+    "option_c": "Models and Data",
+    "option_d": "RAM and GPU",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Transformers",
+    "question_text": "GPT is:",
+    "option_a": "Encoder only",
+    "option_b": "Decoder only",
+    "option_c": "RNN based",
+    "option_d": "CNN based",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Transformers",
+    "question_text": "BERT is:",
+    "option_a": "Encoder only",
+    "option_b": "Decoder only",
+    "option_c": "Step based",
+    "option_d": "Linear",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Reinforcement Learning",
+    "question_text": "RL Policy is a:",
+    "option_a": "Reward",
+    "option_b": "Strategy / Action mapping",
+    "option_c": "Network type",
+    "option_d": "Optimizer",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Hardware",
+    "question_text": "GPU stands for:",
+    "option_a": "General",
+    "option_b": "Graphics",
+    "option_c": "Global",
+    "option_d": "Generic",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Hardware",
+    "question_text": "GPUs excel at:",
+    "option_a": "Conditional branches",
+    "option_b": "Parallel matrix ops",
+    "option_c": "Single thread speed",
+    "option_d": "Web browsing",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Optimization",
+    "question_text": "Gradient explosion leads to:",
+    "option_a": "Zero weights",
+    "option_b": "Weight instability / NaN",
+    "option_c": "Fast convergence",
+    "option_d": "Better accuracy",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "CNN Architectures",
+    "question_text": "GoogLeNet uses:",
+    "option_a": "Skip connections",
+    "option_b": "Inception modules",
+    "option_c": "RNNs",
+    "option_d": "Dense layers only",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "CNN Architectures",
+    "question_text": "DenseNet uses:",
+    "option_a": "Dropout only",
+    "option_b": "Feature concatenation",
+    "option_c": "Rescaling",
+    "option_d": "VGG blocks",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Activation Functions",
+    "question_text": "Swish activation is from:",
+    "option_a": "Facebook",
+    "option_b": "Google",
+    "option_c": "OpenAI",
+    "option_d": "Microsoft",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Activation Functions",
+    "question_text": "Softmax converts logits to:",
+    "option_a": "Integers",
+    "option_b": "Probabilities",
+    "option_c": "Pixels",
+    "option_d": "Vectors",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Loss Functions",
+    "question_text": "MAE is also known as:",
+    "option_a": "L2 loss",
+    "option_b": "L1 loss",
+    "option_c": "Huber loss",
+    "option_d": "Binary loss",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Loss Functions",
+    "question_text": "Huber loss is a mix of:",
+    "option_a": "L1 and L2",
+    "option_b": "Softmax and Sigmoid",
+    "option_c": "MSE and Dice",
+    "option_d": "None",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Regularization",
+    "question_text": "Data augmentation prevents:",
+    "option_a": "Fast training",
+    "option_b": "Overfitting",
+    "option_c": "Hardware wear",
+    "option_d": "Code bugs",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "CNN",
+    "question_text": "Transpose conv is for:",
+    "option_a": "Downsampling",
+    "option_b": "Upsampling",
+    "option_c": "Rotating",
+    "option_d": "Blurring",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Transformers",
+    "question_text": "Multi-head attention uses:",
+    "option_a": "Sequential attention",
+    "option_b": "Parallel attention heads",
+    "option_c": "Multiple GPUs",
+    "option_d": "One head",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "CNN",
+    "question_text": "Pooling layers provide:",
+    "option_a": "Colors",
+    "option_b": "Invariance to translation",
+    "option_c": "Gradients",
+    "option_d": "Loss",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "NLP",
+    "question_text": "Softmax temperature controls:",
+    "option_a": "Speed",
+    "option_b": "Diversity/Randomness",
+    "option_c": "Memory",
+    "option_d": "Vocabulary",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Optimization",
+    "question_text": "LR scheduling handles:",
+    "option_a": "Training duration",
+    "option_b": "Learning rate changes",
+    "option_c": "Data loading",
+    "option_d": "Labeling",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Deep Learning Basics",
+    "question_text": "Forward propagation calculates:",
+    "option_a": "Loss",
+    "option_b": "Output",
+    "option_c": "Weights",
+    "option_d": "Data",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Evaluation Metrics",
+    "question_text": "Confusion matrix shows:",
+    "option_a": "Hardware status",
+    "option_b": "Actual vs Predicted classes",
+    "option_c": "Color distribution",
+    "option_d": "Layer types",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Autoencoders",
+    "question_text": "Latent space represents:",
+    "option_a": "Compressed features",
+    "option_b": "Output pixels",
+    "option_c": "Random noise",
+    "option_d": "Gradients",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Basics",
+    "question_text": "Deep models perform well on:",
+    "option_a": "Structured data only",
+    "option_b": "Unstructured data (image, text)",
+    "option_c": "Small spreadsheets",
+    "option_d": "Calculator tasks",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Regularization",
+    "question_text": "DropConnect zeroes out:",
+    "option_a": "Neurons",
+    "option_b": "Weights",
+    "option_c": "Layers",
+    "option_d": "Inputs",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Optimization",
+    "question_text": "Cyclic Learning Rates help:",
+    "option_a": "Slow down training",
+    "option_b": "Escape local minima/saddle points",
+    "option_c": "Reduce parameters",
+    "option_d": "Increase bias",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "CNN",
+    "question_text": "1x1 convs are used for:",
+    "option_a": "Increasing size",
+    "option_b": "Changing channel depth",
+    "option_c": "Increasing kernel size",
+    "option_d": "Deleting data",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Frameworks",
+    "question_text": "Keras is now integrated into:",
+    "option_a": "PyTorch",
+    "option_b": "TensorFlow",
+    "option_c": "Scikit-Learn",
+    "option_d": "Numpy",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "NLP",
+    "question_text": "Word similarity can be measured by:",
+    "option_a": "Count",
+    "option_b": "Cosine similarity of vectors",
+    "option_c": "Length",
+    "option_d": "Alphabet",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "GANs",
+    "question_text": "Generator is trained to:",
+    "option_a": "Identify fake",
+    "option_b": "Fool discriminator",
+    "option_c": "Delete noise",
+    "option_d": "Resize image",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "GANs",
+    "question_text": "WGAN objective is to:",
+    "option_a": "Maximize error",
+    "option_b": "Enable stable training",
+    "option_c": "Speed up CPU",
+    "option_d": "Use Tanh only",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Hyperparameter",
+    "question_text": "Grid search is:",
+    "option_a": "Random",
+    "option_b": "Exhaustive over defined set",
+    "option_c": "Intuitive",
+    "option_d": "Impossible",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Regularization",
+    "question_text": "Skip connections are core to:",
+    "option_a": "AlexNet",
+    "option_b": "ResNet",
+    "option_c": "VGG",
+    "option_d": "LeNet",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Basics",
+    "question_text": "Weights represent:",
+    "option_a": "Model architecture",
+    "option_b": "Learned connections strengths",
+    "option_c": "Data labels",
+    "option_d": "Code line numbers",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Reinforcement Learning",
+    "question_text": "Actor-Critic combines:",
+    "option_a": "Two optimizers",
+    "option_b": "Policy and Value functions",
+    "option_c": "Two kernels",
+    "option_d": "Two datasets",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Performance",
+    "question_text": "Pruning removes:",
+    "option_a": "Layers",
+    "option_b": "Low-impact weights",
+    "option_c": "Labels",
+    "option_d": "Input images",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Performance",
+    "question_text": "INT8 quantization reduces:",
+    "option_a": "Model accuracy significantly",
+    "option_b": "Model size and latency",
+    "option_c": "Number of layers",
+    "option_d": "Dataset size",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "CNN",
+    "question_text": "Receptive field size increases with:",
+    "option_a": "Fewer layers",
+    "option_b": "More layers / Pooling",
+    "option_c": "Small padding",
+    "option_d": "Decreased stride",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Hardware",
+    "question_text": "CUDA is used on:",
+    "option_a": "CPUs",
+    "option_b": "NVIDIA GPUs",
+    "option_c": "AMD GPUs",
+    "option_d": "M1 Chips",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Optimization",
+    "question_text": "ADAM adaptive rate is based on:",
+    "option_a": "Labels",
+    "option_b": "First and second moments",
+    "option_c": "Grid search",
+    "option_d": "Layer count",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "CNN Architectures",
+    "question_text": "ReLU solved which problem in AlexNet?",
+    "option_a": "Memory",
+    "option_b": "Saturation compared to Sigmoid",
+    "option_c": "Image size",
+    "option_d": "Color loss",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "CNN Architectures",
+    "question_text": "Max-pooling reduces:",
+    "option_a": "Overfitting",
+    "option_b": "Spatial resolution and computation",
+    "option_c": "Weights",
+    "option_d": "Learning rate",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Autoencoders",
+    "question_text": "Sparsity penalty forces neurons to be:",
+    "option_a": "Active",
+    "option_b": "Mostly inactive",
+    "option_c": "Large",
+    "option_d": "Linear",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Generative Models",
+    "question_text": "VAEs maximize:",
+    "option_a": "Discriminator error",
+    "option_b": "Evidence Lower Bound (ELBO)",
+    "option_c": "Input size",
+    "option_d": "Weight decay",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "CNN",
+    "question_text": "Padding 'Same' means:",
+    "option_a": "Zero padding",
+    "option_b": "Output size matches input size",
+    "option_c": "Weights are same",
+    "option_d": "Layers are same",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Regularization",
+    "question_text": "Early stopping monitors which score?",
+    "option_a": "Training set",
+    "option_b": "Validation set",
+    "option_c": "Test set",
+    "option_d": "Hardware set",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Optimization",
+    "question_text": "Batch size affects:",
+    "option_a": "Network depth",
+    "option_b": "Gradient estimate noise",
+    "option_c": "Activation function",
+    "option_d": "Color space",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Neural Networks",
+    "question_text": "MLP hidden layers provide:",
+    "option_a": "Linearity",
+    "option_b": "Hierarchical feature learning",
+    "option_c": "Data storage",
+    "option_d": "Output labels",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Activation Functions",
+    "question_text": "Non-monotonic functions:",
+    "option_a": "Are always bad",
+    "option_b": "Can help training (e.g. Swish)",
+    "option_c": "Increase parameters",
+    "option_d": "Delete weights",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "CNN Architectures",
+    "question_text": "Fire modules use:",
+    "option_a": "3x3 only",
+    "option_b": "Squeeze and expand phases",
+    "option_c": "RNN loops",
+    "option_d": "No filters",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Object Detection",
+    "question_text": "Focal loss focuses on:",
+    "option_a": "Easy examples",
+    "option_b": "Hard examples",
+    "option_c": "Small images",
+    "option_d": "Large weights",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Optimization",
+    "question_text": "AdaGrad is good for:",
+    "option_a": "Dense data",
+    "option_b": "Sparse data/features",
+    "option_c": "Static weights",
+    "option_d": "Video",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Basics",
+    "question_text": "Batch normalization normalizes:",
+    "option_a": "Weights",
+    "option_b": "Layer activations",
+    "option_c": "Labels",
+    "option_d": "Loss",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "CNN",
+    "question_text": "ShuffleNet reduces:",
+    "option_a": "Accuracy",
+    "option_b": "Computational cost in mobile",
+    "option_c": "Layers",
+    "option_d": "Labels",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Basics",
+    "question_text": "Sigmoid output sum is:",
+    "option_a": "1",
+    "option_b": "Not fixed ($[0,1]$ per neuron)",
+    "option_c": "0",
+    "option_d": "100",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Transformers",
+    "question_text": "ViT was introduced by:",
+    "option_a": "Google",
+    "option_b": "OpenAI",
+    "option_c": "Facebook",
+    "option_d": "DeepMind",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Transformers",
+    "question_text": "Vision Transformers lack which CNN bias?",
+    "option_a": "Attention",
+    "option_b": "Inductive bias of locality",
+    "option_c": "Weights",
+    "option_d": "Pixels",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Regularization",
+    "question_text": "Mixup interpolates:",
+    "option_a": "Weights",
+    "option_b": "Inputs and labels",
+    "option_c": "Optimizers",
+    "option_d": "Layers",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Regularization",
+    "question_text": "Cutout removes:",
+    "option_a": "Gradients",
+    "option_b": "Image patches",
+    "option_c": "Parameters",
+    "option_d": "Memory",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Evaluation Metrics",
+    "question_text": "mAP is average of:",
+    "option_a": "Recall",
+    "option_b": "AP across classes",
+    "option_c": "Loss",
+    "option_d": "Weights",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Hardware",
+    "question_text": "TPU stands for:",
+    "option_a": "Total",
+    "option_b": "Tensor Processing Unit",
+    "option_c": "Temporal",
+    "option_d": "Tactical",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Self-Supervised Learning",
+    "question_text": "Contrastive learning uses:",
+    "option_a": "Labels",
+    "option_b": "Wait times",
+    "option_c": "Positive and Negative pairs",
+    "option_d": "Zero gradients",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "NLP",
+    "question_text": "Word2Vec vectors capture:",
+    "option_a": "Spelling",
+    "option_b": "Semantic relationships",
+    "option_c": "File size",
+    "option_d": "Font",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "NLP",
+    "question_text": "Skip-gram predicts:",
+    "option_a": "Target word",
+    "option_b": "Context words",
+    "option_c": "Next page",
+    "option_d": "Grammar",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Sequence Models",
+    "question_text": "CTC is common in:",
+    "option_a": "Image tagging",
+    "option_b": "Speech/OCR",
+    "option_c": "Sorting",
+    "option_d": "Gaming",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Basics",
+    "question_text": "Symmetry breaking needs:",
+    "option_a": "Zero weights",
+    "option_b": "Random weights",
+    "option_c": "Linear layers",
+    "option_d": "Large batches",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Optimization",
+    "question_text": "SWA improves:",
+    "option_a": "Speed",
+    "option_b": "Generalization/Robustness",
+    "option_c": "Memory",
+    "option_d": "Labels",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Evaluation Metrics",
+    "question_text": "FID measures:",
+    "option_a": "Speed",
+    "option_b": "GAN sample quality/diversity",
+    "option_c": "Number of layers",
+    "option_d": "Code length",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Image Segmentation",
+    "question_text": "Mask R-CNN adds what to Faster R-CNN?",
+    "option_a": "Dropout",
+    "option_b": "Mask branch for pixels",
+    "option_c": "RNN",
+    "option_d": "TPU",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Basics",
+    "question_text": "Manifold learning assumes:",
+    "option_a": "Data is random",
+    "option_b": "Data lives on lower-dim surface",
+    "option_c": "Models are too small",
+    "option_d": "Gradients are zero",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Basics",
+    "question_text": "Inductive bias of CNNs is:",
+    "option_a": "Global attention",
+    "option_b": "Spatial locality/translation invariance",
+    "option_c": "Randomness",
+    "option_d": "Linearity",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "CNN",
+    "question_text": "Grouped convolutions in ResNeXt:",
+    "option_a": "Lower accuracy",
+    "option_b": "Improve cardinality/efficiency",
+    "option_c": "Remove skip connections",
+    "option_d": "Increase memory",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Optimization",
+    "question_text": "Lookahead optimizer keeps:",
+    "option_a": "Fast and slow weights",
+    "option_b": "No weights",
+    "option_c": "Random weights",
+    "option_d": "Fixed weights",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Generalization",
+    "question_text": "Double descent happens with:",
+    "option_a": "Over-parameterized models",
+    "option_b": "Small models",
+    "option_c": "Linear models",
+    "option_d": "Zero layers",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Interpretability",
+    "question_text": "Heatmaps of attention relate to:",
+    "option_a": "Loss",
+    "option_b": "Important input regions",
+    "option_c": "Hardware heat",
+    "option_d": "Layer numbers",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Audio Processing",
+    "question_text": "Mel-spectrogram captures:",
+    "option_a": "Human hearing perception",
+    "option_b": "Magnetic field",
+    "option_c": "Colors",
+    "option_d": "Text",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Autoencoders",
+    "question_text": "VAE latent points are sampled from:",
+    "option_a": "Unit circle",
+    "option_b": "Predicted mean/variance",
+    "option_c": "Zero",
+    "option_d": "Dataset",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Reinforcement Learning",
+    "question_text": "Policy gradient uses:",
+    "option_a": "Labeled images",
+    "option_b": "Log-probability of actions",
+    "option_c": "Zero bias",
+    "option_d": "Calculators",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Transfer Learning",
+    "question_text": "Freezing weights means:",
+    "option_a": "Deleting them",
+    "option_b": "Keeping them constant during training",
+    "option_c": "Setting them to zero",
+    "option_d": "Multiplying them",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Hyperparameter",
+    "question_text": "Weight decay acts like:",
+    "option_a": "L1 penalty",
+    "option_b": "L2 penalty",
+    "option_c": "Dropout",
+    "option_d": "Momentum",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "CNN Architectures",
+    "question_text": "Xception uses:",
+    "option_a": "Residual",
+    "option_b": "Depthwise separable convolutions",
+    "option_c": "LSTM",
+    "option_d": "None",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Basics",
+    "question_text": "Distillation uses:",
+    "option_a": "One model",
+    "option_b": "Teacher and Student models",
+    "option_c": "No models",
+    "option_d": "Large datasets only",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Basics",
+    "question_text": "Skip connections help avoid:",
+    "option_a": "Speed",
+    "option_b": "Vanishing gradient in deep nets",
+    "option_c": "Memory",
+    "option_d": "Accuracy",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Optimization",
+    "question_text": "Hyperparameter tuning is:",
+    "option_a": "Automatic training",
+    "option_b": "Selecting external config parameters",
+    "option_c": "Writing code",
+    "option_d": "Fixing bugs",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Sequence Models",
+    "question_text": "Attention solves RNN bottleneck of:",
+    "option_a": "Speed",
+    "option_b": "Fixed-length context vector",
+    "option_c": "Memory size",
+    "option_d": "Depth",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "NLP",
+    "question_text": "Transformer decoder uses:",
+    "option_a": "Future context",
+    "option_b": "Masked self-attention",
+    "option_c": "No attention",
+    "option_d": "Pixels",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Basics",
+    "question_text": "Gradient descent step is:",
+    "option_a": "Weight - LearningRate * Gradient",
+    "option_b": "Weight + LearningRate",
+    "option_c": "Zero",
+    "option_d": "Random",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Evaluation Metrics",
+    "question_text": "Precision measures:",
+    "option_a": "Correctness among positives",
+    "option_b": "Safety",
+    "option_c": "Speed",
+    "option_d": "Model size",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "CNN",
+    "question_text": "Average pooling is used for:",
+    "option_a": "Sharp edges",
+    "option_b": "Smoothing / Feature summary",
+    "option_c": "Deleting data",
+    "option_d": "Audio only",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Basics",
+    "question_text": "Deep Learning needs:",
+    "option_a": "Small data",
+    "option_b": "Large data and compute",
+    "option_c": "Paper and pencil",
+    "option_d": "Single neuron",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "NLP",
+    "question_text": "Transformers handle sequences in:",
+    "option_a": "Serial",
+    "option_b": "Parallel",
+    "option_c": "Step",
+    "option_d": "Reverse",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Transformers",
+    "question_text": "Query, Key, Value vectors are:",
+    "option_a": "Always equal",
+    "option_b": "Learned projections of embeddings",
+    "option_c": "Random",
+    "option_d": "Labels",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Transformers",
+    "question_text": "Softmax in attention gives:",
+    "option_a": "Scores summing to 1",
+    "option_b": "Weights",
+    "option_c": "Both",
+    "option_d": "None",
+    "correct_option": "C"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Hyperparameter",
+    "question_text": "Learning rate is often:",
+    "option_a": "0.1 to 0.0001",
+    "option_b": "100",
+    "option_c": "Negative",
+    "option_d": "Infinity",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Regularization",
+    "question_text": "L2 regularization term is:",
+    "option_a": "Sum of absolute weights",
+    "option_b": "Sum of squared weights",
+    "option_c": "Zero",
+    "option_d": "Layer count",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "CNN",
+    "question_text": "YOLO stands for:",
+    "option_a": "You Only Life Once",
+    "option_b": "You Only Look Once",
+    "option_c": "Yet Other Large Object",
+    "option_d": "Yellow Orange Light Output",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Basics",
+    "question_text": "Neurons are inspired by:",
+    "option_a": "Biological brains",
+    "option_b": "Computers",
+    "option_c": "Cars",
+    "option_d": "Trees",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "CNN Architectures",
+    "question_text": "SqueezeNet uses fire modules to:",
+    "option_a": "Burn data",
+    "option_b": "Reduce parameter count",
+    "option_c": "Increase speed",
+    "option_d": "Change colors",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Generative Models",
+    "question_text": "Normalizing flows are:",
+    "option_a": "Invertible generative models",
+    "option_b": "Linear layers",
+    "option_c": "Loss functions",
+    "option_d": "Data loaders",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Reinforcement Learning",
+    "question_text": "MDP in RL stands for:",
+    "option_a": "Markov Decision Process",
+    "option_b": "Model Data Path",
+    "option_c": "Multiplex Data Point",
+    "option_d": "Mean Decision Probability",
+    "correct_option": "A"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Evaluation Metrics",
+    "question_text": "Accuracy is bad for:",
+    "option_a": "Balanced classes",
+    "option_b": "Imbalanced classes",
+    "option_c": "Small datasets",
+    "option_d": "Images",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Basics",
+    "question_text": "What is 'Weights' initialization? ",
+    "option_a": "Setting them to zero",
+    "option_b": "Assigning initial values to the model's parameters",
+    "option_c": "Cleaning the data",
+    "option_d": "Changing the labels",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Neural Networks",
+    "question_text": "The 'Depth' of a neural network refers to:",
+    "option_a": "The number of neurons in a layer",
+    "option_b": "The number of layers in the network",
+    "option_c": "The size of the input",
+    "option_d": "The training time",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "CNN",
+    "question_text": "What is 'Pooling' used for?",
+    "option_a": "To add weights",
+    "option_b": "To downsample the spatial dimensions",
+    "option_c": "To increase resolution",
+    "option_d": "To change activation",
+    "correct_option": "B"
+  },
+  {
+    "domain": "Deep Learning",
+    "topic": "Neural Networks",
+    "question_text": "Hidden layers are between:",
+    "option_a": "Model and Data",
+    "option_b": "Input and Output layers",
+    "option_c": "RAM and CPU",
+    "option_d": "Two servers",
+    "correct_option": "B"
+  }
+]
