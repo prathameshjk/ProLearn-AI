@@ -220,11 +220,11 @@ Contributions are welcome!
 
 ## 👨‍💻 Developer
 
-**Prathamesh Kamble**
-**Noman Makandar**
-**Siddhi Patane**
-**Shubham Aiwale**
-**Vrunda BUte**
+**Prathamesh Kamble**  
+**Noman Makandar**  
+**Siddhi Patane**  
+**Shubham Aiwale**  
+**Vrunda Bute**
 
 Bachelor of Engineering (Computer Engineering)
 
